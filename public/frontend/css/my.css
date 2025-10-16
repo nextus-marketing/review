@@ -1,0 +1,11 @@
+.service-item::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #5d89ea 0%, var(--accent-color) 100%) !important;
+    transition: all 0.4s ease-in-out;
+}
