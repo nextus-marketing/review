@@ -25,15 +25,16 @@
                             <!-- Hero Box 1 Start -->
                             <div class="hero-item box-1 dark-box wow fadeInUp">
                                 <div class="hero-item-content">
-                                    <h3>“ Cybersecurity is not just tech, it's about trust - protecting your data.”</h3>
-                                    <p>Robert Fox, <span>CEO at DBC</span></p>
+                                    <h3>“Home security isn't just about alarms it's about peace of mind for your family.”</h3>
+                                    <p>Emily Carter, <span>Home Safety Expert at Compare Home Security</span></p>
                                 </div>
                                 <div class="hero-author-image">
                                     <figure class="image-anime">
-                                        <img src="/frontend/images/hero-author-image.jpg" alt="">
+                                        <img src="/frontend/images/hero-author-image.jpg" alt="Emily Carter - Home Security Expert">
                                     </figure>
                                 </div>
                             </div>
+
                             <!-- Hero Box 1 End -->
 
                             <!-- Hero Box 2 Start -->
@@ -42,8 +43,8 @@
                                     <h2><span class="counter">15</span>K+</h2>
                                 </div>
                                 <div class="hero-item-content">
-                                    <h3>Empowering businesses</h3>
-                                    <p>Our experts combine advanced technology with years</p>
+                                    <h3>Homeowners Informed</h3>
+                                    <p>We’ve helped over 15,000 families compare and choose the best home security systems.</p>
                                 </div>
                             </div>
                             <!-- Hero Box 2 End -->
@@ -99,12 +100,12 @@
                             <!-- Hero Box 4 Start -->
                             <div class="hero-item box-4 dark-box wow fadeInUp" data-wow-delay="0.6s">
                                 <div class="hero-item-content">
-                                    <h3>Empowering businesses to grow smarter, move faster, and stay secure.</h3>
+                                    <h3>Helping families protect what matters most with trusted, expert-reviewed security solutions.</h3>
                                 </div>
 
                                 <div class="hero-item-image">
                                     <figure>
-                                        <img src="/frontend/images/hero-item-image.png" alt="">
+                                        <img src="/frontend/images/hero-item-image.png" alt="Home Security Illustration">
                                     </figure>
                                 </div>
                             </div>
@@ -125,6 +126,7 @@
     <div class="our-services">
         <div class="container">
             <div class="row service-list justify-content-center">
+                
                 <div class="col-xl-4 col-md-6">
                     <div class="service-item active wow fadeInUp" data-wow-delay="0.2s">
                         <div class="service-item-body">
@@ -149,15 +151,12 @@
                                 </ul>
                             </div>
                         </div>
-
                         <div class="icon-box">
                             <img src="/frontend/images/icon-service-item-2.svg" alt="">
                         </div>
-
                         <div class="service-bg-icon">
                             <img src="/frontend/images/icon-service-item-2-bg.svg" alt="">
                         </div>
-
                         <div class="pricing-btns" style="display: flex; gap: 15px;">
                             <div class="pricing-btn">
                                 <a href="#0" class="btn-default btn-highlighted">View Packages</a>
@@ -168,7 +167,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="col-xl-4 col-md-6">
                     <div class="service-item active wow fadeInUp" data-wow-delay="0.2s">
@@ -242,7 +240,6 @@
                         <div class="icon-box">
                             <img src="/frontend/images/icon-service-item-2.svg" alt="">
                         </div>
-
                         <div class="service-bg-icon">
                             <img src="/frontend/images/icon-service-item-2-bg.svg" alt="">
                         </div>
@@ -262,18 +259,14 @@
     </div>
 
     <!-- Our Services Section End -->
-
-
-
-
     <!-- Our Pricing Section Start -->
-    <div class="our-pricing dark-section">
+   <div class="our-pricing dark-section">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">our pricing plans</h3>
+                        <h3 class="wow fadeInUp">our Package Plan</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Affordable, scalable cybersecurity services for businesses <span>of all sizes</span></h2>
                     </div>
                     <!-- Section Title End -->
@@ -284,141 +277,226 @@
                 <div class="col-lg-12">
                     <!-- Our Pricing Box Start -->
                     <div class="our-pricing-box" data-wow-delay="0.2s">
-
                         <!-- Pricing Tab Item Start -->
-                        <div class="pricing-tab-item">
+                        <div class="pricing-tab-item" id="monthly">
                             <div class="row">
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- Pricing Item Start -->
-                                    <div class="pricing-item">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Basic Plan</h3>
-                                            <p>Discover how our trusted have empowered businesses.</p>
-                                            <h2>$49.00<sub>/Monthly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Monthly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
 
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                
+                                <!-- Image -->
+                                <img src="/frontend/my-img/vivint-product.png" alt="vivint-product"
+                                    class="img-fluid mb-3"
+                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+
+                                <!-- Content -->
+                                <div class="card-body p-0">
+                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Vivint</h5>
+                                
+                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                    <li>Free professional installation</li>
+                                    <li>Lifetime warranty on devices & car guard</li>
+                                    <li>Advanced Home Automation</li>
+                                </ul>
+
+                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                    <strong>Promo code (4FREE)</strong>
+                                </p>
+
+                                <!-- Feature Icons Row -->
+                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-tools me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-phone me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Fire Monitoring</span>
+                                    </span>
                                 </div>
-
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- Pricing Item Start -->
-                                    <div class="pricing-item highlighted-box">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Standard Plan</h3>
-                                            <p>Discover how our truste have empowered businesses.</p>
-                                            <h2>$149.00<sub>/Monthly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Monthly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
-
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
+</br>
+                                <!-- Buttons -->
+                                <div class="d-grid gap-2">
+                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
                                 </div>
-
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- Pricing Item Start -->
-                                    <div class="pricing-item">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Premium Plan</h3>
-                                            <p>Discover how our trusted have empowered businesses.</p>
-                                            <h2>$249.00<sub>/Monthly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Monthly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
-
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
-                                </div>
-
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- Pricing Item Start -->
-                                    <div class="pricing-item">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Enterprise Plan</h3>
-                                            <p>Discover how our trusted have empowered businesses.</p>
-                                            <h2>$349.00<sub>/Monthly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Monthly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
-
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
                                 </div>
                             </div>
+                            </div>
+
+
+                               <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                
+                                <!-- Image -->
+                                <img src="/frontend/my-img/Adt.png" alt="vivint-product"
+                                    class="img-fluid mb-3"
+                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+
+                                <!-- Content -->
+                                <div class="card-body p-0">
+                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about ADT</h5>
+                                
+                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                    <li>6-month, money-back guarantee.</li>
+                                    <li>Up to $500 theft protection guarantee.</li>
+                                    <li>24/7 ADT monitoring</li>
+                                </ul>
+
+                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                    <strong>Promo code (4FREE)</strong>
+                                </p>
+
+                                <!-- Feature Icons Row -->
+                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-tools me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-phone me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Smoke Detection</span>
+                                    </span>
+                                </div>
+
+                                <!-- Buttons -->
+                                <div class="d-grid gap-2">
+                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+
+                                <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                
+                                <!-- Image -->
+                                <img src="/frontend/my-img/brings-home.png" alt="vivint-product"
+                                    class="img-fluid mb-3"
+                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+
+                                <!-- Content -->
+                                <div class="card-body p-0">
+                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about SimpliSafe</h5>
+                                
+                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                    <li>60-Day Trial for equipment</li>
+                                    <li>Self Monitoring Option</li>
+                                    <li>Award-winning company</li>
+                                </ul>
+
+                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                    <strong>Promo code (4FREE)</strong>
+                                </p>
+
+                                <!-- Feature Icons Row -->
+                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-tools me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">DIY Installation</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-phone me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                    </span>
+                                </div>
+</br>
+                                <!-- Buttons -->
+                                <div class="d-grid gap-2">
+                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+
+                               <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                
+                                <!-- Image -->
+                                <img src="/frontend/my-img/simplysafe.png" alt="vivint-product"
+                                    class="img-fluid mb-3"
+                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+
+                                <!-- Content -->
+                                <div class="card-body p-0">
+                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Brinks</h5>
+                                
+                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                    <li>Professional Installation</li>
+                                    <li>24x7 Monitoring</li>
+                                    <li>Mobile App</li>
+                                </ul>
+
+                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                    <strong>Promo code (4FREE)</strong>
+                                </p>
+
+                                <!-- Feature Icons Row -->
+                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-tools me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-phone me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                    </span>
+                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                    <span style="font-size: 0.85rem; font-weight: 500;">Fire Monitoring</span>
+                                    </span>
+                                </div>
+</br>
+                                <!-- Buttons -->
+                                <div class="d-grid gap-2">
+                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
                         </div>
-                     
+                        <!-- Pricing Tab Item End -->
+
                         <!-- Pricing Tab Item Start -->
-                        
-                        <div class="pricing-tab-item d-none">
+                        <div class="pricing-tab-item d-none" id="annually">
                             <div class="row">
-                                <div class="col-xl-12 col-md-6">
+                                <div class="col-xl-3 col-md-6">
                                     <!-- PricingItemStart -->
                                     <div class="pricing-item">
                                         <!-- Pricing Header Start -->
@@ -543,308 +621,12 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Pricing Tab Item End -->
                     </div>
                     <!-- Our Pricing Box End -->
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Pricing Benifit List Start -->
-                    <div class="pricing-benefit-list" data-wow-delay="0.4s">
-                        <ul>
-                            <li><img src="/frontend/images/icon-pricing-benefit-1.svg" alt="">Get 30 day free trial</li>
-                            <li><img src="/frontend/images/icon-pricing-benefit-2.svg" alt="">No any hidden fee pay</li>
-                            <li><img src="/frontend/images/icon-pricing-benefit-3.svg" alt="">You can cancel anytime </li>
-                        </ul>
-                    </div>
-                    <!-- Pricing Benifit List End -->
-                </div>
-            </div>
         </div>
     </div>
-    <!-- Our Pricing Section End -->
-
-    
-    <!-- Our Features Section Start -->
-    <div class="our-features">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">Our features</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Smart, scalable, and reliable cybersecurity tools designed <span>for modern businesses</span></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Feature Item Box Start -->
-                    <div class="feature-item-box">
-                        <!-- Feature Item Start -->
-                        <div class="feature-item box-1 wow fadeInUp">
-                            <div class="feature-image">
-                                <figure>
-                                    <img src="/frontend/images/feature-image-1.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Advanced Threat Detection</h3>
-                                <p>Secure your cloud environments and ensure safe migration with compliance ready. Secure your cloud environments.</p>
-                            </div>
-                        </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
-                        <div class="feature-item box-2 wow fadeInUp" data-wow-delay="0.2s">
-                            <!-- Scrolling Ticker Box Start -->
-                            <div class="scrolling-ticker feature-scrolling-ticker">
-                                <div class="scrolling-ticker-box">
-                                    <div class="scrolling-content">
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                    </div>
-                                    
-                                    <div class="scrolling-content">
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                    </div>
-                                </div>
-                                
-                                <div class="scrolling-ticker-box scroll-reverse">
-                                    <div class="scrolling-content">
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                    </div>
-                                    
-                                    <div class="scrolling-content">
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Risk Management</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Next-Gen Security</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Network Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Data Protection</span>
-                                        <span><img src="/frontend/images/icon-feature-ticker.svg" alt="">Cyber Defense</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Scrolling Ticker Box End -->
-                            
-                            <div class="feature-item-content">
-                                <h3>Multi-Layer Firewall Protection</h3>
-                                <p>Secure your cloud environments and ensure safe migration with compliance-ready. Secure your cloud environments and ensure safe migration.</p>
-                            </div>
-                        </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
-                        <div class="feature-item box-3 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="feature-image">
-                                <figure>
-                                    <img src="/frontend/images/feature-image-2.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Data Encryption & Privacy</h3>
-                                <p>Secure your cloud environments and ensure safe migration with compliance-ready.</p>
-                            </div>
-                        </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
-                        <div class="feature-item box-4 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="feature-image">
-                                <figure>
-                                    <img src="/frontend/images/feature-image-3.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Incident Response & Recovery</h3>
-                                <p>Secure your cloud environments and ensure safe migration with compliance-ready.</p>
-                            </div>
-                        </div>
-                        <!-- Feature Item End -->
-
-                        <!-- Feature Item Start -->
-                        <div class="feature-item box-5 wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="feature-image">
-                                <figure>
-                                    <img src="/frontend/images/feature-image-4.png" alt="">
-                                </figure>
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>24/7 Network Monitoring</h3>
-                                <p>Secure your cloud environments and ensure safe migration with compliance-ready.</p>
-                            </div>
-                        </div>
-                        <!-- Feature Item End -->
-                    </div>
-                    <!-- Feature Item Box End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Section Footer Text Start -->
-                    <div class="section-footer-text wow fadeInUp" data-wow-delay="0.8s">
-                        <p><span>Free</span>Protecting what matters most - <a href="#0">See how our services keep you safe!</a></p>
-                    </div>
-                    <!-- Section Footer Text End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Features Section End -->
-
-
-    <!-- Our Testimonial Section Start -->
-    <div class="our-testimonials dark-section parallaxie">
-        <div class="container">
-            <div class="row">   
-                <div class="col-xl-5 col-lg-6">
-                    <!-- Testimonial Content Start -->
-                    <div class="our-testimonial-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">Our Testimonials</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">What our clients say about staying <span>secure with us</span></h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">Discover how our trusted cybersecurity solutions have empowered businesses to operate with confidence.</p>
-                        </div>
-                        <!-- Section Title End -->
-                        
-                        <!-- Testimonial Button Start -->
-                        <div class="testimonial-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="#0" class="btn-default btn-highlighted">View All Reviews</a>
-                        </div>
-                        <!-- Testimonial Button End -->
-
-                        <!-- Testimonial Google Review Start -->
-                        <div class="testimonial-google-review wow fadeInUp" data-wow-delay="0.6s">
-                            <!-- About Google Review Header Start -->
-                            <div class="about-google-review-header">
-                                <div class="icon-box">
-                                    <img src="/frontend/images/icon-google.svg" alt="">
-                                </div>
-                                <div class="about-google-review-content">
-                                    <p>Google Reviews</p>
-                                </div>
-                            </div>
-                            <!-- About Google Review Header End -->
-
-                            <!-- Google Rating Content Start -->
-                            <div class="google-review-content">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <p>(<span class="counter">4.9</span>)</p>
-                            </div>
-                            <!-- Google Rating Content End -->
-                        </div>
-                        <!-- Testimonial Google Review End -->
-                    </div>
-                    <!-- Testimonial Content End -->
-                </div>
-
-                <div class="col-xl-7 col-lg-6">
-                    <!-- Testimonial Slider Start -->
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-logo">
-                                                <img src="/frontend/images/testimonial-company-logo-1.svg" alt="">
-                                            </div>
-                                            <div class="testimonial-quote">
-                                                <img src="/frontend/images/testimonial-quote.svg" alt="">
-                                            </div>
-                                        </div>                                         
-                                        <div class="testimonial-body">
-                                            <div class="testimonial-content">
-                                                <p>“Partnering with this cybersecurity team has completely transformed the way we protect our digital assets. Their proactive monitoring, advanced threat detection, and immediate response to incidents have given our entire organization a level of confidence we never had before. We now operate without fear of breaches.”</p>
-                                            </div>
-                                            <div class="testimonial-author-content">
-                                                <h3>Darlene Robertson</h3>
-                                                <p>CEO & Founder</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="testimonial-logo">
-                                                <img src="/frontend/images/testimonial-company-logo-2.svg" alt="">
-                                            </div>
-                                            <div class="testimonial-quote">
-                                                <img src="/frontend/images/testimonial-quote.svg" alt="">
-                                            </div>
-                                        </div>                                         
-                                        <div class="testimonial-body">
-                                            <div class="testimonial-content">
-                                                <p>“Partnering with this cybersecurity team has completely transformed the way we protect our digital assets. Their proactive monitoring, advanced threat detection, and immediate response to incidents have given our entire organization a level of confidence we never had before. We now operate without fear of breaches.”</p>
-                                            </div>
-                                            <div class="testimonial-author-content">
-                                                <h3>John Carter</h3>
-                                                <p>CTO, FinSecure Ltd.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-                            </div>
-
-                            <!-- Testimonial Slider Button Start -->
-                            <div class="testimonial-slider-btn">
-                                <div class="testimonial-button-prev"></div>
-                                <div class="testimonial-button-next"></div>
-                            </div>
-                            <!-- Testimonial Slider Button End -->
-                        </div>
-                    </div>
-                    <!-- Testimonial Slider End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Testimonial Section End -->
-
 
 @endsection

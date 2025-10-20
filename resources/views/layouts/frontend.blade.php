@@ -34,6 +34,8 @@
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
 
 	<link rel="stylesheet" href="/frontend/css/my.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 
 	<!-- Main Custom Css -->
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
@@ -47,14 +49,14 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
 					<!-- Logo Start -->
-					{{-- <a class="navbar-brand" href="/">
+					 <a class="navbar-brand" href="/">
 						<img src="/frontend/images/logo.svg" alt="Logo">
-					</a> --}}
+					</a> 
 					<!-- Logo End -->
 
 					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
+				<!-- <div class="collapse navbar-collapse main-menu">
+                    <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>                                
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
@@ -62,11 +64,11 @@
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                             </ul>
-                        </div>
+                    </div> -->
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a class="btn-default" href="contact.html">Contact Us</a>
+                            <a class="btn-default" href="#0">Contact Us</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>
@@ -86,7 +88,7 @@
       
 		<div class="container">
             <div class="row">
-                <div class="col-xl-3 col-md-6">
+                <div class="col-xl-8 col-md-6">
                     <!-- About Footer Start -->
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
@@ -97,47 +99,34 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>Secure your cloud environments & ensure safe migration with compliance-ready.</p>
+                            <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
+                                contained on this website is for informational purposes only. Any third party contributor 
+                                to any such profile, article or video has been compensated by HomeSecuritySystems.
+                                net for such contribution. It is advised that you conduct your own investigation as 
+                                to the accuracy of any information contained herein as such information,
+                                including without limitation any quote, is provided “as is” for informational purposes only.
+                                Further, HomeSecuritySystems.net shall not be liable for
+                                 any informational error or for any action taken in reliance on information contained herein.</p>
                         </div>
                         <!-- About Footer Content End -->
                     </div>
                     <!-- About Footer End -->
                 </div>
 
-                <div class="col-xl-3 col-md-6">
-                    <!-- Footer Location Link Start -->
-                    <div class="footer-location footer-links">
-                        <h3>Our Location</h3>
-                        <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                    </div>
-                    <!-- Footer Location Link End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
+                <div class="col-xl-4 col-md-6">
                     <!-- Footer Contact Start -->
                     <div class="footer-contact footer-links">
-                        <h3>Contact Information</h3>
+                        <h3>User Rights & Legal Info</h3>
                         <ul>
-                            <li><a href="tel:123456789">+(123) 456-789</a></li>
-                            <li><a href="mailto:info@domainname.com">info@domainname.com</a></li>
+                                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                    <li><a href="/terms-of-use">Terms of Use</a></li>
+                                    <li><a href="/accessibility">Accessibility</a></li>
+                                    <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank">Do Not Sell/Share My Personal Information</a></li>
+                                    <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank">Limit the Use of My Sensitive Personal Information</a></li>
+
                         </ul>
                     </div>
                     <!-- Footer Contact End -->
-                </div>
-
-                <div class="col-xl-3 col-md-6">
-                    <!-- Footer Newsletter Form Start -->
-                    <div class="footer-newsletter-form footer-links">
-                        <h3>Subscribe To Newsletter</h3>
-                        <p>Stay informe with the latest cybersecurity news, expert tips.</p>
-                        <form id="newslettersForm" action="#" method="POST">
-                            <div class="form-group">
-                                <input type="email" name="mail" class="form-control" id="mail" placeholder="Email Address *" required>
-                                <button type="submit" class="newsletter-btn">Subscribe</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- Footer Newsletter Form End -->
                 </div>
             </div>
         </div>
@@ -154,7 +143,7 @@
                             </div>
 
                             <!-- Footer Menu Start -->
-                            <div class="footer-menu">
+                            <!-- <div class="footer-menu">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About Us</a></li>
@@ -162,7 +151,7 @@
                                     <li><a href="blog.html">Blogs</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- Footer Menu End -->
                         </div>
                         <!-- Footer Copyright  -->
