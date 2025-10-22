@@ -85,14 +85,14 @@
                                     <!-- Google Rating Content Start -->
                                     <div class="hero-client-content hero-item-content">
                                         <h3>15K+ Satisfied Clients</h3>
-                                        <p>Our experts combine advanced technology with years</p>
+                                        <p>Our experts combine advanced Security technology with years</p>
                                     </div>
                                     <!-- Google Rating Content End -->
                                 </div>
                                 
                                 <div class="hero-item-content">
                                     <h2><span class="counter">500</span>+</h2>
-                                    <p>Every day, our technology stops, and eliminate 500+ threats.</p>
+                                    <p>Every day, our Security technology stops, and eliminate 500+ threats.</p>
                                 </div>
                             </div>
                             <!-- Hero Box 3 End -->
@@ -104,10 +104,14 @@
                                 </div>
 
                                 <div class="hero-item-image">
-                                    <figure>
-                                        <img src="/frontend/images/hero-item-image.png" alt="Home Security Illustration">
+                                    <figure style="width:263px; height:275px; margin:0; background:#f9f9f9; border-radius:50px; overflow:hidden;">
+                                        <img src="/frontend/my-img/security.jpg" 
+                                            alt="Home Security Illustration"
+                                            style="width:100%; height:100%; object-fit:contain; border-radius:50px;">
                                     </figure>
                                 </div>
+
+
                             </div>
                             <!-- Hero Box 4 End -->
                         </div>
@@ -184,11 +188,11 @@
 
                             <div class="service-item-content" style="color: #fff;">
                                 <ul style="color: #fff;">
-                                    <li>Advanced features</li>
+                                    <li>Smart home features</li>
                                     </br>
-                                    <li>150 Years of experience</li>
+                                    <li>Robust equipmentnce</li>
                                     </br>
-                                    <li>Professional installed</li>
+                                    <li>Month-to-month option</li>
                                 </ul>
                             </div>
                         </div>
@@ -228,11 +232,11 @@
 
                             <div class="service-item-content" style="color: #fff;">
                                 <ul style="color: #fff;">
-                                    <li>Advanced features</li>
+                                    <li>No contracts</li>
                                     </br>
-                                    <li>150 Years of experience</li>
+                                    <li>Easy DIY installation</li>
                                     </br>
-                                    <li>Professional installed</li>
+                                    <li>12 month warranty</li>
                                 </ul>
                             </div>
                         </div>
@@ -258,240 +262,217 @@
         </div>
     </div>
 
-    <!-- Our Services Section End -->
-    <!-- Our Pricing Section Start -->
-   <div class="our-pricing dark-section">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title section-title-center">
-                        <h3 class="wow fadeInUp">our Package Plan</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Affordable, scalable cybersecurity services for businesses <span>of all sizes</span></h2>
-                    </div>
-                    <!-- Section Title End -->
+<!-- Our Pricing Section Start -->
+<div class="our-pricing dark-section" id="prising">
+    <div class="container">
+        <div class="row section-row">
+            <div class="col-lg-12">
+                <!-- Section Title Start -->
+                <div class="section-title section-title-center">
+                    <h3 class="wow fadeInUp">our Package Plan</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">
+                        Affordable, scalable cybersecurity services for businesses 
+                        <span>of all sizes</span>
+                    </h2>
                 </div>
+                <!-- Section Title End -->
             </div>
+        </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Our Pricing Box Start -->
-                    <div class="our-pricing-box" data-wow-delay="0.2s">
-                        <!-- Pricing Tab Item Start -->
-                        <div class="pricing-tab-item" id="monthly">
-                            <div class="row">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Our Pricing Box Start -->
+                <div class="our-pricing-box" data-wow-delay="0.2s">
+                    <!-- Pricing Tab Item Start -->
+                    <div class="pricing-tab-item" id="monthly">
+                        <div class="row">
 
+                            <!-- Vivint Card -->
                             <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
-                                
-                                <!-- Image -->
-                                <img src="/frontend/my-img/vivint-product.png" alt="vivint-product"
-                                    class="img-fluid mb-3"
-                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
-
-                                <!-- Content -->
-                                <div class="card-body p-0">
-                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Vivint</h5>
-                                
-                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
-                                    <li>Free professional installation</li>
-                                    <li>Lifetime warranty on devices & car guard</li>
-                                    <li>Advanced Home Automation</li>
-                                </ul>
-
-                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
-                                    <strong>Promo code (4FREE)</strong>
-                                </p>
-
-                                <!-- Feature Icons Row -->
-                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-tools me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-phone me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Fire Monitoring</span>
-                                    </span>
-                                </div>
+                                <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                    <img src="/frontend/my-img/vivint-product.png" alt="vivint-product"
+                                        class="img-fluid mb-3"
+                                        style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Vivint</h5>
+                                        <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                            <li>Free professional installation</li>
+                                            <li>Lifetime warranty on devices & car guard</li>
+                                            <li>Advanced Home Automation</li>
+                                        </ul>
+                                        <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                            Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                            <strong>Promo code (4FREE)</strong>
+                                        </p>
 </br>
-                                <!-- Buttons -->
-                                <div class="d-grid gap-2">
-                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
-                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
-                                </div>
-                                </div>
-                            </div>
-                            </div>
-
-
-                               <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
-                                
-                                <!-- Image -->
-                                <img src="/frontend/my-img/Adt.png" alt="vivint-product"
-                                    class="img-fluid mb-3"
-                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
-
-                                <!-- Content -->
-                                <div class="card-body p-0">
-                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about ADT</h5>
-                                
-                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
-                                    <li>6-month, money-back guarantee.</li>
-                                    <li>Up to $500 theft protection guarantee.</li>
-                                    <li>24/7 ADT monitoring</li>
-                                </ul>
-
-                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
-                                    <strong>Promo code (4FREE)</strong>
-                                </p>
-
-                                <!-- Feature Icons Row -->
-                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-tools me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-phone me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Smoke Detection</span>
-                                    </span>
-                                </div>
-
-                                <!-- Buttons -->
-                                <div class="d-grid gap-2">
-                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
-                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
-                                </div>
+                                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-tools me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-phone me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Fire Monitoring</span>
+                                            </span>
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                            <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
 
-                                <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
-                                
-                                <!-- Image -->
-                                <img src="/frontend/my-img/brings-home.png" alt="vivint-product"
-                                    class="img-fluid mb-3"
-                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
-
-                                <!-- Content -->
-                                <div class="card-body p-0">
-                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about SimpliSafe</h5>
-                                
-                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
-                                    <li>60-Day Trial for equipment</li>
-                                    <li>Self Monitoring Option</li>
-                                    <li>Award-winning company</li>
-                                </ul>
-
-                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
-                                    <strong>Promo code (4FREE)</strong>
-                                </p>
-
-                                <!-- Feature Icons Row -->
-                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-tools me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">DIY Installation</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-phone me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
-                                    </span>
-                                </div>
-</br>
-                                <!-- Buttons -->
-                                <div class="d-grid gap-2">
-                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
-                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
-                                </div>
+                            <!-- ADT Card -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                    <img src="/frontend/my-img/Adt.png" alt="adt-product"
+                                        class="img-fluid mb-3"
+                                        style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about ADT</h5>
+                                        <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                            <li>6-month, money-back guarantee.</li>
+                                            <li>Up to $500 theft protection guarantee.</li>
+                                            <li>24/7 ADT monitoring</li>
+                                        </ul>
+                                        <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                            Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                            <strong>Promo code (4FREE)</strong>
+                                        </p>
+                                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-tools me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-phone me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Smoke Detection</span>
+                                            </span>
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                            <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
 
-                               <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
-                                
-                                <!-- Image -->
-                                <img src="/frontend/my-img/simplysafe.png" alt="vivint-product"
-                                    class="img-fluid mb-3"
-                                    style="max-height: 180px; object-fit: contain; border-radius: 8px;">
-
-                                <!-- Content -->
-                                <div class="card-body p-0">
-                                <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Brinks</h5>
-                                
-                                <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
-                                    <li>Professional Installation</li>
-                                    <li>24x7 Monitoring</li>
-                                    <li>Mobile App</li>
-                                </ul>
-
-                                <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                                    Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
-                                    <strong>Promo code (4FREE)</strong>
-                                </p>
-
-                                <!-- Feature Icons Row -->
-                                <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-tools me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-phone me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
-                                    </span>
-                                    <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
-                                    <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
-                                    <span style="font-size: 0.85rem; font-weight: 500;">Fire Monitoring</span>
-                                    </span>
-                                </div>
-</br>
-                                <!-- Buttons -->
-                                <div class="d-grid gap-2">
-                                    <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
-                                    <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
-                                </div>
+                            <!-- Brinks Card -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                    <img src="/frontend/my-img/brings-home.png" alt="brinks-product"
+                                        class="img-fluid mb-3"
+                                        style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Brinks</h5>
+                                        <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                            <li>Professional Installation</li>
+                                            <li>24x7 Monitoring</li>
+                                            <li>Mobile App</li>
+                                        </ul>
+                                        <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                            Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                            <strong>Promo code (4FREE)</strong>
+                                        </p>
+</br></br>
+                                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-tools me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-phone me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Fire Monitoring</span>
+                                            </span>
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                            <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <!-- SimpliSafe Card -->
+                            <div class="col-xl-3 col-md-6 mb-4">
+                                <div class="card shadow-sm h-100 text-center" style="border-radius: 12px; padding: 20px; background-color: #f9f9f9;">
+                                    <img src="/frontend/my-img/simplysafe.png" alt="simplysafe-product"
+                                        class="img-fluid mb-3"
+                                        style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about SimpliSafe</h5>
+                                        <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
+                                            <li>60-Day Trial for equipment</li>
+                                            <li>Self Monitoring Option</li>
+                                            <li>Award-winning company</li>
+                                        </ul>
+                                        <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                                            Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                                            <strong>Promo code (4FREE)</strong>
+                                        </p>
+                                        </br></br>
+                                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-tools me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">DIY Installation</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Professional Installation</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-phone me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">24x7 Monitoring</span>
+                                            </span>
+                                            <span class="d-flex align-items-center px-3 py-1 rounded-pill" style="background-color: #fff; border: 1px solid #ddd;">
+                                                <i class="bi bi-exclamation-triangle me-2 text-primary"></i>
+                                                <span style="font-size: 0.85rem; font-weight: 500;">Mobile App</span>
+                                            </span>
+                                        </div>
+                                        <div class="d-grid gap-2">
+                                            <a href="#0" class="btn btn-primary btn-sm" style="font-weight: 600;">View Packages</a>
+                                            <a href="tel:+844-262-6777" class="btn btn-primary btn-sm" style="font-weight: 600;">Call for FREE Quote</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            </div>
+
                         </div>
-                        <!-- Pricing Tab Item End -->
+                    </div>
+                    <!-- Pricing Tab Item End -->
+                </div>
+                <!-- Our Pricing Box End -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our Pricing Section End -->
+
 
                         <!-- Pricing Tab Item Start -->
                         <div class="pricing-tab-item d-none" id="annually">

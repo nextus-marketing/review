@@ -29,3 +29,19 @@ li {
         color: black;
     }
 }
+
+.our-scrolling-ticker {
+    position: relative;
+    background: linear-gradient(90deg, #d8d8d8 0%, var(--accent-color) 100%) !important;
+    padding: 25px 0;
+    z-index: 1;
+}
+
+li {
+    position: relative;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 1.6em !important;
+    color: #313338 !important;
+    margin-bottom: 15px !important;
+}

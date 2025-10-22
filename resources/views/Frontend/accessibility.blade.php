@@ -21,33 +21,27 @@
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
-                <span><img src="/frontend/images/company-supports-logo-1.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-2.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-3.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-4.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-1.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-2.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-3.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-4.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-1.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-2.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-3.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-4.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
             </div>
 
             <div class="scrolling-content">
-                <span><img src="/frontend/images/company-supports-logo-1.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-2.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-3.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-4.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-1.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-2.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-3.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-4.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-1.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-2.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-3.svg" alt=""></span>
-                <span><img src="/frontend/images/company-supports-logo-4.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
             </div>
         </div>
         <!-- Scrolling Ticker End -->

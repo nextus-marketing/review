@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-<!-- Mirrored from html.awaikenthemes.com/netzon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Oct 2025 21:06:57 GMT -->
+<html lang="en">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
@@ -68,7 +66,7 @@
 
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a class="btn-default" href="#0">Contact Us</a>
+                            <a class="btn-default" href="#prising">View Packages</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>
@@ -116,22 +114,20 @@
                 <div class="col-xl-4 col-md-6">
                     <!-- Footer Contact Start -->
                     <div class="footer-contact footer-links">
-                        <h3>User Rights & Legal Info</h3>
-                        <ul>
-                                    <li><a href="/privacy-policy">Privacy Policy</a></li>
-                                    <li><a href="/terms-of-use">Terms of Use</a></li>
-                                    <li><a href="/accessibility">Accessibility</a></li>
-                                    <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank">Do Not Sell/Share My Personal Information</a></li>
-                                    <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank">Limit the Use of My Sensitive Personal Information</a></li>
-
+                        <h3 style="color:#fff;">User Rights & Legal Info</h3>
+                        <ul style="list-style:none; margin:0; padding:0;">
+                            <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Privacy Policy</a></li>
+                            <li><a href="/terms-of-use" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Terms of Use</a></li>
+                            <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
+                            <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Do Not Sell/Share My Personal Information</a></li>
+                            <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Limit the Use of My Sensitive Personal Information</a></li>
                         </ul>
                     </div>
-                    <!-- Footer Contact End -->
                 </div>
+
             </div>
         </div>
 
-        <!-- Footer Copyright Start -->
         <div class="footer-copyright">
             <div class="container">
                 <div class="row">
@@ -164,39 +160,37 @@
     <!-- Footer End -->
 
     <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="/frontend/js/jquery-3.7.1.min.js"></script>
     <!-- Circle Progress Js File -->
-    <script src="js/circle-progress.min.js"></script>
+    <script src="/frontend/js/circle-progress.min.js"></script>
     <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/frontend/js/bootstrap.min.js"></script>
     <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
+    <script src="/frontend/js/validator.min.js"></script>
     <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
+    <script src="/frontend/js/jquery.slicknav.js"></script>
     <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
+    <script src="/frontend/js/swiper-bundle.min.js"></script>
     <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="/frontend/js/jquery.waypoints.min.js"></script>
+    <script src="/frontend/js/jquery.counterup.min.js"></script>
     <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="/frontend/js/jquery.magnific-popup.min.js"></script>
     <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
+    <script src="/frontend/js/SmoothScroll.js"></script>
     <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
+    <script src="/frontend/js/parallaxie.js"></script>
     <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
+    <script src="/frontend/js/gsap.min.js"></script>
+    <script src="/frontend/js/magiccursor.js"></script>
     <!-- Text Effect js file -->
-    <script src="js/SplitText.min.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="/frontend/js/SplitText.min.js"></script>
+    <script src="/frontend/js/ScrollTrigger.min.js"></script>
     <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
     <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
+    <script src="/frontend/js/wow.min.js"></script>
     <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
+    <script src="/frontend/js/function.js"></script>
 </body>
-
-<!-- Mirrored from html.awaikenthemes.com/netzon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 16 Oct 2025 21:07:20 GMT -->
 </html>
