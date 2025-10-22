@@ -20,6 +20,10 @@ Route::view('/accessibility', 'Frontend.accessibility')->name('accessibility');
 Route::view('/do-not-sell-share-my-personal-information', 'Frontend.do-not-sell-share-my-personal-information')->name('do-not-sell-share-my-personal-information');
 Route::view('/list-the-use-od-my-sensitive-personal-information', 'Frontend.list-the-use-od-my-sensitive-personal-information')->name('list-the-use-od-my-sensitive-personal-information');
 
+Route::fallback(function () {
+    return response()->view('Error.404', [], 404);
+});
+
 require __DIR__.'/auth.php';
 require __DIR__.'/backend.php';
 require __DIR__.'/frontend.php';

@@ -9,7 +9,7 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
 	<!-- Page Title -->
-    <title> @yield('title')</title>
+    <title>@yield('title')</title>
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/images/favicon.png">
 	<!-- Google Fonts Css-->
@@ -22,7 +22,7 @@
 	<link href="/frontend/css/slicknav.min.css" rel="stylesheet">
 	<!-- Swiper Css -->
 	<link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
+	<!-- Font Awesome Icon css-->
 	<link href="/frontend/css/all.min.css" rel="stylesheet" media="screen">
 	<!-- Animated Css -->
 	<link href="/frontend/css/animate.css" rel="stylesheet">
@@ -30,7 +30,6 @@
 	<link rel="stylesheet" href="/frontend/css/magnific-popup.css">
 	<!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
-
 	<link rel="stylesheet" href="/frontend/css/my.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -48,10 +47,9 @@
 				<div class="container-fluid">
 					<!-- Logo Start -->
 					 <a class="navbar-brand" href="/">
-						<img src="/frontend/images/logo.svg" alt="Logo">
-					</a> 
+                        <img src="/frontend/my-img/logo.png" alt="Logo" style="width: 129px; height: auto;">
+                    </a>
 					<!-- Logo End -->
-
 					<!-- Main Menu Start -->
 				<!-- <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
@@ -63,10 +61,9 @@
                                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                             </ul>
                     </div> -->
-
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a class="btn-default" href="#prising">View Packages</a>
+                            <a class="btn-default" href="/#prising">View Packages</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>
@@ -99,11 +96,11 @@
                         <div class="about-footer-content">
                             <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
                                 contained on this website is for informational purposes only. Any third party contributor 
-                                to any such profile, article or video has been compensated by HomeSecuritySystems.
+                                to any such profile, article or video has been compensated by Compare-HomeSecurity.
                                 net for such contribution. It is advised that you conduct your own investigation as 
                                 to the accuracy of any information contained herein as such information,
                                 including without limitation any quote, is provided “as is” for informational purposes only.
-                                Further, HomeSecuritySystems.net shall not be liable for
+                                Further, Compare-HomeSecurity.net shall not be liable for
                                  any informational error or for any action taken in reliance on information contained herein.</p>
                         </div>
                         <!-- About Footer Content End -->
