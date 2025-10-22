@@ -11,7 +11,7 @@
 	<!-- Page Title -->
     <title>@yield('title')</title>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="/frontend/images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -88,8 +88,9 @@
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
                         <div class="footer-logo">
-                            <img src="/frontend/images/footer-logo.svg" alt="">
+                             <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width: 229px; height: auto;">
                         </div>
+                        
                         <!-- Footer Logo End -->
 
                         <!-- About Footer Content Start -->
