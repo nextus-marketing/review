@@ -114,14 +114,7 @@
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="our-pricing-box" data-wow-delay="0.2s">
-          <div class="pricing-tab-item" id="monthly">
-            <div class="row">
-            
-              <style>
+     <style>
                 .card {
                   display: flex;
                   flex-direction: column;
@@ -154,7 +147,11 @@
                 }
               </style>
 
-
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="our-pricing-box" data-wow-delay="0.2s">
+          <div class="pricing-tab-item" id="monthly">
+            <div class="row">
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
                   <img src="/frontend/my-img/vivint-product.png" alt="vivint-product"
@@ -186,12 +183,14 @@
                             <i class="bi bi-exclamation-triangle me-2"></i>Fire Monitoring
                           </span>
                         </div>
+             
                          <div class="text-center">
                               <a href="https://www.vivint.com/" class="see-more-btn">
                                   See More Features <i class="fa-solid fa-circle-arrow-right"></i>
                               </a>
                           </div>
                     </div>
+                     </br>
 
                     <div class="d-grid gap-2">
                       <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
@@ -286,7 +285,7 @@
                               </a>
                           </div>
                     </div>
-                    
+              </br>
 
                     <div class="d-grid gap-2">
                       <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
@@ -335,6 +334,27 @@
                               </a>
                           </div>
 
+ </br>
+
+                    </div>
+
+                    <div class="d-grid gap-2">
+                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
+                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <style>
 .see-more-btn {
     display: inline-flex;
@@ -371,24 +391,6 @@
     border-radius: 50px !important;
   }
 </style>
-
-                    </div>
-
-                    <div class="d-grid gap-2">
-                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 <!-- Modal 1 -->
@@ -759,6 +761,93 @@ window.addEventListener('click', function(event) {
         </div>
     </div>
 </div>
+
+
+<div class="our-faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="our-faqs-content">
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">Frequently Asked Questions</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Everything you want to <span>know Home security</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">From service details to protection strategies, we provide clear explanations to help you make informed decisions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-7">
+                    <div class="faq-accordion" id="accordion">
+                        <div class="accordion-item wow fadeInUp">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    Q1: How do I choose the best home security system for my needs?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Start by identifying your home’s size, entry points, and budget. We compare top-rated brands and products so you can easily find the right mix of cameras, sensors, and smart features for your home.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Q2: Are wireless security cameras better than wired ones?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Wireless cameras are easier to install and connect to Wi-Fi, while wired systems offer more stable connections and power reliability. Our reviews highlight the pros and cons of both to help you decide.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Q3: Do home security systems require a monthly subscription?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Some brands offer free self-monitoring through mobile apps, while others require a monthly fee for 24/7 professional monitoring. Our comparison tables clearly show which plans fit your budget.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Q4: Can I install a home security system myself?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Yes, many modern systems are DIY-friendly and come with step-by-step mobile guidance. We review which brands offer the easiest installation experience versus those requiring professional setup.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Q5: What features should I look for in a smart home security system?
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Key features include HD video recording, motion detection, mobile alerts, night vision, two-way audio, and integration with Alexa or Google Home. We break down these features in each product review for easy comparison.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
  <div class="hero" style="padding: 70px 0 100px !important;">
     <div class="container">
