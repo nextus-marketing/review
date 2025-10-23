@@ -241,7 +241,7 @@ We may sell or share your sensitive personal information or use such information
   <p>You must be at least 18 years old to use this website. We do not knowingly collect, use, or disclose personal information from individuals under 18 years of age.</p>
 
   <h4 style="font-size:16px; margin-top:18px;">Updating Your Information</h4>
-  <p>If you want to access or update your personal information, please email <a href="mailto:customerservice@comparehomesecurity.net">customerservice@comparehomesecurity.net</a> or write to:</p>
+  <p>If you want to access or update your personal information, please email <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a> or write to:</p>
   <ul>
     <li>comparehomesecurity.net Attn: Customer Care<br>12130 Millennium Drive, Ste 600<br>Los Angeles, CA 90094</li>
   </ul>
@@ -249,7 +249,7 @@ We may sell or share your sensitive personal information or use such information
   <h4 style="font-size:16px; margin-top:18px;">Questions and Suggestions</h4>
   <p>Contact us via:</p>
   <ul>
-    <li>Email: <a href="mailto:customerservice@comparehomesecurity.net">customerservice@comparehomesecurity.net</a></li>
+    <li>Email: <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a></li>
     <li>Mail: comparehomesecurity.net, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
   </ul>
 
@@ -280,11 +280,11 @@ We may sell or share your sensitive personal information or use such information
   <p>For assistance, contact:</p>
   <ul>
     <li>Toll-free: <strong>844-280-2929</strong></li>
-    <li>Email: <a href="mailto:privacy@comparehomesecurity.net">privacy@comparehomesecurity.net</a></li>
+    <li>Email: <a href="mailto:privacyinfo@comparehomesecurity.net">privacyinfo@comparehomesecurity.net</a></li>
     <li>Mail: comparehomesecurity.net Attn: Customer Care, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
   </ul>
 
-  <p><strong>California Residents:</strong> You may opt out of data sharing per California’s Shine the Light Law by contacting <a href="mailto:privacy@comparehomesecurity.net">privacy@comparehomesecurity.net</a> or by mail as listed above.</p>
+  <p><strong>California Residents:</strong> You may opt out of data sharing per California’s Shine the Light Law by contacting <a href="mailto:privacyinfo@comparehomesecurity.net">privacyinfo@comparehomesecurity.net</a> or by mail as listed above.</p>
 
   <p><em>Last Updated: 11-12-2024</em></p>
 </section>

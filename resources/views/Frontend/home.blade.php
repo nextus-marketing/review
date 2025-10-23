@@ -18,7 +18,7 @@
                             </h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 Compare Home Security is your trusted resource for honest, expert reviews of today’s leading home security providers. 
-                                We help you compare features, prices, and performance — so you can protect your home with confidence.
+                                We help you compare features, prices, and performance so you can protect your home with confidence.
                                 Our comparisons are unbiased, detailed, and designed to make your decision simple and secure.
                             </p>
                         </div>
@@ -59,10 +59,10 @@
                 <span style="color:#2a4fa5;">•</span> Professionally installed
               </li>
             </ul>
-
+          
             <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-              <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">View Packages</a>
-              <a href="tel:8552869128" style="border: 2px solid #0f2453; color: #0f2453; padding: 10px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">855-286-9128</a>
+              <a href="#0" style="background: #0f2453; color: #fff; padding: 12px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="tel:8552869128" style="border: 2px solid #0f2453; color: #0f2453; padding: 10px 10px; border-radius: 8px; font-weight: 600; text-decoration: none;"><i class="fa-solid fa-phone"></i> Enquire Now</a>
             </div>
           </div>
         </div>
@@ -90,8 +90,8 @@
             </ul>
 
             <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-              <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">View Packages</a>
-              <a href="tel:8552869128" style="border: 2px solid #0f2453; color: #0f2453; padding: 10px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">855-286-9128</a>
+              <a href="#0" style="background: #0f2453; color: #fff; padding: 12px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="tel:8552869128" style="border: 2px solid #0f2453; color: #0f2453; padding: 10px 10px; border-radius: 8px; font-weight: 600; text-decoration: none;"><i class="fa-solid fa-phone"></i> Enquire Now</a>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
     margin-bottom: 25px;
   }
 }
-</style>
+</style> 
 
 <!-- Our Pricing Section Start -->
 <div class="our-pricing dark-section" id="prising">
@@ -198,8 +198,8 @@
                     </div>
 
                     <div class="d-grid gap-2">
-                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">Call for FREE Quote</a>
+                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
+                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>
@@ -232,8 +232,8 @@
                     </div>
 
                     <div class="d-grid gap-2">
-                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">Call for FREE Quote</a>
+                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
+                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>
@@ -266,8 +266,8 @@
                     </div>
 
                     <div class="d-grid gap-2">
-                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">Call for FREE Quote</a>
+                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
+                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>
@@ -300,8 +300,8 @@
                     </div>
 
                     <div class="d-grid gap-2">
-                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">Call for FREE Quote</a>
+                      <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
+                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>
@@ -701,8 +701,8 @@
                             </div>
 
                             <div class="hero-item-content">
-                                <h2><span class="counter">500</span>+</h2>
-                                <p>We analyze over 500+ security plans, monitoring options, and smart home features every year.</p>
+                                <h2><span class="counter">75</span>+</h2>
+                                  <p>Leading security systems compared to ensure your home stays protected 24/7.</p>
                             </div>
                         </div>
                         <!-- Hero Box 3 End -->
@@ -713,14 +713,34 @@
                                 <h3>Helping families stay secure through transparent reviews, expert ratings, and side-by-side system comparisons.</h3>
                             </div>
 
-                            <div class="hero-item-image" 
-                            style="display:flex; justify-content:center; align-items:center;">
-                            <figure style="width:263px; height:275px; margin:0; background:#f9f9f9; border-radius:50px; overflow:hidden; display:flex; justify-content:center; align-items:center;">
-                                <img src="/frontend/my-img/security.jpg" 
-                                    alt="Home Security Illustration"
-                                    style="max-width:100%; max-height:100%; object-fit:contain; border-radius:50px;">
-                            </figure>
-                        </div>
+                          <div class="hero-item-image" 
+                              style="display:flex; justify-content:center; align-items:center; width:100%;">
+                              <figure style="
+                                  width:100%;
+                                  max-width:263px;
+                                  aspect-ratio:263/275;
+                                  margin:0;
+                                  background:#f9f9f9;
+                                  border-radius:5px;
+                                  overflow:hidden;
+                                  display:flex;
+                                  justify-content:center;
+                                  align-items:center;">
+                                  <img src="/frontend/my-img/security.jpg" 
+                                      alt="Home Security Illustration"
+                                      style="width:100%; height:100%; object-fit:cover; object-position:center top;">
+                              </figure>
+                          </div>
+
+                          <style>
+                          @media (max-width: 767px) {
+                            .hero-item-image figure {
+                              max-width: 90%;
+                              border-radius: 10px;
+                            }
+                          }
+                          </style>
+
                         </div>
                         <!-- Hero Box 4 End -->
                     </div>

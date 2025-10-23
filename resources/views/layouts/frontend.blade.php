@@ -32,6 +32,9 @@
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
 	<link rel="stylesheet" href="/frontend/css/my.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 
 
 	<!-- Main Custom Css -->
