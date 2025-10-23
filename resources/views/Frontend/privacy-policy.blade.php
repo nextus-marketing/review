@@ -55,12 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Post Featured Image Start -->
-                    <!-- Post Featured Image Start -->
-
-                    <!-- Post Single Content Start -->
                     <div class="post-content">
-                        <!-- Post Entry Start -->
                         <div class="post-entry">
                             <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
 
@@ -89,7 +84,7 @@ We collect, use, share, and/or store the following types of personal information
                                 <li><strong> Internet or network activity,</strong>such as you interaction with an advertisement, and other information obtained from cookies and clear gifs, as described further below.</li>
                             </ul>
 
-                            <p class="wow fadeInUp" data-wow-delay="1.4s">Some of the personal information we collect, such as legally protected characteristics and health information, may be considered sensitive personal information under applicable law. When we collect or process sensitive personal information, we do so with your consent, or as permitted by applicable law.
+ <p class="wow fadeInUp" data-wow-delay="1.4s">Some of the personal information we collect, such as legally protected characteristics and health information, may be considered sensitive personal information under applicable law. When we collect or process sensitive personal information, we do so with your consent, or as permitted by applicable law.
 </br></br>
 We may sell or share your sensitive personal information or use such information for targeted advertising purposes. We use sensitive personal information to comply with certain legal obligations, complete the transactions you have requested, or process your job application (if applicable). We may disclose your sensitive personal information to our affiliates and service providers to facilitate your transactions with us.</p>
 
@@ -190,14 +185,15 @@ We may sell or share your sensitive personal information or use such information
 <p>Depending on your state of residence, you may request that use of your sensitive personal information be limited by filling out the form titled "Limit Use of My Sensitive Personal Information" linked at the bottom of this privacy policy or in the footer of this webpage, or by contacting us at 844-280-2929. If you are a resident of certain states, we do not collect or process your sensitive data (as defined in those states' laws) without your consent.</p>
 <p>We may collect personal information (including sensitive personal information and other personal information) at the following times:</p>
  <ul class="wow fadeInUp" data-wow-delay="1.2s">
-                                <li>when you register to receive communications from this website or any website owned by the owner of comparehomesecurity.net,</li>
-                                <li>when you seek information or apply for products and services offered through this website or any website owned by the owner of comparehomesecurity.net,</li>
-                                <li> when you enter promotions or sweepstakes offered by this website or any website owned by the owner of comparehomesecurity.net,</li>
-                                <li>when you provide personal information to us through feedback, survey, or other forms hosted on this site or any website owned by the owner of comparehomesecurity.net,</li>
-                                <li> when you visit our Web Site, including through cookies and clear gifs, as described further below,</li>
-                                <li>when you contact us.</li>
-                            </ul>
-                            <section style="padding:15px; line-height:1.6; font-size:14px;">
+      <li>when you register to receive communications from this website or any website owned by the owner of comparehomesecurity.net,</li>
+      <li>when you seek information or apply for products and services offered through this website or any website owned by the owner of comparehomesecurity.net,</li>
+      <li> when you enter promotions or sweepstakes offered by this website or any website owned by the owner of comparehomesecurity.net,</li>
+      <li>when you provide personal information to us through feedback, survey, or other forms hosted on this site or any website owned by the owner of comparehomesecurity.net,</li>
+      <li> when you visit our Web Site, including through cookies and clear gifs, as described further below,</li>
+      <li>when you contact us.</li>
+  </ul>
+  
+  <section style="padding:15px; line-height:1.6; font-size:14px;">
   <h3 style="font-size:18px; margin-bottom:12px;">Cookies and IP Addresses</h3>
   <p>To serve you more efficiently and effectively, we use "cookies" technology. A cookie is a piece of data stored on the user's hard drive that contains information about the user. Cookies are linked to particular devices over time, and may be linked to other personal information we obtain.</p>
   <p>Cookies enable a website to "personalize" itself for each user and reduce the time it takes for pages to load on your computer. In order to optimize your experience, cookies also help with the collection of customer tracking data. We may also capture customer tracking data on some of our partners' websites related to activity involved with the completion of offers listed on our website. This information is used to monitor the performance of our partners.</p>
@@ -291,7 +287,6 @@ We may sell or share your sensitive personal information or use such information
 
                         </div>
                     </div>
-                    <!-- Post Single Content End -->
                 </div>
             </div>
         </div>

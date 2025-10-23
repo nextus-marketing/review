@@ -29,7 +29,6 @@
     <div class="our-services" style="padding: 60px 0; background: #f4f6fb;">
   <div class="container">
     <div class="row justify-content-center" style="gap: 30px;">
-
       <div class="col-xl-5 col-md-6">
         <div class="service-card" style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden;">
           <div style="padding: 30px;">
@@ -170,15 +169,28 @@
                         <li>Advanced Home Automation</li>
                       </ul>
                       <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                        Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
+                        Get up to <strong>3 FREE months</strong> of monitoring plus FREE installation with 
                         <strong>Promo code (4FREE)</strong>
                       </p>
-                      <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <span class="badge-item"><i class="bi bi-tools me-2 text-primary"></i>Professional Installation</span>
-                        <span class="badge-item"><i class="bi bi-shield-lock me-2 text-primary"></i>24x7 Monitoring</span>
-                        <span class="badge-item"><i class="bi bi-phone me-2 text-primary"></i>Mobile App</span>
-                        <span class="badge-item"><i class="bi bi-exclamation-triangle me-2 text-primary"></i>Fire Monitoring</span>
-                      </div>
+                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-tools me-2"></i>Professional Installation
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-shield-lock me-2"></i>24x7 Monitoring
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-phone me-2"></i>Mobile App
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-exclamation-triangle me-2"></i>Fire Monitoring
+                          </span>
+                        </div>
+                         <div class="text-center">
+                              <a href="#" class="see-more-btn">
+                                  See More Features <i class="fa-solid fa-circle-arrow-right"></i>
+                              </a>
+                          </div>
                     </div>
 
                     <div class="d-grid gap-2">
@@ -191,27 +203,46 @@
 
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
-                  <img src="/frontend/my-img/Adt.png" alt="adt-product"
+                  <img src="/frontend/my-img/Adt.png" alt="vivint-product"
                     class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
                   
                   <div class="card-body p-0 d-flex flex-column">
                     <div class="card-content">
                       <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about ADT</h5>
                       <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
-                        <li>6-month, money-back guarantee.</li>
-                        <li>Up to $500 theft protection guarantee.</li>
-                        <li>24/7 ADT monitoring</li>
+                        <li>
+                              6-month, money-back guarantee. Certain restrictions apply. 
+                              <a href="#" class="open-modal" data-modal="modal1" style="text-decoration: underline; color: #1e549bff; font-size:12px;">See Details</a>
+                          </li>
+                          <li>
+                              Up to $500 theft protection guarantee. Certain restrictions apply. 
+                              <a href="#" class="open-modal" data-modal="modal2" style="text-decoration: underline; color: #1e549bff; font-size:12px;">See Details</a>
+                          </li>
+                           <li>24/7 ADT monitoring</li>
                       </ul>
                       <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                        Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
-                        <strong>Promo code (4FREE)</strong>
+                       Get a <strong> $100 ADT Visa®</strong> Reward Card with a newly installed <strong>ADT system</strong>
                       </p>
-                      <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <span class="badge-item"><i class="bi bi-tools me-2 text-primary"></i>Professional Installation</span>
-                        <span class="badge-item"><i class="bi bi-shield-lock me-2 text-primary"></i>24x7 Monitoring</span>
-                        <span class="badge-item"><i class="bi bi-phone me-2 text-primary"></i>Mobile App</span>
-                        <span class="badge-item"><i class="bi bi-exclamation-triangle me-2 text-primary"></i>Smoke Detection</span>
-                      </div>
+                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-tools me-2"></i>DIY Installation
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-shield-lock me-2"></i>Professional Installation
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-phone me-2"></i>24x7 Monitoring
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-exclamation-triangle me-2"></i>Mobile App
+                          </span>
+                        </div>
+                          <div class="text-center">
+                              <a href="#" class="see-more-btn">
+                                  See More Features <i class="fa-solid fa-circle-arrow-right"></i>
+                              </a>
+                          </div>
+              </br>
                     </div>
 
                     <div class="d-grid gap-2">
@@ -231,21 +262,31 @@
                     <div class="card-content">
                       <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Brinks</h5>
                       <ul class="text-start ps-3" style="font-size: 0.95rem; color: #444; margin-bottom: 16px;">
-                        <li>Professional Installation</li>
-                        <li>24x7 Monitoring</li>
-                        <li>Mobile App</li>
+                        <li>24/7 professional monitoring</li>
+                        <li>Customized security systems tailored for your home</li>
+                        <li>Control your system via Google Home, Amazon Alexa, Apple TV and more</li>
                       </ul>
                       <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
-                        Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
-                        <strong>Promo code (4FREE)</strong>
+                       Get a free Video Doorbell with your new security system
                       </p>
                       <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <span class="badge-item"><i class="bi bi-tools me-2 text-primary"></i>Professional Installation</span>
-                        <span class="badge-item"><i class="bi bi-shield-lock me-2 text-primary"></i>24x7 Monitoring</span>
-                        <span class="badge-item"><i class="bi bi-phone me-2 text-primary"></i>Mobile App</span>
-                        <span class="badge-item"><i class="bi bi-exclamation-triangle me-2 text-primary"></i>Fire Monitoring</span>
-                      </div>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-tools me-2"></i>Professional Installation
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-shield-lock me-2"></i>24x7 Monitoring
+                          </span>
+                          <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
+                            <i class="bi bi-phone me-2"></i>Mobile App
+                          </span>
+                        </div>
+                         <div class="text-center">
+                              <a href="#" class="see-more-btn">
+                                  See More Features <i class="fa-solid fa-circle-arrow-right"></i>
+                              </a>
+                          </div>
                     </div>
+                    
 
                     <div class="d-grid gap-2">
                       <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
@@ -263,22 +304,74 @@
                   
                   <div class="card-body p-0 d-flex flex-column">
                     <div class="card-content">
-                      <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #0f2453;">What we like about SimpliSafe</h5>
+                      <h5 class="card-title mb-3" style="font-size: 1.2rem;">What we like about SimpliSafe</h5>
                       <ul class="text-start ps-3" style="font-size: 0.95rem; color: #333; margin-bottom: 16px;">
                         <li>60-Day Trial for equipment</li>
                         <li>Self Monitoring Option</li>
                         <li>Award-winning company</li>
                       </ul>
-                      <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
+                      <!-- <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
                         Get up to <strong>4 FREE months</strong> of monitoring plus FREE installation with 
                         <strong>Promo code (4FREE)</strong>
-                      </p>
-                      <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <span class="badge-item"><i class="bi bi-tools me-2" style="color:#0f2453;"></i>DIY Installation</span>
-                        <span class="badge-item"><i class="bi bi-shield-lock me-2" style="color:#0f2453;"></i>Professional Installation</span>
-                        <span class="badge-item"><i class="bi bi-phone me-2" style="color:#0f2453;"></i>24x7 Monitoring</span>
-                        <span class="badge-item"><i class="bi bi-exclamation-triangle me-2" style="color:#0f2453;"></i>Mobile App</span>
-                      </div>
+                      </p> -->
+                        <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
+                              <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                                <i class="bi bi-wrench-adjustable me-2"></i>DIY Installation
+                              </span>
+                              <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                                <i class="bi bi-truck me-2"></i>Professional Installation
+                              </span>
+                              <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                                <i class="bi bi-shield-check me-2"></i>24x7 Monitoring
+                              </span>
+                              <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                                <i class="bi bi-phone me-2"></i>Mobile App
+                              </span>
+                          </div>
+                          <!-- Small Button -->
+                          <div class="text-center">
+                              <a href="#" class="see-more-btn">
+                                  See More Features <i class="fa-solid fa-circle-arrow-right"></i>
+                              </a>
+                          </div>
+
+<style>
+.see-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+    font-size: 0.875rem; /* small size like btn-sm */
+    font-weight: 500;
+    border: 1px solid #0f2453;
+    color: #0f2453;
+    background: transparent;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.see-more-btn:hover {
+    background-color: #0f2453;
+    color: #fff;
+    text-decoration: none;
+}
+</style>
+   <style>
+  .text-primary {
+    color: #044ab3ff !important; /* deeper blue */
+  }
+  .bg-light {
+    background-color: #9fc7e7ff !important;
+  }
+  .bi {
+    font-size: 1rem;
+  }
+  .rounded-pill {
+    border-radius: 50px !important;
+  }
+</style>
+
                     </div>
 
                     <div class="d-grid gap-2">
@@ -296,6 +389,92 @@
     </div>
   </div>
 </div>
+
+
+<!-- Modal 1 -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>6-Months Money-Back Guarantee</h3>
+        </br>
+        <p>
+            Money Back guarantee only applies after ADT has made attempts to resolve a system related issue and has not been able to resolve that issue within the first six months of your contract. Equipment must be fully removed before a refund will be processed. Conditions preventing normal system operation cannot be caused by the customer.
+        </p>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3>Theft Protection Guarantee</h3>
+              </br>
+        <p>
+            Customer may receive reimbursement of up to five hundred dollars ($500) of Customer’s homeowner’s insurance deductible (if any) if, and only if, ALL requirements for Theft Protection Guarantee are met to ADT’s reasonable satisfaction. Customer must request reimbursement within 60 days of property loss. Request must be mailed to ADT and include: Theft Protection Guarantee certificate signed by Customer, a letter from Customer requesting reimbursement, a copy of the police report, and a copy of the accepted insurance claim. ADT reserves the right to reject any application for reimbursement that does not comply with all of the requirements.
+        </p>
+    </div>
+</div>
+
+<!-- Styles -->
+<style>
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+}
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    position: relative;
+}
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover {
+    color: #000;
+}
+</style>
+
+<!-- Script -->
+<script>
+document.querySelectorAll('.open-modal').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const modalId = this.getAttribute('data-modal');
+        document.getElementById(modalId).style.display = 'block';
+    });
+});
+
+document.querySelectorAll('.close').forEach(btn => {
+    btn.addEventListener('click', function() {
+        this.closest('.modal').style.display = 'none';
+    });
+});
+
+window.addEventListener('click', function(event) {
+    document.querySelectorAll('.modal').forEach(modal => {
+        if(event.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
+</script>
                         <div class="pricing-tab-item d-none" id="annually">
                             <div class="row">
                                 <div class="col-xl-3 col-md-6">

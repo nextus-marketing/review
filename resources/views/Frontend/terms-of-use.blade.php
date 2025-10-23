@@ -5,7 +5,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Terms Of Use</h1>
                        <nav class="wow fadeInUp">
@@ -18,7 +17,6 @@
         </div>
     </div>
      <div class="our-scrolling-ticker">
-        <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
@@ -44,7 +42,6 @@
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
             </div>
         </div>
-        <!-- Scrolling Ticker End -->
     </div>
     <section>
   <div class="container" style="max-width:100%; word-wrap:break-word;">
@@ -73,7 +70,7 @@
     <p>Any financial or other relationship entered into between you and any third party that arose from information received or accessed through this website or comparehomesecurity.net is solely between you and the third party. comparehomesecurity.net is not a party to your agreements and you assume sole liability for any such agreements. We are not responsible for any transaction that may occur between you or your company and a comparehomesecurity.net client.</p>
     <p>The providers are from companies or industries that may require licensing, bonding, registration or other prerequisites in order to lawfully do business in your state. We encourage you to check with the appropriate agency to be certain any requirements are being met. Individual program fees and results vary, and programs may be unavailable in some states.</p>
     <p>The fact that you are matched with a provider that offers you a particular solution should not be intended to suggest that the solution is right for you, or that comparehomesecurity.net endorses any particular provider or solution. You are strongly encouraged to consult with an attorney and/or a qualified financial advisor prior to making any decision that could have significant legal or financial consequences to you.</p>
-    <p>Should you have a dispute with any of comparehomesecurity.net’s suppliers/vendors that you are matched with, you must address such dispute to the supplier/vendor directly, and by using this website you hereby agree to release comparehomesecurity.net (and our employees, agents, and affiliated entities, if any, and their employees and agents) from any damages or claims (including consequential and incidental damages) of every kind or nature, suspected and unsuspected, known and unknown, and disclosed or undisclosed, arising out of or in any way connected with such disputes and your dealings with such matched individuals or organizations.</p>
+    <p>Should you have a dispute with any of comparehomesecurity. net’s suppliers/vendors that you are matched with, you must address such dispute to the supplier/vendor directly, and by using this website you hereby agree to release comparehomesecurity.net (and our employees, agents, and affiliated entities, if any, and their employees and agents) from any damages or claims (including consequential and incidental damages) of every kind or nature, suspected and unsuspected, known and unknown, and disclosed or undisclosed, arising out of or in any way connected with such disputes and your dealings with such matched individuals or organizations.</p>
     <p>We value our integrity and as a company and individuals, we are committed to providing you with a positive experience. If for any reason, you are not completely satisfied with our service, please email us at: <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a> to discuss your concerns.</p>
 
     <h4 style="font-size:18px; margin-top:25px; font-weight:600;">3. YOUR USE OF comparehomesecurity.net SERVICES</h4>
@@ -86,7 +83,7 @@
     <p>comparehomesecurity.net also provides content including, but not limited to, text, software, photographs, graphics, data, and other material (“Content”) that are protected by copyright...</p>
 
     <h4 style="font-size:18px; margin-top:25px; font-weight:600;">6. LINKS TO THIRD PARTY SITES</h4>
-    <p>There are links in the comparehomesecurity.net web site that will let you leave comparehomesecurity.net’s web site. The linked sites are not under the control of comparehomesecurity.net and comparehomesecurity.net is not responsible for the contents...</p>
+    <p>There are links in the comparehomesecurity.net web site that will let you leave comparehomesecurity. net’s web site. The linked sites are not under the control of comparehomesecurity.net and comparehomesecurity.net is not responsible for the contents...</p>
 
     <h4 style="font-size:18px; margin-top:25px; font-weight:600;">7. UPGRADES, SUPPORT AND NOTICES</h4>
     <p>From time to time, comparehomesecurity.net may send you information and offers about upgrades, documentation, special announcements and other services offered by comparehomesecurity.net...</p>

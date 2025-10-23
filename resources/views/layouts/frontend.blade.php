@@ -34,10 +34,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
 
 
-
-	<!-- Main Custom Css -->
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
 </head>
 <body>
@@ -50,7 +49,7 @@
 				<div class="container-fluid">
 					<!-- Logo Start -->
 					 <a class="navbar-brand" href="/">
-                        <img src="/frontend/my-img/logo.png" alt="Logo" style="width: 129px; height: auto;">
+                        <img src="/frontend/my-img/new-logo.png" alt="Logo" style="width: 139px; height: auto;">
                     </a>
 					<!-- Logo End -->
 					<!-- Main Menu Start -->
@@ -156,7 +155,6 @@
                 </div>
             </div>
         </div>
-        <!-- Footer Copyright End -->
     </footer>
     <!-- Footer End -->
 
