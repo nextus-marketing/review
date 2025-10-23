@@ -1,16 +1,12 @@
 @extends('layouts.frontend')
 @section('title') Compare Home Security @endsection
 @section('content')
-<!-- Hero Section Start -->
   <div class="hero">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <!-- Hero Box Start -->
                 <div class="hero-box">
-                    <!-- Hero Content Start -->
                     <div class="hero-content">
-                        <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp"><span>Welcome!</span> To Compare Home Security</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">
@@ -22,24 +18,18 @@
                                 Our comparisons are unbiased, detailed, and designed to make your decision simple and secure.
                             </p>
                         </div>
-                        <!-- Section Title End -->
                     </div>
-                    <!-- Hero Content End -->
                 </div>
-                <!-- Hero Box End -->
             </div>
         </div>
     </div>
 </div>
 
-    <!-- Hero Section End -->
-    
 
     <div class="our-services" style="padding: 60px 0; background: #f4f6fb;">
   <div class="container">
     <div class="row justify-content-center" style="gap: 30px;">
 
-      <!-- ADT Card -->
       <div class="col-xl-5 col-md-6">
         <div class="service-card" style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden;">
           <div style="padding: 30px;">
@@ -68,7 +58,6 @@
         </div>
       </div>
 
-      <!-- Vivint Card -->
       <div class="col-xl-5 col-md-6">
         <div class="service-card" style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden;">
           <div style="padding: 30px;">
@@ -101,7 +90,6 @@
   </div>
 </div>
 
-<!-- Hover Effect -->
 <style>
 .service-card:hover {
   transform: translateY(-6px);
@@ -114,12 +102,10 @@
 }
 </style> 
 
-<!-- Our Pricing Section Start -->
 <div class="our-pricing dark-section" id="prising">
   <div class="container">
     <div class="row section-row">
       <div class="col-lg-12">
-        <!-- Section Title Start -->
         <div class="section-title section-title-center">
           <h3 class="wow fadeInUp">our Package Plan</h3>
           <h2 class="text-anime-style-2" data-cursor="-opaque">
@@ -127,7 +113,6 @@
             <span>of all sizes</span>
           </h2>
         </div>
-        <!-- Section Title End -->
       </div>
     </div>
 
@@ -136,8 +121,7 @@
         <div class="our-pricing-box" data-wow-delay="0.2s">
           <div class="pricing-tab-item" id="monthly">
             <div class="row">
-              
-              <!-- Common Card CSS -->
+            
               <style>
                 .card {
                   display: flex;
@@ -171,7 +155,7 @@
                 }
               </style>
 
-              <!-- Vivint Card -->
+
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
                   <img src="/frontend/my-img/vivint-product.png" alt="vivint-product"
@@ -205,7 +189,6 @@
                 </div>
               </div>
 
-              <!-- ADT Card -->
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
                   <img src="/frontend/my-img/Adt.png" alt="adt-product"
@@ -239,7 +222,6 @@
                 </div>
               </div>
 
-              <!-- Brinks Card -->
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
                   <img src="/frontend/my-img/brings-home.png" alt="brinks-product"
@@ -273,7 +255,7 @@
                 </div>
               </div>
 
-              <!-- SimpliSafe Card -->
+
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
                   <img src="/frontend/my-img/simplysafe.png" alt="simplysafe-product"
@@ -307,18 +289,13 @@
                 </div>
               </div>
 
-            </div><!-- row end -->
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Our Pricing Section End -->
-
-
-
-                        <!-- Pricing Tab Item Start -->
                         <div class="pricing-tab-item d-none" id="annually">
                             <div class="row">
                                 <div class="col-xl-3 col-md-6">
@@ -446,9 +423,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Pricing Tab Item End -->
                     </div>
-                    <!-- Our Pricing Box End -->
                 </div>
             </div>
         </div>
@@ -459,9 +434,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-5 col-lg-6">
-                <!-- Testimonial Content Start -->
                 <div class="our-testimonial-content">
-                    <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Customer Reviews</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
@@ -471,11 +444,7 @@
                             Read how real users found the best home security systems through our trusted reviews and easy-to-understand comparisons. Your peace of mind starts here.
                         </p>
                     </div>
-                    <!-- Section Title End -->
-
-                    <!-- Testimonial Google Review Start -->
                     <div class="testimonial-google-review wow fadeInUp" data-wow-delay="0.6s">
-                        <!-- About Google Review Header Start -->
                         <div class="about-google-review-header">
                             <div class="icon-box">
                                 <img src="/frontend/images/icon-google.svg" alt="Google Icon">
@@ -484,9 +453,6 @@
                                 <p>Google Reviews</p>
                             </div>
                         </div>
-                        <!-- About Google Review Header End -->
-
-                        <!-- Google Rating Content Start -->
                         <div class="google-review-content">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -495,15 +461,11 @@
                             <i class="fa-solid fa-star"></i>
                             <p>(<span class="counter">4.9</span>)</p>
                         </div>
-                        <!-- Google Rating Content End -->
                     </div>
-                    <!-- Testimonial Google Review End -->
                 </div>
-                <!-- Testimonial Content End -->
             </div>
 
             <div class="col-xl-7 col-lg-6">
-                <!-- Testimonial Slider Start -->
                 <div class="testimonial-slider">
                     <div class="swiper">
                         <div class="swiper-wrapper" data-cursor-text="Drag">
@@ -607,17 +569,13 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
-                        <!-- Testimonial Slider Buttons -->
                         <div class="testimonial-slider-btn">
                             <div class="testimonial-button-prev"></div>
                             <div class="testimonial-button-next"></div>
                         </div>
                     </div>
                 </div>
-                <!-- Testimonial Slider End -->
             </div>
         </div>
     </div>
@@ -627,13 +585,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <!-- Hero Box Start -->
                 <div class="hero-box">
-
-                    <!-- Hero Item List Start -->
                     <div class="hero-item-list">
-
-                        <!-- Hero Box 1 Start -->
                         <div class="hero-item box-1 dark-box wow fadeInUp">
                             <div class="hero-item-content">
                                 <h3>“Security isn’t just about alarms — it’s about protecting what truly matters: your peace of mind.”</h3>
@@ -645,9 +598,6 @@
                                 </figure>
                             </div>
                         </div>
-                        <!-- Hero Box 1 End -->
-
-                        <!-- Hero Box 2 Start -->
                         <div class="hero-item box-2 dark-box wow fadeInUp" data-wow-delay="0.2s">
                             <div class="hero-counter hero-item-content">
                                 <h2><span class="counter">20</span>K+</h2>
@@ -657,12 +607,8 @@
                                 <p>We’ve helped over 20,000 families choose the safest and smartest home security solutions available.</p>
                             </div>
                         </div>
-                        <!-- Hero Box 2 End -->
-
-                        <!-- Hero Box 3 Start -->
                         <div class="hero-item box-3 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="hero-client-box">
-                                <!-- Satisfy Client Images Start -->
                                 <div class="satisfy-client-images">
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
@@ -690,14 +636,10 @@
                                         </figure>
                                     </div>
                                 </div>
-                                <!-- Satisfy Client Images End -->
-
-                                <!-- Client Content Start -->
                                 <div class="hero-client-content hero-item-content">
                                     <h3>Thousands of Satisfied Families</h3>
                                     <p>Our data-driven comparisons and expert insights have earned the trust of homeowners across the U.S.</p>
                                 </div>
-                                <!-- Client Content End -->
                             </div>
 
                             <div class="hero-item-content">
@@ -705,9 +647,6 @@
                                   <p>Leading security systems compared to ensure your home stays protected 24/7.</p>
                             </div>
                         </div>
-                        <!-- Hero Box 3 End -->
-
-                        <!-- Hero Box 4 Start -->
                         <div class="hero-item box-4 dark-box wow fadeInUp" data-wow-delay="0.6s">
                             <div class="hero-item-content">
                                 <h3>Helping families stay secure through transparent reviews, expert ratings, and side-by-side system comparisons.</h3>
@@ -742,11 +681,8 @@
                           </style>
 
                         </div>
-                        <!-- Hero Box 4 End -->
                     </div>
-                    <!-- Hero Item List End -->
                 </div>
-                <!-- Hero Box End -->
             </div>
         </div>
     </div>
