@@ -29,11 +29,26 @@ class HomeController extends Controller
         'subject.required' => 'Your Subject is required',
         'email.required' => 'Email is required',
         'email.email' => 'Email should be a valid email',
-        'mobile.required' => 'The mobile number field is required.',
-        'mobile.digits' => 'The mobile number must be exactly 10 digits.',
+        'mobile.required' => 'mobile number field is required.',
+        'mobile.digits' => 'mobile number must be exactly 10 digits.',
     ];
 
     $request->validate($rules, $messages);
+
+    $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+        'secret' => env('RECAPTCHA_SECRET_KEY'),
+        'response' => $request->input('g-recaptcha-response'),
+        'remoteip' => $request->ip(),
+    ]);
+
+    $responseBody = $response->json();
+
+    if (!isset($responseBody['success']) || !$responseBody['success']) {
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Captcha verification failed. Please try again.'
+        ], 422);
+    }
 
 
     // Save enquiry as before...

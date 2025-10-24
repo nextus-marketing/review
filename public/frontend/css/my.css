@@ -125,3 +125,25 @@ li {
     background-color: #042650;
     transform: translateY(-3px);
 }
+
+.testimonial-google-review {
+    display: inline-block !important;
+    background: #0e2442 !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+    border-radius: 12px !important;
+    padding: 25px !important;
+    margin-top: 60px !important;
+}
+
+@media only screen and (max-width: 1440px) {
+    .testimonial-google-review {
+        margin-top: 0px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+.google-review-content i {
+    font-size: 16px !important;
+    color: #f3d00c !important;
+}

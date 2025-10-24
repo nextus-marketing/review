@@ -154,12 +154,20 @@
                                 <div class="field_error" id="mobile-error" style="color:#f33838"></div>
                             </div>
     
-                            <div class="form-group col-md-12 mb-5">
+                            <div class="form-group col-md-12 mb-2">
                                 <label class="form-label">Message</label>
                                 <textarea name="message" class="form-control" id="message" rows="5" placeholder="Any Message..."></textarea>
                             </div>
     
-                            <div class="col-lg-12">
+                              <div class="col-12 mt-0 mb-0">
+                                <div style="text-align: center; margin-top: 10px;">
+                                <div class="g-recaptcha d-inline-block" data-sitekey="6Lc-MPYrAAAAAJDFMlYMbZwi9wsPm8tsrLWEgGZh"></div>
+                                <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
+                            </div>
+
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+                            <div class="col-lg-12 mt-3">
                                 <div class="contact-form-btn">
                                     <button type="submit" class="btn-default"><span>Submit Form</span></button>
                                     <div id="msgSubmit" class="h3 hidden"></div>
