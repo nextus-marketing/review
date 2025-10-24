@@ -63,7 +63,7 @@
                     </div> -->
                         <!-- Header Btn Start -->
                         <div class="header-btn">
-                            <a class="btn-default" href="/#prising">View Packages</a>
+                            <a class="btn-default" href="/#pricing">View Packages</a>
                         </div>
                         <!-- Header Btn End -->                      
 					</div>
@@ -119,10 +119,10 @@
                             <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
                             <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Do Not Sell/Share My Personal Information</a></li>
                             <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Limit the Use of My Sensitive Personal Information</a></li>
+                            <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -154,6 +154,31 @@
             </div>
         </div>
     </footer>
+    <!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Go to top">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script>
+  // Show or hide the button
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+  window.addEventListener("scroll", () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      scrollTopBtn.style.display = "block";
+    } else {
+      scrollTopBtn.style.display = "none";
+    }
+  });
+
+  // Scroll to top when clicked
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
     <!-- Footer End -->
 
     <!-- Jquery Library File -->

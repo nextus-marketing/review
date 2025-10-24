@@ -11,27 +11,27 @@ use Illuminate\Database\Seeder;
 class PermissionSeeder extends Seeder
 {
     private $permissions = [
-        'Crud' => [
-            'controller' => 'Admin\CrudController',
-            'permissions' => [
-                'crud-view' => [
-                    'index',
-                    'data',
-                ],
-                'crud-store' => [
-                    'create',
-                    'store',
-                ],
-                'crud-update' => [
-                    'edit',
-                    'update',
-                ],
-                'crud-generate' => [
-                    'generate',
-                    'undo',
-                ],
-            ],
-        ],
+        // 'Crud' => [
+        //     'controller' => 'Admin\CrudController',
+        //     'permissions' => [
+        //         'crud-view' => [
+        //             'index',
+        //             'data',
+        //         ],
+        //         'crud-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'crud-update' => [
+        //             'edit',
+        //             'update',
+        //         ],
+        //         'crud-generate' => [
+        //             'generate',
+        //             'undo',
+        //         ],
+        //     ],
+        // ],
         'Dashboard' => [
             'controller' => 'Admin\DashboardController',
             'permissions' => [
@@ -64,26 +64,26 @@ class PermissionSeeder extends Seeder
                 ],
             ],
         ],
-        'User' => [
-            'controller' => 'Admin\UserController',
-            'permissions' => [
-                'user-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                ],
-                'user-store' => [
-                    // 'create',
-                    // 'store',
-                ],
-                'user-update' => [
-                    // 'edit',
-                    // 'update',
-                    'changeStatus',
-                ],
-            ],
-        ],
+        // 'User' => [
+        //     'controller' => 'Admin\UserController',
+        //     'permissions' => [
+        //         'user-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //         ],
+        //         'user-store' => [
+        //             // 'create',
+        //             // 'store',
+        //         ],
+        //         'user-update' => [
+        //             // 'edit',
+        //             // 'update',
+        //             'changeStatus',
+        //         ],
+        //     ],
+        // ],
         'Employee' => [
             'controller' => 'Admin\EmployeeController',
             'permissions' => [
@@ -101,6 +101,9 @@ class PermissionSeeder extends Seeder
                     'edit',
                     'update',
                     'changeStatus',
+                ],
+                'employee-destroy' => [
+                    'destroy',
                 ],
             ],
         ],
@@ -121,188 +124,188 @@ class PermissionSeeder extends Seeder
                 ],
             ],
         ],
-        'Slider' => [
-            'controller' => 'Admin\SliderController',
-            'permissions' => [
-                'slider-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                ],
-                'slider-store' => [
-                    'create',
-                    'store',
-                ],
-                'slider-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                ],
-            ],
-        ],
-        'Category' => [
-            'controller' => 'Admin\CategoryController',
-            'permissions' => [
-                'category-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                ],
-                'category-store' => [
-                    'create',
-                    'store',
-                ],
-                'category-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                    'changeHomeFeaturedStatus',
-                ],
-            ],
-        ],
-        'Product' => [
-            'controller' => 'Admin\ProductController',
-            'permissions' => [
-                'product-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                ],
-                'product-store' => [
-                    'create',
-                    'store',
-                ],
-                'product-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                    'changeHomeFeaturedStatus',
-                ],
-            ],
-        ],
-        'Service' => [
-            'controller' => 'Admin\ServiceController',
-            'permissions' => [
-                'service-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                ],
-                'service-store' => [
-                    'create',
-                    'store',
-                ],
-                'service-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                    'changeHomeFeaturedStatus',
-                ],
-            ],
-        ],
-        'Setting' => [
-            'controller' => 'Admin\SettingController',
-            'permissions' => [
-                'setting-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                    'getDataPage',
-                    'updateDataPage',
-                ],
-                'setting-store' => [
-                    'create',
-                    'store',
-                ],
-                'setting-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                ],
-            ],
-        ],
-        'Gallery' => [
-            'controller' => 'Admin\GalleryController',
-            'permissions' => [
-                'gallery-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                    'getDataPage',
-                    'updateDataPage',
-                ],
-                'gallery-store' => [
-                    'create',
-                    'store',
-                ],
-                'gallery-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                ],
-            ],
-        ],
-        'Order' => [
-            'controller' => 'Admin\OrderController',
-            'permissions' => [
-                'order-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                    'getDataPage',
-                    'updateDataPage',
-                ],
-                'order-store' => [
-                    'create',
-                    'store',
-                ],
-                'order-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                ],
-            ],
-        ],
+        // 'Slider' => [
+        //     'controller' => 'Admin\SliderController',
+        //     'permissions' => [
+        //         'slider-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //         ],
+        //         'slider-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'slider-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //         ],
+        //     ],
+        // ],
+        // 'Category' => [
+        //     'controller' => 'Admin\CategoryController',
+        //     'permissions' => [
+        //         'category-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //         ],
+        //         'category-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'category-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //             'changeHomeFeaturedStatus',
+        //         ],
+        //     ],
+        // ],
+        // 'Product' => [
+        //     'controller' => 'Admin\ProductController',
+        //     'permissions' => [
+        //         'product-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //         ],
+        //         'product-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'product-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //             'changeHomeFeaturedStatus',
+        //         ],
+        //     ],
+        // ],
+        // 'Service' => [
+        //     'controller' => 'Admin\ServiceController',
+        //     'permissions' => [
+        //         'service-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //         ],
+        //         'service-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'service-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //             'changeHomeFeaturedStatus',
+        //         ],
+        //     ],
+        // ],
+        // 'Setting' => [
+        //     'controller' => 'Admin\SettingController',
+        //     'permissions' => [
+        //         'setting-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //             'getDataPage',
+        //             'updateDataPage',
+        //         ],
+        //         'setting-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'setting-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //         ],
+        //     ],
+        // ],
+        // 'Gallery' => [
+        //     'controller' => 'Admin\GalleryController',
+        //     'permissions' => [
+        //         'gallery-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //             'getDataPage',
+        //             'updateDataPage',
+        //         ],
+        //         'gallery-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'gallery-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //         ],
+        //     ],
+        // ],
+        // 'Order' => [
+        //     'controller' => 'Admin\OrderController',
+        //     'permissions' => [
+        //         'order-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //             'getDataPage',
+        //             'updateDataPage',
+        //         ],
+        //         'order-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'order-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //         ],
+        //     ],
+        // ],
 
-        'Activity' => [
-            'controller' => 'Admin\ActivityController',
-            'permissions' => [
-                'activity-view' => [
-                    'index',
-                    'data',
-                    'list',
-                    'show',
-                    'getDataPage',
-                    'updateDataPage',
-                ],
-                'activity-store' => [
-                    'create',
-                    'store',
-                ],
-                'activity-update' => [
-                    'edit',
-                    'update',
-                    'changeStatus',
-                ],
-            ],
-        ],
+        // 'Activity' => [
+        //     'controller' => 'Admin\ActivityController',
+        //     'permissions' => [
+        //         'activity-view' => [
+        //             'index',
+        //             'data',
+        //             'list',
+        //             'show',
+        //             'getDataPage',
+        //             'updateDataPage',
+        //         ],
+        //         'activity-store' => [
+        //             'create',
+        //             'store',
+        //         ],
+        //         'activity-update' => [
+        //             'edit',
+        //             'update',
+        //             'changeStatus',
+        //         ],
+        //     ],
+        // ],
         // End of Permission Arr
     ];
 
     public $roles = [
         'SuperAdmin' => [
             // Crud
-            'crud-view',
-            'crud-store',
-            'crud-update',
-            'crud-generate',
+            // 'crud-view',
+            // 'crud-store',
+            // 'crud-update',
+            // 'crud-generate',
 
             // Dashboard
             'dashboard-view',
@@ -314,9 +317,9 @@ class PermissionSeeder extends Seeder
             'role-permission',
 
             // User
-            'user-view',
-            'user-store',
-            'user-update',
+            // 'user-view',
+            // 'user-store',
+            // 'user-update',
 
             // Employee
             'employee-view',
@@ -329,44 +332,44 @@ class PermissionSeeder extends Seeder
             'enquiry-update',
 
             // Slider
-            'slider-view',
-            'slider-store',
-            'slider-update',
+            // 'slider-view',
+            // 'slider-store',
+            // 'slider-update',
 
             // Category
-            'category-view',
-            'category-store',
-            'category-update',
+            // 'category-view',
+            // 'category-store',
+            // 'category-update',
 
             // Product
-            'product-view',
-            'product-store',
-            'product-update',
+            // 'product-view',
+            // 'product-store',
+            // 'product-update',
 
             // Service
-            'service-view',
-            'service-store',
-            'service-update',
+            // 'service-view',
+            // 'service-store',
+            // 'service-update',
 
             // Setting
-            'setting-view',
-            'setting-store',
-            'setting-update',
+            // 'setting-view',
+            // 'setting-store',
+            // 'setting-update',
 
             // Gallery
-            'gallery-view',
-            'gallery-store',
-            'gallery-update',
+            // 'gallery-view',
+            // 'gallery-store',
+            // 'gallery-update',
 
             // Order
-            'order-view',
-            'order-store',
-            'order-update',
+            // 'order-view',
+            // 'order-store',
+            // 'order-update',
 
             // Activity
-            'activity-view',
-            'activity-store',
-            'activity-update',
+            // 'activity-view',
+            // 'activity-store',
+            // 'activity-update',
 
             // End of Role Permission
         ],
@@ -382,9 +385,19 @@ class PermissionSeeder extends Seeder
             'roles' => [
                 'SuperAdmin',
             ],
-            'mobile' => '9999999999',
-            'email' => 'siddhesh@gmail.com',
-            'password' => 'siddhesh@123',
+            'mobile' => '+919821622474',
+            'email' => 'marketingteamnextus@gmail.com',
+            'password' => 'Marketing@1989$'
+        ],
+        [
+            'first_name' => 'Super',
+            'last_name' => 'Admin',
+            'roles' => [
+                'SuperAdmin',
+            ],
+            'mobile' => '+918898874884',
+            'email' => 'yusuf@nextusglobalservices.com',
+            'password' => 'Yusuf@2025$'
         ],
     ];
 

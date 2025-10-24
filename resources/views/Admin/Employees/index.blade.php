@@ -48,9 +48,9 @@
                                 <th>
                                     <h6 class="fs-3 fw-semibold mb-0">E-Mail</h6>
                                 </th>
-                                <th>
+                                 {{--<th>
                                     <h6 class="fs-3 fw-semibold mb-0">Mobile</h6>
-                                </th>
+                                </th> --}}
                             </tr>
                         </thead>
                     </table>
@@ -84,7 +84,7 @@
                 {data: 'last_name',name: 'employees.last_name'},
                 {data: 'designation',name: 'employees.designation'},
                 {data: 'email',name: 'employees.email'},
-                {data: 'mobile',name: 'employees.mobile'},
+                // {data: 'mobile',name: 'employees.mobile'},
             ],
             order: [],
             columnDefs: [
@@ -133,5 +133,49 @@
             }
         });
     });
+</script>
+
+<script>
+    $(document).on('click', '.delete-employee', function(e){
+    e.preventDefault();
+    var routeKey = $(this).data('routekey');
+
+    if (confirm("Are you sure you want to delete this employee?")) {
+        $.ajax({
+            url: '/admin/employees/' + routeKey,
+            type: 'DELETE',
+            data: {
+                _token: $('meta[name=csrf-token]').attr('content')
+            },
+            success: function(data) {
+                if(data.status === 'success'){
+                    toastr.success(data.message, '', {
+                        showMethod: "slideDown", 
+                        hideMethod: "slideUp", 
+                        timeOut: 1500, 
+                        closeButton: true,
+                    });
+                    $('#datatable').DataTable().draw();
+                } else {
+                    toastr.error(data.message, '', {
+                        showMethod: "slideDown", 
+                        hideMethod: "slideUp", 
+                        timeOut: 1500, 
+                        closeButton: true,
+                    });
+                }
+            },
+            error: function(xhr) {
+                toastr.error('Failed to delete employee.', '', {
+                    showMethod: "slideDown", 
+                    hideMethod: "slideUp", 
+                    timeOut: 1500, 
+                    closeButton: true,
+                });
+            }
+        });
+    }
+});
+
 </script>
 @endsection

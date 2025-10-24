@@ -27,10 +27,10 @@
                                     <h6 class="fs-3 fw-semibold mb-0">Date-Time</h6>
                                 </th>
                                 <th>
-                                    <h6 class="fs-3 fw-semibold mb-0">First Name</h6>
+                                    <h6 class="fs-3 fw-semibold mb-0">Full Name</h6>
                                 </th>
                                 <th>
-                                    <h6 class="fs-3 fw-semibold mb-0">Last Name</h6>
+                                    <h6 class="fs-3 fw-semibold mb-0">Subject</h6>
                                 </th>
                                 <th>
                                     <h6 class="fs-3 fw-semibold mb-0">E-Mail</h6>
@@ -69,8 +69,8 @@
                 {data: 'DT_RowIndex', orderable: false, searchable: false},
                 {data: 'action',name: 'enquiries.id',searchable: false},
 				{data: 'datetime',name: 'enquiries.created_at'},
-				{data: 'first_name',name: 'enquiries.first_name'},
-                {data: 'last_name',name: 'enquiries.last_name'},
+				{data: 'full_name',name: 'enquiries.full_name'},
+                {data: 'subject',name: 'enquiries.subject'},
                 {data: 'email',name: 'enquiries.email'},
                 {data: 'mobile',name: 'enquiries.mobile'},
                 {data: 'message',name: 'enquiries.message'},

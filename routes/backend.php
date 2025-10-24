@@ -23,20 +23,27 @@ use App\Http\Controllers\Admin\EmployeeController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\RazorpayPaymentController;
 use App\Http\Controllers\Admin\ItemcategoryController;
-
+use App\Http\Controllers\Auth\LoginController;
 //End of use statements
+
+ Route::middleware(['guest', 'preventBackHistory'])->group(function () {
+    Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
+    Route::post('login', [LoginController::class, 'login'])->name('login.submit');
+});
+
 
 Route::middleware(['auth', 'admin', 'preventBackHistory'])->group(function () {
     Route::prefix('admin')->name('admin.')->group(function () {
-        // Slider
+        // Dashbord
         Route::resource('cruds', CrudController::class);
         Route::post('cruds/data', [CrudController::class, 'data'])->name('cruds.data');
-        Route::get('cruds/generate/{crud}',[CrudController::class, 'generate'])->name('cruds.generate');
-        Route::get('cruds/undo/{crud}',[CrudController::class, 'undo'])->name('cruds.undo');
+        Route::get('cruds/generate/{crud}', [CrudController::class, 'generate'])->name('cruds.generate');
+        Route::get('cruds/undo/{crud}', [CrudController::class, 'undo'])->name('cruds.undo');
 
 
         Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
 
+        
         //Roles
         Route::resource('roles', RoleController::class);
         Route::post('roles/data', [RoleController::class, 'data'])->name('roles.data');

@@ -39,14 +39,6 @@
                 <i class="ti ti-mail text-dark fs-6"></i>
                 <h6 class="fs-4 fw-semibold mb-0">{{ $employee->user->email }}</h6>
             </li>
-            <li class="d-flex align-items-center gap-3 mb-4">
-                <i class="ti ti-mail text-dark fs-6"></i>
-                <h6 class="fs-4 fw-semibold mb-0">{{ $employee->personal_email }}</h6>
-            </li>
-            <li class="d-flex align-items-center gap-3 mb-4">
-                <i class="ti ti-phone text-dark fs-6"></i>
-                <h6 class="fs-4 fw-semibold mb-0">{{ $employee->user->mobile }}</h6>
-            </li>
             <li class="d-flex align-items-center gap-3 mb-2">
                 <i class="ti ti-fingerprint text-dark fs-6"></i>
                 <h6 class="fs-4 fw-semibold mb-0 {{ ($employee->user->status == 'ACTIVE' ? 'text-success' : 'text-danger' ) }}">

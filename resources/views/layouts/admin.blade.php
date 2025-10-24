@@ -17,7 +17,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         
         <!-- FAVICON -->
-        <!-- <link rel="shortcut icon" type="image/png" href="/favicon.png" /> -->
+        <link rel="shortcut icon" type="/frontend/image/png" href="/frontend/my-img/favicon.png"/>
 
         <!-- BASIC CSS -->
         <link  id="themeColors"  rel="stylesheet" href="/backend/dist/css/style.min.css" />
@@ -53,7 +53,7 @@
                 <div>
                     <div class="brand-logo d-flex align-items-center justify-content-between">
                         <a href="{{ route('admin.dashboard.index') }}" class="text-nowrap logo-img">
-							{{-- <img src="/logo.svg" width="180" alt="" style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);"/> --}}
+							<img src="/frontend/my-img/new-logo.png" width="180" alt=""/> 
                         </a>
                         <div class="close-btn d-lg-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                             <i class="ti ti-x fs-8 text-muted"></i>

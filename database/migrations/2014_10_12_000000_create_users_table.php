@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('device_id')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('text_password')->nullable();
             $table->string('status')->default('ACTIVE');
             $table->rememberToken();
             $table->timestamps();
