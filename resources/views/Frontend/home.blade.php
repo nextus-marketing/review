@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 @section('title') Compare Home Security @endsection
 @section('content')
-  <div class="hero">
+  <div class="hero hero-small-mobile" style="height:320px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -10,13 +10,9 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp"><span>Welcome!</span> To Compare Home Security</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">
-                                Find the <span>Best Home Security Systems</span> for Your Family
+                                Find the <span>Best Home Security Systems</span></br> for Your Family
                             </h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Compare Home Security is your trusted resource for honest, expert reviews of today’s leading home security providers. 
-                                We help you compare features, prices, and performance so you can protect your home with confidence.
-                                Our comparisons are unbiased, detailed, and designed to make your decision simple and secure.
-                            </p>
+                           
                         </div>
                     </div>
                 </div>
@@ -32,129 +28,55 @@
 
       <!-- Card 1: Automation Security System -->
       <div class="col-xl-5 col-md-6 d-flex">
-  <div class="service-card" 
-       style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
-
-    <!-- Header Label -->
-    <div style="background: #0f2453; color: #fff; padding: 18px 25px; font-size: 18px; font-weight: 700; letter-spacing: 0.5px; display: flex; align-items: center; gap: 20px;">
-      <a href="#0">
-        <img src="/frontend/my-img/RatingBadge.png" alt="Rating Badge" style="width: 40px;">
-      </a>
-      Best Automation Security System
-    </div>
-
-    <div style="padding: 30px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
-      
-      <!-- Top Content -->
-      <div>
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
-          <!-- Vivint Logo -->
-          <img src="/frontend/my-img/vivint-black.png" alt="Vivint Logo" style="height: 45px; width: auto;">
-
-          <!-- Customer Review Box (moved here) -->
-          <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
-            <!-- <img src="/frontend/images/icon-google.svg" alt="Google Icon" style="width: 22px; height: 22px;"> Ratings -->
-            <h6 style="color:#fff; margin-bottom:5px;">Ratings</h6>
-            
-            <div style="display: flex; align-items: center; gap: 6px;">
-              <div style="color: #fbbc05;">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-              </div>
-               <p style="line-height:0px; margin-bottom:0px; color:#fff;">(<span class="">4.9</span>)</p>
-            </div>
-          </div>
-        </div>
-</br>
-        <!-- Feature List -->
-        <ul style="list-style: none; padding: 0; margin: 0 0 10px;">
-          <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
-            <span style="color:#2a4fa5; font-size: 20px;">•</span> Smart home features
-          </li>
-          <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
-            <span style="color:#2a4fa5; font-size: 20px;">•</span> Robust equipment
-          </li>
-          <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
-            <span style="color:#2a4fa5; font-size: 20px;">•</span> Month-to-month option
-          </li>
-        </ul>
-</br>
-        <!-- Promo Text -->
-        <p style="font-size: 15px; color: #333; line-height: 1.6;">
-          Get up to <b>3 FREE months</b> of monitoring plus FREE installation with 
-          <b style="color:#2a4fa5;">( Promo Code THREEFREE )</b>
-        </p>
-      </div>
-
-      <!-- Buttons -->
-      <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 25px;">
-        <a href="#0" 
-           style="background: #0f2453; color: #fff; padding: 12px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">
-          View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </a>
-        <a href="tel:8552869128" 
-           style="border: 2px solid #0f2453; color: #0f2453; padding: 10px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
-          <i class="fa-solid fa-phone"></i> Enquire Now
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-      <!-- Card 2: ADT Security -->
-      <div class="col-xl-5 col-md-6 d-flex">
         <div class="service-card" 
              style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
 
           <!-- Header Label -->
-          <!-- <div style="background: #0f2453; color: #fff; padding: 18px 25px; font-size: 20px; font-weight: 700; letter-spacing: 0.5px;">
-            ADT Home Security
-          </div> -->
+          <div style="background: #0f2453; color: #fff; padding: 18px 25px; font-size: 18px; font-weight: 700; letter-spacing: 0.5px; display: flex; align-items: center; gap: 20px;">
+            <a href="#0">
+              <img src="/frontend/my-img/RatingBadge.png" alt="Rating Badge" style="width: 40px;">
+            </a>
+            Best Automation Security System
+          </div>
 
           <div style="padding: 30px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+            
             <!-- Top Content -->
             <div>
-               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; margin-top: 30px;">
-          <!-- Vivint Logo -->
-          <img src="/frontend/my-img/adt-logo.svg" alt="Vivint Logo" style="height: 115px; width: auto;">
-
-          <!-- Customer Review Box (moved here) -->
-         <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
-            <!-- <img src="/frontend/images/icon-google.svg" alt="Google Icon" style="width: 22px; height: 22px;"> Ratings -->
-            <h6 style="color:#fff; margin-bottom:5px;">Ratings</h6>
-            
-            <div style="display: flex; align-items: center; gap: 6px;">
-              <div style="color: #fbbc05;">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                 <i class="fa-solid fa-star-half-stroke"></i>
-                <i class="fa-regular fa-star"></i>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                <img src="/frontend/my-img/vivint-black.png" alt="Vivint Logo" class="vivint-logo" style="height: 45px; width: auto; gap:10px;">
+                <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
+                  <h6 style="color:#ffff; margin-bottom:5px;">Ratings</h6>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <div style="color: #fbbc05;">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p style="line-height:0px; margin-bottom:0px; color:#ffff;">(<span>4.9</span>)</p>
+                  </div>
+                </div>
               </div>
-               <p style="line-height:0px; margin-bottom:0px; color:#fff;">(<span class="">4.5</span>)</p>
-            </div>
-          </div>
-        </div>
 
-              <ul style="list-style: none; padding: 0; margin: 0 0 30px;">
+              <!-- Feature List -->
+              <ul style="list-style: none; padding: 0; margin: 0 0 10px;">
                 <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 20px;">•</span> Advanced features
+                  <span style="color:#2a4fa5; font-size: 20px;"><i class="fa-solid fa-check-circle" style="color:#2a4fa5;"></i></span> Smart home features
                 </li>
                 <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 20px;">•</span> 15 Years of experience
+                  <span style="color:#2a4fa5; font-size: 20px;"><i class="fa-solid fa-check-circle" style="color:#2a4fa5;"></i></span> Robust equipment
                 </li>
                 <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 20px;">•</span> Professionally installed
+                  <span style="color:#2a4fa5; font-size: 20px;"><i class="fa-solid fa-check-circle" style="color:#2a4fa5;"></i></span> Month-to-month option
                 </li>
               </ul>
 
-              <p style="font-size: 15px; color: #333; line-height: 1.6;">
-                Get a <b>$100 ADT Visa®</b> Reward Card with a newly installed ADT system
-              </p>
+              <!-- Promo Text -->
+              <div style="background:#f2f6ff; border-left:4px solid #2a4fa5; padding:15px 18px; border-radius:8px; font-size:15px; color:#333; margin-bottom:25px;">
+              <strong style="color:#2a4fa5;">Special Offer:</strong> Get 3 FREE months of monitoring + FREE installation using code <b>THREEFREE</b>.
+            </div>
             </div>
 
             <!-- Buttons -->
@@ -168,13 +90,90 @@
                 <i class="fa-solid fa-phone"></i> Enquire Now
               </a>
             </div>
+
           </div>
         </div>
       </div>
 
+      <!-- Card 2: ADT Security -->
+      <div class="col-xl-5 col-md-6 d-flex">
+        <div class="service-card" 
+             style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+
+          <div style="padding: 30px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+            
+            <!-- Top Content -->
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; margin-top: 30px;">
+                <!-- ADT Logo -->
+                <img src="/frontend/my-img/adt-logo.svg" alt="ADT Logo" style="height: 90px; width: auto;">
+
+                <!-- Customer Review Box -->
+                <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
+                  <h6 style="color:#ffff; margin-bottom:5px;">Ratings</h6>
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <div style="color: #fbbc05;">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p style="line-height:0px; margin-bottom:0px; color:#ffff;">(<span>4.5</span>)</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature List -->
+              <ul style="list-style: none; padding: 0; margin: 0 0 30px;">
+                <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
+                  <span style="color:#2a4fa5; font-size: 20px;"><i class="fa-solid fa-check-circle" style="color:#2a4fa5;"></i></span> Advanced features
+                </li>
+                <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
+                  <span style="color:#2a4fa5; font-size: 20px;"><i class="fa-solid fa-check-circle" style="color:#2a4fa5;"></i></span> 15 Years of experience
+                </li>
+                <li style="display: flex; align-items: center; gap: 10px; font-size: 16px; color: #0f2453;">
+                  <span style="color:#2a4fa5; font-size: 20px;"><i class="fa-solid fa-check-circle" style="color:#2a4fa5;"></i></span> Professionally installed
+                </li>
+              </ul>
+
+              <!-- Promo Text -->
+              <p style="font-size: 15px; color: #333; line-height: 1.6;">
+               
+              </p>
+               <div style="background:#f2f6ff; border-left:4px solid #2a4fa5; padding:15px 18px; border-radius:8px; font-size:15px; color:#333; margin-bottom:25px;">
+              <strong style="color:#2a4fa5;">Special Offer:</strong> Get a <b>$100 ADT Visa®</b> Reward Card with a newly installed ADT system.
+            </div>
+            </div>
+
+            <!-- Buttons -->
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 25px;">
+              <a href="#0" 
+                 style="background: #0f2453; color: #fff; padding: 12px 22px; border-radius: 8px; font-weight: 600; text-decoration: none;">
+                View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+              <a href="tel:8552869128" 
+                 style="border: 2px solid #0f2453; color: #0f2453; padding: 10px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
+                <i class="fa-solid fa-phone"></i> Enquire Now
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Description -->
+      <div class="col-lg-10 mt-4">
+        <p class="wow fadeInUp" data-wow-delay="0.2s" style="text-align: center; color: #0f2453; font-size: 16px; line-height: 1.7;">
+          Compare Home Security is your trusted resource for honest, expert reviews of today’s leading home security providers.
+          We help you compare features, prices, and performance so you can protect your home with confidence.
+          Our comparisons are unbiased, detailed, and designed to make your decision simple and secure.
+        </p>
+      </div>
     </div>
   </div>
 </div>
+
 
 <style>
 .service-card:hover {
@@ -202,37 +201,37 @@
       </div>
     </div>
      <style>
-                .card {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: space-between;
-                  height: 100%;
-                  border-radius: 12px;
-                  padding: 20px;
-                  background-color: #f9f9f9;
-                }
-                .card-body {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: space-between;
-                  flex-grow: 1;
-                }
-                .card-content {
-                  flex-grow: 1;
-                }
-                .d-grid.gap-2 {
-                  margin-top: auto;
-                }
-                .custom-btn:hover {
-                  background-color: #1d366f !important;
-                  transform: translateY(-2px);
-                }
-                .custom-btn-outline:hover {
-                  background-color: #0f2453 !important;
-                  color: #fff !important;
-                  transform: translateY(-2px);
-                }
-              </style>
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          border-radius: 12px;
+          padding: 20px;
+          background-color: #f9f9f9;
+        }
+        .card-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          flex-grow: 1;
+        }
+        .card-content {
+          flex-grow: 1;
+        }
+        .d-grid.gap-2 {
+          margin-top: auto;
+        }
+        .custom-btn:hover {
+          background-color: #1d366f !important;
+          transform: translateY(-2px);
+        }
+        .custom-btn-outline:hover {
+          background-color: #0f2453 !important;
+          color: #fff !important;
+          transform: translateY(-2px);
+        }
+      </style>
 
     <div class="row">
       <div class="col-lg-12">
@@ -288,7 +287,7 @@
                     </a>
                   </div>
                 </div>
-
+              </br>
                 <!-- Bottom Buttons -->
                 <div class="d-grid gap-2 mt-auto">
                   <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">

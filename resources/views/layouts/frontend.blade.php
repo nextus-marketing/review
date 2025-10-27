@@ -154,6 +154,13 @@
             </div>
         </div>
     </footer>
+
+    <a href="tel:+1-888-859-5720" class="call-now-float" aria-label="Call Now">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24"
+            height="24">
+            <path
+                d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.54.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.45 1.25l-2.2 2.2z" />
+        </svg>
     <!-- Scroll to Top Button -->
 <button id="scrollTopBtn" title="Go to top">
   <i class="fa-solid fa-arrow-up"></i>
