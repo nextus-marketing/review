@@ -1,6 +1,11 @@
 @extends('layouts.frontend')
 @section('title') Contact Us | Compare Home Security @endsection
 @section('content')
+<style>
+    .page-contact-us {
+    padding: 0px 0;
+}
+</style>
   <!-- Page Header Section Start -->
     <div class="page-header">
         <div class="container">
@@ -167,7 +172,7 @@
 
                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-                            <div class="col-lg-12 mt-3">
+                            <div class="col-lg-12 mt-3 text-center">
                                 <div class="contact-form-btn">
                                     <button type="submit" class="btn-default"><span>Submit Form</span></button>
                                     <div id="msgSubmit" class="h3 hidden"></div>
@@ -185,7 +190,7 @@
     <!-- Page Contact Us End -->
 
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script>
         $(document).ready(function() {

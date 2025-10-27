@@ -1,6 +1,12 @@
 @extends('layouts.frontend')
 @section('title') Terms Of Use | Compare Home Security @endsection
 @section('content')
+<style>
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+</style>
 <div class="page-header">
         <div class="container">
             <div class="row">
