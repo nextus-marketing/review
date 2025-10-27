@@ -9,6 +9,7 @@ use App\Rules\CustomCaptcha;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Http;
 use App\Models\Enquiry;
 
 class HomeController extends Controller

@@ -12,7 +12,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Terms Of Use</h1>
+                    <h1 class="text-anime-style-2" data-cursor="-opaque">Terms Of Use</h1>
                        <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
                         </ol>

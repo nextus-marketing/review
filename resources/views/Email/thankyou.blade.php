@@ -5,5 +5,5 @@
     <br /><br />
     Thanks,<br>
     Sales Team,<br />
-    Buy Home Security.<br />
+    Compare Home Security.<br/>
 @endcomponent
