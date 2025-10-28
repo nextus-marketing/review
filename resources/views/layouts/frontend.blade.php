@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
 </head>
@@ -80,82 +81,86 @@
     
     <!-- Footer Start -->
     <footer class="main-footer">
-      
-		<div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-md-6">
-                    <!-- About Footer Start -->
-                    <div class="about-footer">
-                        <!-- Footer Logo Start -->
-                        <div class="footer-logo">
-                             <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width: 229px; height: auto;">
-                        </div>
-                        
-                        <!-- Footer Logo End -->
-
-                        <!-- About Footer Content Start -->
-                        <div class="about-footer-content">
-                            <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
-                                contained on this website is for informational purposes only. Any third party contributor 
-                                to any such profile, article or video has been compensated by Compare-HomeSecurity.
-                                net for such contribution. It is advised that you conduct your own investigation as 
-                                to the accuracy of any information contained herein as such information,
-                                including without limitation any quote, is provided “as is” for informational purposes only.
-                                Further, Compare-HomeSecurity.net shall not be liable for
-                                 any informational error or for any action taken in reliance on information contained herein.</p>
-                        </div>
-                        <!-- About Footer Content End -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-md-6">
+                <!-- About Footer Start -->
+                <div class="about-footer">
+                    <!-- Footer Logo Start -->
+                    <div class="footer-logo">
+                        <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width: 229px; height: auto;">
                     </div>
-                    <!-- About Footer End -->
-                </div>
+                    <!-- Footer Logo End -->
 
-                <div class="col-xl-4 col-md-6">
-                    <!-- Footer Contact Start -->
-                    <div class="footer-contact footer-links">
-                        <h3 style="color:#fff;">User Rights & Legal Info</h3>
-                        <ul style="list-style:none; margin:0; padding:0;">
-                            <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Privacy Policy</a></li>
-                            <li><a href="/terms-of-use" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Terms of Use</a></li>
-                            <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
-                            <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Do Not Sell/Share My Personal Information</a></li>
-                            <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Limit the Use of My Sensitive Personal Information</a></li>
-                            <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    <!-- About Footer Content Start -->
+                    <div class="about-footer-content">
+                        <p>
+                            The content, including without limitation any viewpoint or opinion in any profile, article or video,
+                            contained on this website is for informational purposes only. Any third party contributor 
+                            to any such profile, article or video has been compensated by Compare Home Security.
+                            for such contribution. It is advised that you conduct your own investigation as 
+                            to the accuracy of any information contained herein as such information,
+                            including without limitation any quote, is provided “as is” for informational purposes only.
+                            Further, Compare Home Security shall not be liable for
+                            any informational error or for any action taken in reliance on information contained herein.
+                        </p>
 
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Footer Copyright Box Start -->
-                        <div class="footer-copyright-box">
-                            <div class="footer-copyright-text">
-                                <p>Copyright © 2025 All Rights Reserved.</p>
+                        <!-- 🌐 Social Media Icons -->
+                            <div class="social-icons" style="margin-top: 20px;">
+                            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="circle-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="circle-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn" class="circle-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="circle-icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                             </div>
 
-                            <!-- Footer Menu Start -->
-                            <!-- <div class="footer-menu">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="services.html">services</a></li>
-                                    <li><a href="blog.html">Blogs</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div> -->
-                            <!-- Footer Menu End -->
+                        <!-- Social Icons End -->
+                    </div>
+                    <!-- About Footer Content End -->
+                </div>
+                <!-- About Footer End -->
+            </div>
+
+            <div class="col-xl-4 col-md-6">
+                <!-- Footer Contact Start -->
+                <div class="footer-contact footer-links">
+                    <h3 style="color:#fff;">User Rights & Legal Info</h3>
+                    <ul style="list-style:none; margin:0; padding:0;">
+                        <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Privacy Policy</a></li>
+                        <li><a href="/terms-of-use" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Terms of Use</a></li>
+                        <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
+                        <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Do Not Sell/Share My Personal Information</a></li>
+                        <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Limit the Use of My Sensitive Personal Information</a></li>
+                        <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-copyright-box">
+                        <div class="footer-copyright-text">
+                            <p>Copyright © 2025 All Rights Reserved.</p>
                         </div>
-                        <!-- Footer Copyright  -->
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    <a href="tel:+1-888-859-5720" class="call-now-float" aria-label="Call Now">
+    <a href="#0" class="call-now-float" aria-label="Call Now">
         <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24"
             height="24">
             <path
@@ -184,6 +189,32 @@
       behavior: "smooth"
     });
   });
+</script>
+
+
+<!-- Script -->
+<script>
+document.querySelectorAll('.open-modal').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const modalId = this.getAttribute('data-modal');
+        document.getElementById(modalId).style.display = 'block';
+    });
+});
+
+document.querySelectorAll('.close').forEach(btn => {
+    btn.addEventListener('click', function() {
+        this.closest('.modal').style.display = 'none';
+    });
+});
+
+window.addEventListener('click', function(event) {
+    document.querySelectorAll('.modal').forEach(modal => {
+        if(event.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
+});
 </script>
 
     <!-- Footer End -->

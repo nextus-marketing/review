@@ -53,7 +53,7 @@
     </div>
 
     <!-- Page Contact Us Start -->
-   <div class="page-contact-us">
+   <div class="page-contact-us pt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12">
@@ -108,7 +108,7 @@
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Get In Touch</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">Contact us <span>today!</span></h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Have questions or need expert cybersecurity support? Our team is ready to guide you with tailored solutions.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Have questions or need expert Home-security support? Our team is ready to guide you with tailored solutions.</p>
                     </div>
                     <!-- Section Title End -->
 

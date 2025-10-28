@@ -1,7 +1,8 @@
 @extends('layouts.frontend')
 @section('title') Compare Home Security @endsection
 @section('content')
-  <div class="hero hero-small-mobile" style="height:280px;">
+
+<div class="hero hero-small-mobile" style="height:280px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -28,7 +29,7 @@
 
       <!-- Card 1: Automation Security System (Highlighted Best Seller) -->
       <div class="col-xl-5 col-md-6 d-flex">
-        <div class="service-card best-seller" 
+        <div class="service-card best-seller"
              style="background: #fff; border-radius: 16px; box-shadow: 0 4px 25px rgba(0,0,0,0.1); transition: all 0.3s ease; overflow: hidden; height: 100%; display: flex; flex-direction: column; position: relative;">
 
           <!-- Header Label -->
@@ -42,7 +43,7 @@
             <!-- Top Content -->
             <div>
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <img src="/frontend/my-img/vivint-black.png" alt="Vivint Logo" style="height: 55px; width: auto;">
+                <img src="/frontend/my-img/vivint-black.png" alt="Vivint Logo" class="vivint-logo" style="height: 55px; width: auto;">
                 <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
                   <h6 style="color:#ffff; margin-bottom:5px;">Ratings</h6>
                   <div style="display: flex; align-items: center; gap: 6px;">
@@ -57,22 +58,31 @@
                   </div>
                 </div>
               </div>
-</br>
+
+              <br>
+
               <!-- Feature List -->
               <ul style="list-style: none; padding: 0; margin: 0 0 20px;">
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 18px;">•</span> Smart home features
+                  <span style="color:#2a4fa5; font-size: 18px;">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span> Smart home features
                 </li>
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 18px;">•</span> Robust equipment
+                  <span style="color:#2a4fa5; font-size: 18px;">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span> Robust equipment
                 </li>
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 18px;">•</span> Month-to-month option
+                  <span style="color:#2a4fa5; font-size: 18px;">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span> Month-to-month option
                 </li>
               </ul>
+
               <!-- Promo Text -->
               <div style="background:#f2f6ff; border-left:4px solid #2a4fa5; padding:12px 14px; border-radius:8px; font-size:14px; color:#333; margin-bottom:20px;">
-                <strong style="color:#2a4fa5;">Special Offer:</strong> Get 3 FREE months of monitoring + FREE installation using code <b>THREEFREE</b>.
+                <strong style="color:#2a4fa5;">Special Offer:</strong> Get 3 FREE months of monitoring + FREE installation using code <b>(THREEFREE)</b>.
               </div>
             </div>
 
@@ -90,16 +100,16 @@
         </div>
       </div>
 
-      <!-- Card 2: ADT Security (Unchanged) -->
+      <!-- Card 2: ADT Security -->
       <div class="col-xl-5 col-md-6 d-flex">
-        <div class="service-card" 
-             style="background: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+        <div class="service-card"
+             style="background: #fff; border-radius: 16px; border: 2px solid #2a4fa5; box-shadow: 0 4px 20px rgba(0,0,0,0.08); transition: all 0.3s ease; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
 
           <div style="padding: 25px 25px 30px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
             
             <!-- Top Content -->
             <div>
-              </br>
+              <br>
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
                 <img src="/frontend/my-img/adt-logo.svg" alt="ADT Logo" style="height: 110px; width: auto;">
                 <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
@@ -120,13 +130,19 @@
               <!-- Feature List -->
               <ul style="list-style: none; padding: 0; margin: 0 0 20px;">
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 18px;">•</span> Advanced features
+                  <span style="color:#2a4fa5; font-size: 18px;">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span> Advanced features
                 </li>
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 18px;">•</span> 15 Years of experience
+                  <span style="color:#2a4fa5; font-size: 18px;">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span> 15 Years of experience
                 </li>
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
-                  <span style="color:#2a4fa5; font-size: 18px;">•</span> Professionally installed
+                  <span style="color:#2a4fa5; font-size: 18px;">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </span> Professionally installed
                 </li>
               </ul>
 
@@ -163,6 +179,7 @@
   </div>
 </div>
 
+
 <!-- Add This CSS -->
 <style>
 @keyframes glowingShadow {
@@ -186,7 +203,6 @@
 </style>
 
 
-
 <style>
 .service-card:hover {
   transform: translateY(-6px);
@@ -206,44 +222,44 @@
         <div class="section-title section-title-center">
           <h3 class="wow fadeInUp">our Package Plan</h3>
           <h2 class="text-anime-style-2" data-cursor="-opaque">
-            Affordable, scalable cybersecurity services for businesses 
-            <span>of all sizes</span>
+            Affordable, Scalable Home Security Services For  
+            <span>Everyone, Everywhere.</span>
           </h2>
         </div>
       </div>
     </div>
      <style>
-                .card {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: space-between;
-                  height: 100%;
-                  border-radius: 12px;
-                  padding: 20px;
-                  background-color: #f9f9f9;
-                }
-                .card-body {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: space-between;
-                  flex-grow: 1;
-                }
-                .card-content {
-                  flex-grow: 1;
-                }
-                .d-grid.gap-2 {
-                  margin-top: auto;
-                }
-                .custom-btn:hover {
-                  background-color: #1d366f !important;
-                  transform: translateY(-2px);
-                }
-                .custom-btn-outline:hover {
-                  background-color: #0f2453 !important;
-                  color: #fff !important;
-                  transform: translateY(-2px);
-                }
-              </style>
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 100%;
+          border-radius: 12px;
+          padding: 20px;
+          background-color: #f9f9f9;
+        }
+        .card-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          flex-grow: 1;
+        }
+        .card-content {
+          flex-grow: 1;
+        }
+        .d-grid.gap-2 {
+          margin-top: auto;
+        }
+        .custom-btn:hover {
+          background-color: #1d366f !important;
+          transform: translateY(-2px);
+        }
+        .custom-btn-outline:hover {
+          background-color: #0f2453 !important;
+          color: #fff !important;
+          transform: translateY(-2px);
+        }
+      </style>
 
     <div class="row">
       <div class="col-lg-12">
@@ -567,30 +583,7 @@
 }
 </style>
 
-<!-- Script -->
-<script>
-document.querySelectorAll('.open-modal').forEach(link => {
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const modalId = this.getAttribute('data-modal');
-        document.getElementById(modalId).style.display = 'block';
-    });
-});
 
-document.querySelectorAll('.close').forEach(btn => {
-    btn.addEventListener('click', function() {
-        this.closest('.modal').style.display = 'none';
-    });
-});
-
-window.addEventListener('click', function(event) {
-    document.querySelectorAll('.modal').forEach(modal => {
-        if(event.target == modal) {
-            modal.style.display = 'none';
-        }
-    });
-});
-</script>
                         <div class="pricing-tab-item d-none" id="annually">
                             <div class="row">
                                 <div class="col-xl-3 col-md-6">
@@ -731,7 +724,10 @@ window.addEventListener('click', function(event) {
             <div class="col-xl-5 col-lg-6">
                 <div class="our-testimonial-content">
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Customer Reviews</h3>
+                      <h3 class="wow fadeInUp">
+                            Customer Reviews
+                          </h3>
+
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
                             What homeowners say about <span>Compare Home Security</span>
                         </h2>
@@ -953,7 +949,7 @@ window.addEventListener('click', function(event) {
                     <div class="hero-item-list">
                         <div class="hero-item box-1 dark-box wow fadeInUp">
                             <div class="hero-item-content">
-                                <h3>“Security isn’t just about alarms — it’s about protecting what truly matters: your peace of mind.”</h3>
+                                <h3>“Security isn’t just about alarms it’s about protecting what truly matters: your peace of mind.”</h3>
                                 <p>— Olivia Grant, <span>Home Security Analyst at Compare Home Security</span></p>
                             </div>
                             <div class="hero-author-image">

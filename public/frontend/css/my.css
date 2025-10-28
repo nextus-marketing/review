@@ -127,7 +127,7 @@ li {
     bottom: 30px;
     right: 30px;
     z-index: 999;
-    background-color: #0f2453;
+    background-color: #0c61df;
     color: #fff;
     border: none;
     outline: none;
@@ -214,7 +214,7 @@ li {
 
 .call-now-float:hover {
     background: #000000;
-    border: 2px solid blz;
+    border: 2px solid blue;
     /* Darker green */
 }
 
@@ -224,17 +224,17 @@ li {
 
 @keyframes pulseBg {
     0% {
-        background-color: #0f2453;
+        background-color: #0c61df;
         box-shadow: 0 0 0 0 rgba(9, 131, 245, 0.6);
     }
 
     70% {
-        background-color: #0f2453;
+        background-color: #0c61df;
         box-shadow: 0 0 0 15px rgba(230, 0, 0, 0);
     }
 
     100% {
-        background-color: #0f2453;
+        background-color: #0c61df;
         box-shadow: 0 0 0 0 rgba(230, 0, 0, 0);
     }
 }
@@ -267,10 +267,77 @@ section-title h3 {
 }
 
 
-element.style {}
-
 @media only screen and (max-width: 1024px) {
     .testimonial-item {
         min-height: 310px;
     }
 }
+
+.section-title h2 {
+    font-size: 42px !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.02em !important;
+    margin-bottom: 0 !important;
+    cursor: none !important;
+}
+
+.footer-links ul li {
+    color: var(--white-color) !important;
+    line-height: 1.5em !important;
+    border-bottom: 1px solid var(--dark-divider-color) !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 15px !important;
+}
+
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.circle-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #ffffff20;
+    /* subtle white transparent circle */
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.circle-icon:hover {
+    background-color: #0c9fe4;
+    color: #fff !important;
+    transform: translateY(-3px);
+    border-color: #0c9fe4;
+    box-shadow: 0 0 10px rgba(12, 159, 228, 0.4);
+}
+
+.circle-icon:nth-child(1):hover {
+    background-color: #1877f2;
+}
+
+/* Facebook */
+.circle-icon:nth-child(2):hover {
+    background-color: #e4405f;
+}
+
+/* Instagram */
+.circle-icon:nth-child(3):hover {
+    background-color: #0a66c2;
+}
+
+/* LinkedIn */
+.circle-icon:nth-child(4):hover {
+    background-color: #ff0000;
+}
+
+/* YouTube */
