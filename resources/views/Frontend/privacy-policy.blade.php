@@ -2,9 +2,43 @@
 @section('title') Privacy Policy | Compare Home Security @endsection
 @section('content')
 <style>
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    padding-right: 60px;
-    padding-left: 60px;
+/* Default (desktop/tablet) */
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+/* ===== Responsive Fixes ===== */
+@media (max-width: 991px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 10;
+    padding-left: 10;
+  }
 }
 </style>
 <div class="page-header">

@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="Awaiken">
-	<!-- Page Title -->
     <title>@yield('title')</title>
-	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
-	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
 	<link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
 	<link href="/frontend/css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
 	<link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon css-->
 	<link href="/frontend/css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
 	<link href="/frontend/css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
 	<link rel="stylesheet" href="/frontend/css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
 	<link rel="stylesheet" href="/frontend/css/my.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -40,51 +29,76 @@
 </head>
 <body>
 <style>
-    /* ===== Top Info Bar ===== */
+/* ===== Top Info Bar ===== */
 .top-info-bar {
-    background-color: #0f2453;
-    /* dark navy */
-    color: #fff;
-    font-size: 14px;
-    padding: 8px 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #0f2453; /* dark navy */
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top-info-bar .container-fluid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .top-info-bar .info-text {
-    color: #fff;
-    margin: 0;
+  color: #fff;
+  margin: 0;
+  line-height: 1.5;
+  max-width: 90%;
+  word-wrap: break-word;
 }
 
 .top-info-bar .learn-more {
-    color: #0c9fe4;
-    text-decoration: underline;
-    margin-left: 4px;
-    transition: color 0.3s ease;
+  color: #0c9fe4;
+  text-decoration: underline;
+  margin-left: 4px;
+  transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 .top-info-bar .learn-more:hover {
-    color: #fff;
+  color: #fff;
 }
 
-.top-info-bar .top-links {
-    display: flex;
-    gap: 15px;
+/* ===== Responsive Fixes ===== */
+@media (max-width: 768px) {
+  .top-info-bar {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+  .top-info-bar .info-text {
+    max-width: 100%;
+    text-align: center;
+  }
 }
 
-.top-info-bar .top-link {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
+@media (max-width: 480px) {
+  .top-info-bar {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .top-info-bar .info-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .top-info-bar .learn-more {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 2px;
+  }
 }
-
-.top-info-bar .top-link:hover {
-    color: #0c9fe4;
-}
-
-
 </style>
+
 <div class="top-info-bar">
-  <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center">
+  <div class="container-fluid">
     <p class="info-text mb-0">
       comparehomesecurity.org may receive compensation from some providers listed on this page.
       <a href="/disclosure" class="learn-more">Learn More</a>

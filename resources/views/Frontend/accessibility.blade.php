@@ -2,11 +2,46 @@
 @section('title') Accessibility | Compare Home Security @endsection
 @section('content')
 <style>
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    padding-right: 100px;
-    padding-left: 100px;
+/* Default (desktop/tablet) */
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+/* ===== Responsive Fixes ===== */
+@media (max-width: 991px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding-right: 10;
+    padding-left: 10;
+  }
 }
 </style>
+
 <div class="page-header">
         <div class="container">
             <div class="row">
