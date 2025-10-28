@@ -21,6 +21,7 @@ Route::view('/terms-of-use', 'Frontend.terms-of-use')->name('terms-of-use');
 Route::view('/accessibility', 'Frontend.accessibility')->name('accessibility');
 Route::view('/do-not-sell-share-my-personal-information', 'Frontend.do-not-sell-share-my-personal-information')->name('do-not-sell-share-my-personal-information');
 Route::view('/list-the-use-od-my-sensitive-personal-information', 'Frontend.list-the-use-od-my-sensitive-personal-information')->name('list-the-use-od-my-sensitive-personal-information');
+Route::view('/disclosure', 'Frontend.disclosure')->name('disclosure');
 
 Route::fallback(function () {
     return response()->view('Error.404', [], 404);

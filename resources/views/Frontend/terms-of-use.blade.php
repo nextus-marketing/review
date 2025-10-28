@@ -49,7 +49,7 @@
             </div>
         </div>
     </div>
-    <section>
+    <section class="pt-5" style="padding-top: 100px;">
   <div class="container" style="max-width:100%; word-wrap:break-word;">
 </br>
     <h2 style="font-size:26px; font-weight:700; margin-bottom:10px;">Terms of Use</h2>

@@ -39,7 +39,58 @@
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
 </head>
 <body>
+<style>
+    /* ===== Top Info Bar ===== */
+.top-info-bar {
+    background-color: #0f2453;
+    /* dark navy */
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
+.top-info-bar .info-text {
+    color: #fff;
+    margin: 0;
+}
+
+.top-info-bar .learn-more {
+    color: #0c9fe4;
+    text-decoration: underline;
+    margin-left: 4px;
+    transition: color 0.3s ease;
+}
+
+.top-info-bar .learn-more:hover {
+    color: #fff;
+}
+
+.top-info-bar .top-links {
+    display: flex;
+    gap: 15px;
+}
+
+.top-info-bar .top-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-info-bar .top-link:hover {
+    color: #0c9fe4;
+}
+
+
+</style>
+<div class="top-info-bar">
+  <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center">
+    <p class="info-text mb-0">
+      comparehomesecurity.org may receive compensation from some providers listed on this page.
+      <a href="/disclosure" class="learn-more">Learn More</a>
+    </p>
+  </div>
+</div>
 
     <!-- Header Start -->
 	<header class="main-header">
@@ -51,17 +102,7 @@
                         <img src="/frontend/my-img/new-logo.png" alt="Logo" style="width: 139px; height: auto;">
                     </a>
 					<!-- Logo End -->
-					<!-- Main Menu Start -->
-				<!-- <div class="collapse navbar-collapse main-menu">
-                    <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-                            </ul>
-                    </div> -->
+					
                         <!-- Header Btn Start -->
                         <div class="header-btn">
                             <a class="btn-default" href="/#pricing">View Packages</a>

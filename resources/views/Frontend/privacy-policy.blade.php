@@ -3,8 +3,8 @@
 @section('content')
 <style>
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 </style>
 <div class="page-header">
@@ -33,13 +33,16 @@
             <div class="scrolling-content">
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
                 <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
                 <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
             </div>
 
             <div class="scrolling-content">
@@ -48,10 +51,12 @@
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
                 <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
                 <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
             </div>
         </div>
         <!-- Scrolling Ticker End -->
@@ -95,19 +100,19 @@ We collect, use, share, and/or store the following types of personal information
 We may sell or share your sensitive personal information or use such information for targeted advertising purposes. We use sensitive personal information to comply with certain legal obligations, complete the transactions you have requested, or process your job application (if applicable). We may disclose your sensitive personal information to our affiliates and service providers to facilitate your transactions with us.</p>
 
 <section style="padding:15px;">
-  <h3 style="font-size:18px; margin-bottom:12px;">Sensitive Personal Information:</h3>
+  <h3 style=" margin-bottom:12px;">Sensitive Personal Information:</h3>
 
   <div class="table-responsive" style="border:1px solid #ddd; border-radius:4px; overflow:auto;">
     <table class="table table-bordered mb-0" style="min-width:1100px; border-color:#cfcfcf;">
       <thead style="background:#f3f3f3;">
         <tr>
-          <th style="width:38%; font-size:14px;">Type of Sensitive Information</th>
-          <th style="width:14%; font-size:14px;">Is this collected?</th>
-          <th style="width:28%; font-size:14px;">How will it be used?</th>
-          <th style="width:20%; font-size:14px;">How long do we retain it?</th>
+          <th style="width:38%;">Type of Sensitive Information</th>
+          <th style="width:14%;">Is this collected?</th>
+          <th style="width:28%;">How will it be used?</th>
+          <th style="width:20%;">How long do we retain it?</th>
         </tr>
       </thead>
-      <tbody style="font-size:13px;">
+      <tbody style="">
         <tr>
           <td>A consumer's social security, driver's license, state identification card, or passport number;</td>
           <td>Only when applicable.</td>
@@ -199,8 +204,8 @@ We may sell or share your sensitive personal information or use such information
       <li>when you contact us.</li>
   </ul>
   
-  <section style="padding:15px; line-height:1.6; font-size:14px;">
-  <h3 style="font-size:18px; margin-bottom:12px;">Cookies and IP Addresses</h3>
+  <section style="padding:15px; line-height:1.6; ">
+  <h3 style=" margin-bottom:12px;">Cookies and IP Addresses</h3>
   <p>To serve you more efficiently and effectively, we use "cookies" technology. A cookie is a piece of data stored on the user's hard drive that contains information about the user. Cookies are linked to particular devices over time, and may be linked to other personal information we obtain.</p>
   <p>Cookies enable a website to "personalize" itself for each user and reduce the time it takes for pages to load on your computer. In order to optimize your experience, cookies also help with the collection of customer tracking data. We may also capture customer tracking data on some of our partners' websites related to activity involved with the completion of offers listed on our website. This information is used to monitor the performance of our partners.</p>
   <p>If you reject cookies, you may still use our site, but your ability to use some areas of our site will be limited. We also keep track of Internet Protocol (IP) addresses and may disclose your IP address during the course and scope of our business. An IP Address is a number used by computers on the network to identify your computer every time you log on to the Internet.</p>
@@ -208,15 +213,15 @@ We may sell or share your sensitive personal information or use such information
   <p>We permit some of our non-affiliated business partners (e.g., advertisers) to use cookies on our site. We maintain relationships with a number of the third-party ad networks currently operating. You may find more information at the website of either the individual ad network or the Network Advertising Initiative. We have no access to or control over information collected from such cookies. This Privacy Policy covers the use of our cookies only and does not cover the use of cookies by any advertisers.</p>
   <p>When you visit or log in to our website, cookies and similar technologies may be used to associate these activities with other personal information we have about you, including by association with your email or home address. We (or service providers on our behalf) may then send communications and marketing to these email or home addresses. You may opt out of receiving this advertising by submitting an opt-out request using our Consumer Privacy Rights Request Form.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Clear Gifs</h4>
+  <h4 style=" margin-top:18px;">Clear Gifs</h4>
   <p>We employ a software technology called clear gifs, also known as Web Beacons, that help us better manage content on our site by informing us what content is effective. Clear gifs are tiny graphics with a unique identifier, similar in function to cookies, and are used to track the online movement of Web users.</p>
   <p>We also use clear gifs in our HTML-based emails to let us know which emails the recipients have opened. This allows us to gauge the effectiveness of certain communications and marketing campaigns. If users would like to opt-out of these emails, please see the Opt-out section within any email you receive from us.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Telephone Calls and Recordings</h4>
+  <h4 style=" margin-top:18px;">Telephone Calls and Recordings</h4>
   <p>You provide your prior express written consent to receive marketing telephone calls and text messages (including those sent by automatic telephone dialing systems and including prerecorded or artificial voices) to any telephone number that you provide to us, even if that number is listed on a do-not-call registry. Consent is not a condition of purchasing any goods or services.</p>
   <p>You also agree that all telephone calls and conversations with us and anyone we may transfer your call to or from may be recorded for quality, customer service, compliance, and regulatory purposes.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Information Selling, Sharing and Use for Targeted Advertising</h4>
+  <h4 style=" margin-top:18px;">Information Selling, Sharing and Use for Targeted Advertising</h4>
   <p>We may sell, share, or use (for targeted advertising purposes) your personal information, as those terms are defined by applicable laws. We may disclose your personal information for such purposes to the following categories of third parties:</p>
   <ul>
     <li>Partners, sponsors, advertisers, service providers, and marketing lookup and reference services that provide Consumers with special offers and opportunities related to your requests.</li>
@@ -225,7 +230,7 @@ We may sell or share your sensitive personal information or use such information
   </ul>
   <p>In the past 12 months, we have sold or shared identifiers and health information, and disclosed identifiers, audio information, communications, and network activity for business purposes.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Other Transfers of Information to Third Parties</h4>
+  <h4 style=" margin-top:18px;">Other Transfers of Information to Third Parties</h4>
   <ul>
     <li>When you request quotes or contact through our site, we may share your information with partners who contact you by phone, SMS, email, or mail.</li>
     <li>We use third-party vendors to operate portions of our site or services; these vendors are required to comply with our Privacy Policy.</li>
@@ -233,29 +238,29 @@ We may sell or share your sensitive personal information or use such information
     <li>We may transfer data in connection with mergers, sales, or acquisitions. Any successor company remains bound by this policy.</li>
   </ul>
 
-  <h4 style="font-size:16px; margin-top:18px;">Marketing Opt-Out</h4>
+  <h4 style=" margin-top:18px;">Marketing Opt-Out</h4>
   <p>You can opt out of marketing communications or newsletters by following unsubscribe instructions or contacting us. You may continue to receive emails for up to ten business days after opting out.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Third Party Links</h4>
+  <h4 style=" margin-top:18px;">Third Party Links</h4>
   <p>This Privacy Policy applies only to information collected by comparehomesecurity.net. When you visit other linked sites, their privacy and cookie policies apply. Please review third-party policies before submitting information.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Minors</h4>
+  <h4 style=" margin-top:18px;">Minors</h4>
   <p>You must be at least 18 years old to use this website. We do not knowingly collect, use, or disclose personal information from individuals under 18 years of age.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Updating Your Information</h4>
+  <h4 style=" margin-top:18px;">Updating Your Information</h4>
   <p>If you want to access or update your personal information, please email <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a> or write to:</p>
   <ul>
     <li>comparehomesecurity.net Attn: Customer Care<br>12130 Millennium Drive, Ste 600<br>Los Angeles, CA 90094</li>
   </ul>
 
-  <h4 style="font-size:16px; margin-top:18px;">Questions and Suggestions</h4>
+  <h4 style=" margin-top:18px;">Questions and Suggestions</h4>
   <p>Contact us via:</p>
   <ul>
     <li>Email: <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a></li>
     <li>Mail: comparehomesecurity.net, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
   </ul>
 
-  <h4 style="font-size:16px; margin-top:18px;">Retention</h4>
+  <h4 style=" margin-top:18px;">Retention</h4>
   <p>We retain personal information only as long as necessary to fulfill purposes described above or as required by law.</p>
   <ul>
     <li>Our relationship with you and the services provided</li>
@@ -264,10 +269,10 @@ We may sell or share your sensitive personal information or use such information
     <li>Technical considerations and data protection measures</li>
   </ul>
 
-  <h4 style="font-size:16px; margin-top:18px;">Changes to this Privacy Policy</h4>
+  <h4 style=" margin-top:18px;">Changes to this Privacy Policy</h4>
   <p>We reserve the right to update or modify this policy at any time. Changes will be posted on our site and dated accordingly. Continued use of the site signifies acceptance of updates.</p>
 
-  <h4 style="font-size:16px; margin-top:18px;">Your Privacy Rights</h4>
+  <h4 style=" margin-top:18px;">Your Privacy Rights</h4>
   <p>Depending on your U.S. state of residence, you may have rights regarding your personal information, including:</p>
   <ul>
     <li><strong>Access/Portability:</strong> Request confirmation or a report of personal data collected.</li>
