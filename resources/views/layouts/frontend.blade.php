@@ -34,7 +34,7 @@
   background-color: #0f2453; /* dark navy */
   color: #fff;
   font-size: 12px;
-  padding: 6px 16px;
+  padding: 5px 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -95,6 +95,26 @@
     margin-top: 2px;
   }
 }
+
+/* Hide top-info-bar.mobile by default (desktop/tablet) */
+.top-info-bar.mobile {
+  display: none;
+}
+
+/* Show only on mobile screens (below 768px) */
+@media (max-width: 767px) {
+  .top-info-bar.mobile {
+    display: block;
+  }
+}
+
+/* Show on mobile and tablet (below 992px) */
+@media (max-width: 991px) {
+  .top-info-bar.mobile {
+    display: block;
+  }
+}
+
 </style>
 
 <div class="top-info-bar">
@@ -108,6 +128,14 @@
 
     <!-- Header Start -->
 	<header class="main-header">
+    <div class="top-info-bar mobile">
+  <div class="container-fluid">
+    <p class="info-text mb-0">
+      comparehomesecurity.org may receive compensation from some providers listed on this page.
+      <a href="/disclosure" class="learn-more">Learn More</a>
+    </p>
+  </div>
+</div>
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
