@@ -34,15 +34,15 @@
   background-color: #0f2453; /* dark navy */
   color: #fff;
   font-size: 12px;
-  padding: 5px 16px;
+  padding: 5.5px 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .top-info-bar .container-fluid {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  text-align: left;
+  text-align: center;
   flex-wrap: wrap;
   max-width: 100%;
 }

@@ -77,6 +77,7 @@
                 <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
                 <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
             </div>
 
             <div class="scrolling-content">
@@ -91,43 +92,44 @@
                 <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
                 <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
                 <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
             </div>
         </div>
         <!-- Scrolling Ticker End -->
     </div>
  
 <div class="page-single-post">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="post-content">
-                        <div class="post-entry">
-                            <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="post-content">
+    <div class="post-entry">
+        <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
 
-                            <p class="wow fadeInUp" data-wow-delay="1s">of comparehomesecurity.com and all related websites</p>
-                            <p>comparehomesecurity.com </br>
-                            12130 Millennium Drive, Ste 600 </br>
-                            Los Angeles, CA 90094</p>
+        <p class="wow fadeInUp" data-wow-delay="1s">of comparehomesecurity.com and all related websites</p>
+        <p>comparehomesecurity.com </br>
+        12130 Millennium Drive, Ste 600 </br>
+        Los Angeles, CA 90094</p>
 
-                            <p>At comparehomesecurity.net we take our ethical responsibilities and your privacy seriously by recognizing that your privacy is important. We have a strong commitment to providing excellent service to all our customers, visitors to this Web Site, and other users of our products and services, including respecting your concerns about privacy. This Privacy Policy discloses how we collect personal information, the types of personal information we receive and collect, our use and disclosure of current and former consumer information, as well as the steps that we take to safeguard your information. If you use this site, you understand and agree to the comparehomesecurity.net Privacy Policy in effect at the time of your use, and any other terms and conditions posted on the site. We hope that this disclosure will help increase your confidence in our products and services, and enhance your experience. Therefore, in compliance with industry standards and regulations enforced typically by federal and state governments, we abide by the following Privacy Policy.</p>
+        <p>At comparehomesecurity.net we take our ethical responsibilities and your privacy seriously by recognizing that your privacy is important. We have a strong commitment to providing excellent service to all our customers, visitors to this Web Site, and other users of our products and services, including respecting your concerns about privacy. This Privacy Policy discloses how we collect personal information, the types of personal information we receive and collect, our use and disclosure of current and former consumer information, as well as the steps that we take to safeguard your information. If you use this site, you understand and agree to the comparehomesecurity.net Privacy Policy in effect at the time of your use, and any other terms and conditions posted on the site. We hope that this disclosure will help increase your confidence in our products and services, and enhance your experience. Therefore, in compliance with industry standards and regulations enforced typically by federal and state governments, we abide by the following Privacy Policy.</p>
 
-                            <p>Information Collection and Use
-This Privacy Policy applies to all users of our products and services ("Consumers"), including those who have used our website ("Web Site"), which is owned by Centerfield Media Parent, Inc., a Delaware corporation ("Owner"). Please note that this policy applies only to this Web Site, and services wherein comparehomesecurity.net determines the purposes or means of processing your personal information, and not to web sites maintained by other companies or organizations to which we link, or business partners to whom we provide your information, based on your requests as relating to the product or service in which you are interested, and for whom we serve as service providers. Alternatively, the information comparehomesecurity.net collects on behalf of a third party, to whom we provide marketing services, may be subject to both this Privacy Policy, and the third party's privacy policy. For more information on those companies or organizations' personal information practices, and your rights, please visit their respective privacy policies.
-</br></br>
-Personal information is information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a natural person or household, such as a real name, postal address, e-mail address, telephone number, payment information, and account ID ("personal information"). When other information is directly associated with personal information, that information may also be considered personal information. Information that is aggregated, de-identified, or anonymized is not considered personal information. Publicly available information, as that information is defined by applicable law, also may not be personal information.
-</br></br>
-A subset of personal information we collect may be considered "sensitive personal information," as defined by applicable law, and includes the categories provided in the chart below.
-</br></br>
-We collect, use, share, and/or store the following types of personal information, either online or on the phone, and either automatically, from you directly, or from third parties (including publicly accessible sources, marketing vendors, data aggregation businesses, and others), for the business purposes as outlined in this Privacy Policy, depending on how you interact with us:</p>
-</br>
-<h4>Personal Information:</h4>
-                            <ul class="wow fadeInUp" data-wow-delay="1.2s">
-                                <li><strong>Identifiers,</strong> such as full name, postal address, shipping address, internet protocol (IP) address, primary and secondary phone numbers, e-mail address, and customer record information, including caller ANI, account number, and service address;</li>
-                                <li><strong> Payment-related information,</strong> including bank account or credit card information;</li>
-                                <li><strong>Audio information,</strong> including voice recordings of telephone calls;</li>
-                                <li><strong> Communications and other content,</strong> including other personal information you may provide through webforms, chat, and other means;</li>
-                                <li><strong> Internet or network activity,</strong>such as you interaction with an advertisement, and other information obtained from cookies and clear gifs, as described further below.</li>
-                            </ul>
+        <p>Information Collection and Use
+            This Privacy Policy applies to all users of our products and services ("Consumers"), including those who have used our website ("Web Site"), which is owned by Centerfield Media Parent, Inc., a Delaware corporation ("Owner"). Please note that this policy applies only to this Web Site, and services wherein comparehomesecurity.net determines the purposes or means of processing your personal information, and not to web sites maintained by other companies or organizations to which we link, or business partners to whom we provide your information, based on your requests as relating to the product or service in which you are interested, and for whom we serve as service providers. Alternatively, the information comparehomesecurity.net collects on behalf of a third party, to whom we provide marketing services, may be subject to both this Privacy Policy, and the third party's privacy policy. For more information on those companies or organizations' personal information practices, and your rights, please visit their respective privacy policies.
+            </br></br>
+            Personal information is information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a natural person or household, such as a real name, postal address, e-mail address, telephone number, payment information, and account ID ("personal information"). When other information is directly associated with personal information, that information may also be considered personal information. Information that is aggregated, de-identified, or anonymized is not considered personal information. Publicly available information, as that information is defined by applicable law, also may not be personal information.
+            </br></br>
+            A subset of personal information we collect may be considered "sensitive personal information," as defined by applicable law, and includes the categories provided in the chart below.
+            </br></br>
+            We collect, use, share, and/or store the following types of personal information, either online or on the phone, and either automatically, from you directly, or from third parties (including publicly accessible sources, marketing vendors, data aggregation businesses, and others), for the business purposes as outlined in this Privacy Policy, depending on how you interact with us:</p>
+            </br>
+            <h4>Personal Information:</h4>
+        <ul class="wow fadeInUp" data-wow-delay="1.2s">
+            <li><strong>Identifiers,</strong> such as full name, postal address, shipping address, internet protocol (IP) address, primary and secondary phone numbers, e-mail address, and customer record information, including caller ANI, account number, and service address;</li>
+            <li><strong> Payment-related information,</strong> including bank account or credit card information;</li>
+            <li><strong>Audio information,</strong> including voice recordings of telephone calls;</li>
+            <li><strong> Communications and other content,</strong> including other personal information you may provide through webforms, chat, and other means;</li>
+            <li><strong> Internet or network activity,</strong>such as you interaction with an advertisement, and other information obtained from cookies and clear gifs, as described further below.</li>
+        </ul>
 
  <p class="wow fadeInUp" data-wow-delay="1.4s">Some of the personal information we collect, such as legally protected characteristics and health information, may be considered sensitive personal information under applicable law. When we collect or process sensitive personal information, we do so with your consent, or as permitted by applicable law.
 </br></br>
