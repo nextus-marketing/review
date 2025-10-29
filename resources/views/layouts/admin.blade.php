@@ -120,7 +120,7 @@
                                                     <h5 class="mb-0 fs-5 fw-semibold">User Profile</h5>
                                                 </div>
                                                 <div class="d-flex align-items-center py-9 mx-7 border-bottom">
-                                                    <img src="/backend/dist/images/profile/user-1.jpg" class="rounded-circle" width="80" height="80" alt="" />
+                                                    <img src="/backend/dist/images/profile/user-1.jpg" class="rounded-circle" width="80" height="80" alt=""/>
                                                     <div class="ms-3">
                                                         <h5 class="mb-1 fs-3">
                                                             {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}

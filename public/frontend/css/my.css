@@ -72,19 +72,15 @@ li {
     background-position: top center !important;
     background-size: auto !important;
     padding: 122px 0 100px !important;
-    /* height: 280px !important; */
 }
 
 
 @media (max-width: 768px) {
 
-    /* Adjust for mobile breakpoint */
     .hero-small-mobile {
         height: 380px !important;
         padding: 60px 0 20px !important;
-        /* optional – fine-tune spacing */
         background-size: cover !important;
-        /* keep image scaled nicely */
     }
 }
 
@@ -242,7 +238,6 @@ li {
 .call-now-float {
     animation: pulseBg 2s infinite;
 }
-
 
 section-title h3 {
     position: relative !important;

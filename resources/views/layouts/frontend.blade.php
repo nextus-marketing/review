@@ -180,7 +180,7 @@
                         <p>
                             The content, including without limitation any viewpoint or opinion in any profile, article or video,
                             contained on this website is for informational purposes only. Any third party contributor 
-                            to any such profile, article or video has been compensated by Compare Home Security.
+                            to any such profile, article or video has been compensated by Compare Home Security
                             for such contribution. It is advised that you conduct your own investigation as 
                             to the accuracy of any information contained herein as such information,
                             including without limitation any quote, is provided “as is” for informational purposes only.

@@ -13,7 +13,6 @@
                             <h1 class="text-anime-style-2" data-cursor="-opaque">
                                 Find the <span>Best Home Security Systems</span> for Your Family
                             </h1>
-                           
                         </div>
                     </div>
                 </div>
@@ -47,7 +46,7 @@
                 <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
                   <h6 style="color:#ffff; margin-bottom:5px;">Ratings</h6>
                   <div style="display: flex; align-items: center; gap: 6px;">
-                    <div style="color: #fbbc05;">
+                    <div style="color: #fbb905ff;">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
@@ -115,7 +114,7 @@
                 <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
                   <h6 style="color:#ffff; margin-bottom:5px;">Ratings</h6>
                   <div style="display: flex; align-items: center; gap: 6px;">
-                    <div style="color: #fbbc05;">
+                    <div style="color: #fbb905ff;">
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star"></i>

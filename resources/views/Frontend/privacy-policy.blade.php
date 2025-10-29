@@ -105,7 +105,6 @@
 <div class="post-content">
     <div class="post-entry">
         <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
-
         <p class="wow fadeInUp" data-wow-delay="1s">of comparehomesecurity.com and all related websites</p>
         <p>comparehomesecurity.com </br>
         12130 Millennium Drive, Ste 600 </br>
