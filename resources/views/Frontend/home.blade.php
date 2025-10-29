@@ -583,138 +583,138 @@
 </style>
 
 
-                        <div class="pricing-tab-item d-none" id="annually">
-                            <div class="row">
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- PricingItemStart -->
-                                    <div class="pricing-item">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Basic Plan</h3>
-                                            <p>Discover how our trusted have empowered businesses.</p>
-                                            <h2>$99.00<sub>/Yearly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Yearly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
+              <div class="pricing-tab-item d-none" id="annually">
+                  <div class="row">
+                      <div class="col-xl-3 col-md-6">
+                          <!-- PricingItemStart -->
+                          <div class="pricing-item">
+                              <!-- Pricing Header Start -->
+                              <div class="pricing-header">
+                                  <h3>Basic Plan</h3>
+                                  <p>Discover how our trusted have empowered businesses.</p>
+                                  <h2>$99.00<sub>/Yearly</sub></h2>
+                              </div>
+                              <!-- Pricing Header End -->
+                      
+                              <!-- Pricing body Start -->
+                              <div class="pricing-body">
+                                  <h3>What's Included:</h3>
+                                  <ul>
+                                      <li>Basic firewall protection</li>
+                                      <li>Yearly security reports</li>
+                                      <li>Real-time threat monitoring</li>
+                                  </ul>
+                              </div>
+                              <!-- Pricing body End -->
 
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
-                                </div>
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#0" class="btn-default btn-highlighted">get started</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Item End -->
+                      </div>
 
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- PricingItemStart -->
-                                    <div class="pricing-item highlighted-box">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Standard Plan</h3>
-                                            <p>Discover how our truste have empowered businesses.</p>
-                                            <h2>$249.00<sub>/Yearly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Yearly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
+                      <div class="col-xl-3 col-md-6">
+                          <!-- PricingItemStart -->
+                          <div class="pricing-item highlighted-box">
+                              <!-- Pricing Header Start -->
+                              <div class="pricing-header">
+                                  <h3>Standard Plan</h3>
+                                  <p>Discover how our truste have empowered businesses.</p>
+                                  <h2>$249.00<sub>/Yearly</sub></h2>
+                              </div>
+                              <!-- Pricing Header End -->
+                      
+                              <!-- Pricing body Start -->
+                              <div class="pricing-body">
+                                  <h3>What's Included:</h3>
+                                  <ul>
+                                      <li>Basic firewall protection</li>
+                                      <li>Yearly security reports</li>
+                                      <li>Real-time threat monitoring</li>
+                                  </ul>
+                              </div>
+                              <!-- Pricing body End -->
 
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
-                                </div>
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#0" class="btn-default btn-highlighted">get started</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Item End -->
+                      </div>
 
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- PricingItemStart -->
-                                    <div class="pricing-item">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Premium Plan</h3>
-                                            <p>Discover how our trusted have empowered businesses.</p>
-                                            <h2>$349.00<sub>/Yearly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Yearly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
+                      <div class="col-xl-3 col-md-6">
+                          <!-- PricingItemStart -->
+                          <div class="pricing-item">
+                              <!-- Pricing Header Start -->
+                              <div class="pricing-header">
+                                  <h3>Premium Plan</h3>
+                                  <p>Discover how our trusted have empowered businesses.</p>
+                                  <h2>$349.00<sub>/Yearly</sub></h2>
+                              </div>
+                              <!-- Pricing Header End -->
+                      
+                              <!-- Pricing body Start -->
+                              <div class="pricing-body">
+                                  <h3>What's Included:</h3>
+                                  <ul>
+                                      <li>Basic firewall protection</li>
+                                      <li>Yearly security reports</li>
+                                      <li>Real-time threat monitoring</li>
+                                  </ul>
+                              </div>
+                              <!-- Pricing body End -->
 
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
-                                </div>
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#0" class="btn-default btn-highlighted">get started</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Item End -->
+                      </div>
 
-                                <div class="col-xl-3 col-md-6">
-                                    <!-- PricingItemStart -->
-                                    <div class="pricing-item">
-                                        <!-- Pricing Header Start -->
-                                        <div class="pricing-header">
-                                            <h3>Enterprise Plan</h3>
-                                            <p>Discover how our trusted have empowered businesses.</p>
-                                            <h2>$449.00<sub>/Yearly</sub></h2>
-                                        </div>
-                                        <!-- Pricing Header End -->
-                                
-                                        <!-- Pricing body Start -->
-                                        <div class="pricing-body">
-                                            <h3>What's Included:</h3>
-                                            <ul>
-                                                <li>Basic firewall protection</li>
-                                                <li>Yearly security reports</li>
-                                                <li>Real-time threat monitoring</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Pricing body End -->
+                      <div class="col-xl-3 col-md-6">
+                          <!-- PricingItemStart -->
+                          <div class="pricing-item">
+                              <!-- Pricing Header Start -->
+                              <div class="pricing-header">
+                                  <h3>Enterprise Plan</h3>
+                                  <p>Discover how our trusted have empowered businesses.</p>
+                                  <h2>$449.00<sub>/Yearly</sub></h2>
+                              </div>
+                              <!-- Pricing Header End -->
+                      
+                              <!-- Pricing body Start -->
+                              <div class="pricing-body">
+                                  <h3>What's Included:</h3>
+                                  <ul>
+                                      <li>Basic firewall protection</li>
+                                      <li>Yearly security reports</li>
+                                      <li>Real-time threat monitoring</li>
+                                  </ul>
+                              </div>
+                              <!-- Pricing body End -->
 
-                                        <!-- Pricing Button Start -->
-                                        <div class="pricing-btn">
-                                            <a href="#0" class="btn-default btn-highlighted">get started</a>
-                                        </div>
-                                        <!-- Pricing Button End -->
-                                    </div>
-                                    <!-- Pricing Item End -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                              <!-- Pricing Button Start -->
+                              <div class="pricing-btn">
+                                  <a href="#0" class="btn-default btn-highlighted">get started</a>
+                              </div>
+                              <!-- Pricing Button End -->
+                          </div>
+                          <!-- Pricing Item End -->
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 
     <div class="our-testimonials dark-section parallaxie">
