@@ -332,10 +332,10 @@ We may sell or share your sensitive personal information or use such information
   <p><em>Last Updated: 11-12-2024</em></p>
 </section>
 
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+</div>
 @endsection
