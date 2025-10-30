@@ -323,7 +323,7 @@
 
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
-                  <img src="/frontend/my-img/Adt.png" alt="vivint-product"
+                  <img src="/frontend/my-img/adt.png" alt="vivint-product"
                     class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
                   
                   <div class="card-body p-0 d-flex flex-column">
