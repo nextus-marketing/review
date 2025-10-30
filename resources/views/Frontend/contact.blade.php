@@ -163,7 +163,7 @@
     
                               <div class="col-12 mt-0 mb-0">
                                 <div style="text-align: center; margin-top: 10px;">
-                                <div class="g-recaptcha d-inline-block" data-sitekey="6Lc-MPYrAAAAAJDFMlYMbZwi9wsPm8tsrLWEgGZh"></div>
+                                <div class="g-recaptcha d-inline-block" data-sitekey="6LeQZfwrAAAAAC3tThs6M8ubAPYGMSrEoZ6A0Um9"></div>
                                 <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
                             </div>
 
