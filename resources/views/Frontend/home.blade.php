@@ -119,7 +119,7 @@
                       <i class="fa-solid fa-star"></i>
                       <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
-                    <p style="line-height:0px; margin-bottom:0px; color:#ffff;">(<span>4.9</span>)</p>
+                    <p style="line-height:0px; margin-bottom:0px; color:#ffff;">(<span>4.7</span>)</p>
                   </div>
                 </div>
               </div>
