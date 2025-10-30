@@ -10,8 +10,8 @@
 .container-sm,
 .container-xl,
 .container-xxl {
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 /* ===== Responsive Fixes ===== */
