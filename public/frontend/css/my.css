@@ -66,14 +66,6 @@ li {
     }
 }
 
-.hero {
-    position: relative !important;
-    background: url(../images/hero-bg-image.png) no-repeat !important;
-    background-position: top center !important;
-    background-size: auto !important;
-    padding: 122px 0 100px !important;
-}
-
 
 @media (max-width: 768px) {
 
@@ -114,7 +106,7 @@ li {
     background: url(../images/hero-bg-image.png) no-repeat !important;
     background-position: top center !important;
     background-size: auto !important;
-    padding: 145px 0 48px !important;
+    padding: 120px 0 48px !important;
 }
 
 /* Scroll to Top Button */
@@ -192,7 +184,7 @@ li {
 
 .call-now-float {
     position: fixed;
-    bottom: 40px;
+    bottom: 25px;
     left: 10px;
     background: #0f2453;
     color: white;

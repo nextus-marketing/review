@@ -85,7 +85,6 @@
               </div>
             </div>
 
-            <!-- Buttons -->
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
               <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 18px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -106,7 +105,6 @@
 
           <div style="padding: 25px 25px 30px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
             
-            <!-- Top Content -->
             <div>
               <br>
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -126,7 +124,6 @@
                 </div>
               </div>
 
-              <!-- Feature List -->
               <ul style="list-style: none; padding: 0; margin: 0 0 20px;">
                 <li style="display: flex; align-items: center; gap: 8px; font-size: 15px; color: #0f2453;">
                   <span style="color:#2a4fa5; font-size: 18px;">
@@ -145,13 +142,11 @@
                 </li>
               </ul>
 
-              <!-- Promo Text -->
               <div style="background:#f2f6ff; border-left:4px solid #2a4fa5; padding:12px 14px; border-radius:8px; font-size:14px; color:#333; margin-bottom:20px;">
                 <strong style="color:#2a4fa5;">Special Offer:</strong> Get a <b>$100 ADT Visa®</b> Reward Card with a newly installed ADT system.
               </div>
             </div>
 
-            <!-- Buttons -->
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
               <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 18px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -165,7 +160,6 @@
         </div>
       </div>
 
-      <!-- Bottom Description -->
       <div class="col-lg-10 mt-4">
         <p style="text-align: center; color: #0f2453; font-size: 15px; line-height: 1.7;">
           Compare Home Security is your trusted resource for honest, expert reviews of today’s leading home security providers.
@@ -179,7 +173,6 @@
 </div>
 
 
-<!-- Add This CSS -->
 <style>
 @keyframes glowingShadow {
   0% {
@@ -327,7 +320,6 @@
               </div>
             </div>
           </div>
-
 
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100">
@@ -1029,7 +1021,6 @@
                                       style="width:100%; height:100%; object-fit:cover; object-position:center top;">
                               </figure>
                           </div>
-
                           <style>
                           @media (max-width: 767px) {
                             .hero-item-image figure {
@@ -1038,7 +1029,6 @@
                             }
                           }
                           </style>
-
                         </div>
                     </div>
                 </div>

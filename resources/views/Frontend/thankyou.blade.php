@@ -7,7 +7,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Thank <span>You</span></h1>
                         <nav class="wow fadeInUp">
@@ -17,7 +16,6 @@
                             </ol> -->
                         </nav>
                     </div>
-                    <!-- Page Header Box End -->
                 </div>
             </div>
         </div>
@@ -58,7 +56,6 @@
         </div>
         <!-- Scrolling Ticker End -->
     </div>
-        <!-- Scrolling Ticker End -->
     </div>
     <div class="error-page">
         <div class="container">

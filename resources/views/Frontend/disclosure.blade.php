@@ -110,22 +110,22 @@
         we strongly encourage vendors of third-party digital content to provide content that is accessible and user friendly.</p>
 
          <h2 style="font-size:26px; font-weight:700; margin-bottom:10px;">Our Partners</h2>
-    <p>However, we maintain complete editorial independence in all our reviews. We don’t always receive compensation for recommended products, and the compensation we do make helps us sustain our website. It allows us to continue offering valuable services to our readers for free, while also keeping our website free from distracting ads.
-</br>    
+            <p><b>Compare Home Security</b> maintains partnerships with leading security providers and technology companies.
 </br>
-    Our team follows strict editorial guidelines to ensure every review, guide, and article we publish remains objective and trustworthy. We only share recommendations that we genuinely believe could benefit our readers. If you return a product/service, any compensation we’ve earned could be reversed. If you purchase through our links, the price you pay is not affected.
-</br>
-</br>   
-If you’ve had a positive or negative experience with any of the products or services we have shared, please reach out to us. Your feedback helps us remain a trusted authority in the security industry. It’s one of the ways we ensure our ongoing reviews and updates reflect the real-world experience of customers.
-</br>   
-</br>
-comparehomesecurity.net does not include all home security systems available to consumers in the marketplace.
-</br>   
-</br>
-Finally, if you have any questions, comments, or concerns about this disclosure, please don’t hesitate to email us at <a href="mailto:comparehomesecurity@gmail.com">comparehomesecurity@gmail.com</a>.
-    </p>
-
-    
+        However, we maintain complete editorial independence in all our reviews. We don’t always receive compensation for recommended products, and the compensation we do make helps us sustain our website. It allows us to continue offering valuable services to our readers for free, while also keeping our website free from distracting ads.
+        </br>    
+        </br>
+            Our team follows strict editorial guidelines to ensure every review, guide, and article we publish remains objective and trustworthy. We only share recommendations that we genuinely believe could benefit our readers. If you return a product/service, any compensation we’ve earned could be reversed. If you purchase through our links, the price you pay is not affected.
+        </br>
+        </br>   
+        If you’ve had a positive or negative experience with any of the products or services we have shared, please reach out to us. Your feedback helps us remain a trusted authority in the security industry. It’s one of the ways we ensure our ongoing reviews and updates reflect the real-world experience of customers.
+        </br>   
+        </br>
+        comparehomesecurity.net does not include all home security systems available to consumers in the marketplace.
+        </br>   
+        </br>
+        Finally, if you have any questions, comments, or concerns about this disclosure, please don’t hesitate to email us at <a href="mailto:comparehomesecurity@gmail.com">comparehomesecurity@gmail.com</a>.
+</p>
   </div>
 </section>
 @endsection

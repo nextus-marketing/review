@@ -5,13 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
-    <title>@yield('title')</title>
+  <title>@yield('title')</title>
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
 	<link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="/frontend/css/slicknav.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
@@ -20,11 +18,11 @@
 	<link rel="stylesheet" href="/frontend/css/magnific-popup.css">
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
 	<link rel="stylesheet" href="/frontend/css/my.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
 </head>
 <body>
@@ -143,13 +141,12 @@
 					 <a class="navbar-brand" href="/">
                         <img src="/frontend/my-img/new-logo.png" alt="Logo" style="width: 139px; height: auto;">
                     </a>
-					<!-- Logo End -->
-					
-                        <!-- Header Btn Start -->
-                        <div class="header-btn">
-                            <a class="btn-default" href="/#pricing">View Packages</a>
-                        </div>
-                        <!-- Header Btn End -->                      
+					    <!-- Logo End -->
+              <!-- Header Btn Start -->
+              <div class="header-btn">
+                  <a class="btn-default" href="/#pricing">View Packages</a>
+              </div>
+              <!-- Header Btn End -->                      
 					</div>
 					<!-- Main Menu End -->
 					<div class="navbar-toggle"></div>
@@ -177,8 +174,7 @@
 
                     <!-- About Footer Content Start -->
                     <div class="about-footer-content">
-                        <p>
-                            The content, including without limitation any viewpoint or opinion in any profile, article or video,
+                        <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
                             contained on this website is for informational purposes only. Any third party contributor 
                             to any such profile, article or video has been compensated by Compare Home Security
                             for such contribution. It is advised that you conduct your own investigation as 
@@ -188,22 +184,21 @@
                             any informational error or for any action taken in reliance on information contained herein.
                         </p>
 
-                        <!-- 🌐 Social Media Icons -->
+                        <!-- Social Media Icons -->
                             <div class="social-icons" style="margin-top: 20px;">
-                            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="circle-icon">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="circle-icon">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn" class="circle-icon">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="https://www.youtube.com" target="_blank" aria-label="YouTube" class="circle-icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
+                                <a href="#0" target="_blank" aria-label="Facebook" class="circle-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#0" target="_blank" aria-label="Instagram" class="circle-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#0" target="_blank" aria-label="LinkedIn" class="circle-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#0" target="_blank" aria-label="YouTube" class="circle-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
                             </div>
-
                         <!-- Social Icons End -->
                     </div>
                     <!-- About Footer Content End -->
@@ -239,9 +234,9 @@
                     </div>
                 </div>
             </div>
+          </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <a href="#0" class="call-now-float" aria-label="Call Now">
         <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="24"
@@ -250,29 +245,29 @@
                 d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.54.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.54 1 1 0 01-.45 1.25l-2.2 2.2z" />
         </svg>
     <!-- Scroll to Top Button -->
-<button id="scrollTopBtn" title="Go to top">
-  <i class="fa-solid fa-arrow-up"></i>
-</button>
+    <button id="scrollTopBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
-<script>
-  // Show or hide the button
-  const scrollTopBtn = document.getElementById("scrollTopBtn");
-  window.addEventListener("scroll", () => {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      scrollTopBtn.style.display = "block";
-    } else {
-      scrollTopBtn.style.display = "none";
-    }
-  });
+    <script>
+      // Show or hide the button
+      const scrollTopBtn = document.getElementById("scrollTopBtn");
+      window.addEventListener("scroll", () => {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+          scrollTopBtn.style.display = "block";
+        } else {
+          scrollTopBtn.style.display = "none";
+        }
+      });
 
-  // Scroll to top when clicked
-  scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-</script>
+      // Scroll to top when clicked
+      scrollTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+    </script>
 
 
 <!-- Script -->
@@ -299,9 +294,7 @@ window.addEventListener('click', function(event) {
     });
 });
 </script>
-
     <!-- Footer End -->
-
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
     <!-- Circle Progress Js File -->

@@ -135,7 +135,7 @@
 We may sell or share your sensitive personal information or use such information for targeted advertising purposes. We use sensitive personal information to comply with certain legal obligations, complete the transactions you have requested, or process your job application (if applicable). We may disclose your sensitive personal information to our affiliates and service providers to facilitate your transactions with us.</p>
 
 <section style="padding:15px;">
-  <h3 style=" margin-bottom:12px;">Sensitive Personal Information:</h3>
+  <h4 style=" margin-bottom:12px;">Sensitive Personal Information:</h4>
 
   <div class="table-responsive" style="border:1px solid #ddd; border-radius:4px; overflow:auto;">
     <table class="table table-bordered mb-0" style="min-width:1100px; border-color:#cfcfcf;">
@@ -147,78 +147,78 @@ We may sell or share your sensitive personal information or use such information
           <th style="width:20%;">How long do we retain it?</th>
         </tr>
       </thead>
-      <tbody style="">
-        <tr>
-          <td>A consumer's social security, driver's license, state identification card, or passport number;</td>
+      <tbody>
+        <tr style="line-height:25px;">
+          <td>A consumer's social security, driver's license, state identification card, or passport number.</td>
           <td>Only when applicable.</td>
           <td>If applicable, then only for processing of sales.</td>
           <td>Information is not stored in our system and only used to verify order eligibility.</td>
         </tr>
 
-        <tr>
-          <td>A consumer's account log-in information, which could include any debit card or credit card number in combination with any security or access code, password or credentials required to access such account;</td>
+        <tr style="line-height:25px;">
+          <td>A consumer's account log-in information, which could include any debit card or credit card number in combination with any security or access code, password or credentials required to access such account</td>
           <td>Only when necessary for such access.</td>
           <td>Account login information is used to identify an active user on any site that requires login.</td>
           <td>Information is stored as long as a consumer account is active. If a consumer deletes their account, the information will be deleted as well.</td>
         </tr>
 
-        <tr>
+        <tr style="line-height:25px;">
           <td>A consumer's precise geolocation;</td>
           <td>No</td>
           <td>N/A</td>
           <td>N/A</td>
         </tr>
 
-        <tr>
-          <td>A consumer's racial or ethnic origin, religious or philosophical beliefs, or union membership;</td>
+        <tr style="line-height:25px;">
+          <td>A consumer's racial or ethnic origin, religious or philosophical beliefs, or union membership.</td>
           <td>For job applicants, your race (if voluntarily provided)</td>
           <td>Only for job applicants (if you choose to provide it to us)</td>
           <td>Information is stored for up to ten years.</td>
         </tr>
 
-        <tr>
-          <td>The contents of a consumer's mail, email, and text messages, unless the business is the intended recipient of the communication;</td>
+        <tr style="line-height:25px;">
+          <td>The contents of a consumer's mail, email, and text messages, unless the business is the intended recipient of the communication.</td>
           <td>No</td>
           <td>N/A</td>
           <td>N/A</td>
         </tr>
 
-        <tr>
-          <td>A consumer's genetic data; and</td>
+        <tr style="line-height:25px;">
+          <td>A consumer's genetic data</td>
           <td>No</td>
           <td>N/A</td>
           <td>N/A</td>
         </tr>
 
-        <tr>
-          <td>The processing of biometric information for the purpose of uniquely identifying a consumer;</td>
+        <tr style="line-height:25px;">
+          <td>The processing of biometric information for the purpose of uniquely identifying a consumer.</td>
           <td>No</td>
           <td>N/A</td>
           <td>N/A</td>
         </tr>
 
-        <tr>
-          <td>Personal information collected and analyzed concerning a consumer's health, including mental or physical health condition or diagnosis;</td>
+        <tr style="line-height:25px;">
+          <td>Personal information collected and analyzed concerning a consumer's health, including mental or physical health condition or diagnosis</td>
           <td>Only when applicable.</td>
           <td>If applicable, then only to facilitate your shopping or purchasing of a relevant product or service.</td>
           <td>Information is stored for up to ten years.</td>
         </tr>
 
-        <tr>
-          <td>Personal information collected and analyzed concerning a consumer's sex life or sexual orientation;</td>
+        <tr style="line-height:25px;">
+          <td>Personal information collected and analyzed concerning a consumer's sex life or sexual orientation</td>
           <td>No</td>
           <td>N/A</td>
           <td>N/A</td>
         </tr>
 
-        <tr>
-          <td>Personal information collected and analyzed concerning a consumer's citizenship, citizenship status, or immigration status; or</td>
+        <tr style="line-height:25px;">
+          <td>Personal information collected and analyzed concerning a consumer's citizenship, citizenship status, or immigration status</td>
           <td>Only when applicable.</td>
           <td>If you apply for a job with us.</td>
           <td>Information is stored for up to ten years.</td>
         </tr>
 
-        <tr>
+        <tr style="line-height:30px;">
           <td>Personal data from a known child.</td>
           <td>No</td>
           <td>N/A</td>
@@ -231,16 +231,16 @@ We may sell or share your sensitive personal information or use such information
 <p>Depending on your state of residence, you may request that use of your sensitive personal information be limited by filling out the form titled "Limit Use of My Sensitive Personal Information" linked at the bottom of this privacy policy or in the footer of this webpage, or by contacting us at 844-280-2929. If you are a resident of certain states, we do not collect or process your sensitive data (as defined in those states' laws) without your consent.</p>
 <p>We may collect personal information (including sensitive personal information and other personal information) at the following times:</p>
  <ul class="wow fadeInUp" data-wow-delay="1.2s">
-      <li>when you register to receive communications from this website or any website owned by the owner of comparehomesecurity.net,</li>
-      <li>when you seek information or apply for products and services offered through this website or any website owned by the owner of comparehomesecurity.net,</li>
-      <li> when you enter promotions or sweepstakes offered by this website or any website owned by the owner of comparehomesecurity.net,</li>
-      <li>when you provide personal information to us through feedback, survey, or other forms hosted on this site or any website owned by the owner of comparehomesecurity.net,</li>
+      <li>when you register to receive communications from this website or any website owned by the owner of comparehomesecurity.net</li>
+      <li>when you seek information or apply for products and services offered through this website or any website </li>
+      <li> when you enter promotions or sweepstakes offered by this website or any website </li>
+      <li>when you provide personal information to us through feedback, survey, or other forms hosted on this site or any website </li>
       <li> when you visit our Web Site, including through cookies and clear gifs, as described further below,</li>
       <li>when you contact us.</li>
   </ul>
   
   <section style="padding:15px; line-height:1.6; ">
-  <h3 style=" margin-bottom:12px;">Cookies and IP Addresses</h3>
+  <h4 style=" margin-bottom:12px;">Cookies and IP Addresses</h4>
   <p>To serve you more efficiently and effectively, we use "cookies" technology. A cookie is a piece of data stored on the user's hard drive that contains information about the user. Cookies are linked to particular devices over time, and may be linked to other personal information we obtain.</p>
   <p>Cookies enable a website to "personalize" itself for each user and reduce the time it takes for pages to load on your computer. In order to optimize your experience, cookies also help with the collection of customer tracking data. We may also capture customer tracking data on some of our partners' websites related to activity involved with the completion of offers listed on our website. This information is used to monitor the performance of our partners.</p>
   <p>If you reject cookies, you may still use our site, but your ability to use some areas of our site will be limited. We also keep track of Internet Protocol (IP) addresses and may disclose your IP address during the course and scope of our business. An IP Address is a number used by computers on the network to identify your computer every time you log on to the Internet.</p>
@@ -251,7 +251,7 @@ We may sell or share your sensitive personal information or use such information
   <h4 style=" margin-top:18px;">Clear Gifs</h4>
   <p>We employ a software technology called clear gifs, also known as Web Beacons, that help us better manage content on our site by informing us what content is effective. Clear gifs are tiny graphics with a unique identifier, similar in function to cookies, and are used to track the online movement of Web users.</p>
   <p>We also use clear gifs in our HTML-based emails to let us know which emails the recipients have opened. This allows us to gauge the effectiveness of certain communications and marketing campaigns. If users would like to opt-out of these emails, please see the Opt-out section within any email you receive from us.</p>
-
+    
   <h4 style=" margin-top:18px;">Telephone Calls and Recordings</h4>
   <p>You provide your prior express written consent to receive marketing telephone calls and text messages (including those sent by automatic telephone dialing systems and including prerecorded or artificial voices) to any telephone number that you provide to us, even if that number is listed on a do-not-call registry. Consent is not a condition of purchasing any goods or services.</p>
   <p>You also agree that all telephone calls and conversations with us and anyone we may transfer your call to or from may be recorded for quality, customer service, compliance, and regulatory purposes.</p>
@@ -294,7 +294,7 @@ We may sell or share your sensitive personal information or use such information
     <li>Email: <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a></li>
     <li>Mail: comparehomesecurity.net, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
   </ul>
-
+    
   <h4 style=" margin-top:18px;">Retention</h4>
   <p>We retain personal information only as long as necessary to fulfill purposes described above or as required by law.</p>
   <ul>
@@ -328,7 +328,7 @@ We may sell or share your sensitive personal information or use such information
 
   <p><strong>California Residents:</strong> You may opt out of data sharing per California’s Shine the Light Law by contacting <a href="mailto:privacyinfo@comparehomesecurity.net">privacyinfo@comparehomesecurity.net</a> or by mail as listed above.</p>
 
-  <p><em>Last Updated: 11-12-2024</em></p>
+  <p><em>Last Updated: 11-12-2025</em></p>
 </section>
 
                 </div>
