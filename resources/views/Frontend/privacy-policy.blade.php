@@ -105,15 +105,15 @@
 <div class="post-content">
     <div class="post-entry">
         <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
-        <p class="wow fadeInUp" data-wow-delay="1s">of comparehomesecurity.com and all related websites</p>
-        <p>comparehomesecurity.com </br>
+        <p class="wow fadeInUp" data-wow-delay="1s">of comparehomesecurity.org and all related websites</p>
+        <p>comparehomesecurity.org </br>
         12130 Millennium Drive, Ste 600 </br>
         Los Angeles, CA 90094</p>
 
-        <p>At comparehomesecurity.net we take our ethical responsibilities and your privacy seriously by recognizing that your privacy is important. We have a strong commitment to providing excellent service to all our customers, visitors to this Web Site, and other users of our products and services, including respecting your concerns about privacy. This Privacy Policy discloses how we collect personal information, the types of personal information we receive and collect, our use and disclosure of current and former consumer information, as well as the steps that we take to safeguard your information. If you use this site, you understand and agree to the comparehomesecurity.net Privacy Policy in effect at the time of your use, and any other terms and conditions posted on the site. We hope that this disclosure will help increase your confidence in our products and services, and enhance your experience. Therefore, in compliance with industry standards and regulations enforced typically by federal and state governments, we abide by the following Privacy Policy.</p>
+        <p>At comparehomesecurity.org we take our ethical responsibilities and your privacy seriously by recognizing that your privacy is important. We have a strong commitment to providing excellent service to all our customers, visitors to this Web Site, and other users of our products and services, including respecting your concerns about privacy. This Privacy Policy discloses how we collect personal information, the types of personal information we receive and collect, our use and disclosure of current and former consumer information, as well as the steps that we take to safeguard your information. If you use this site, you understand and agree to the comparehomesecurity.org Privacy Policy in effect at the time of your use, and any other terms and conditions posted on the site. We hope that this disclosure will help increase your confidence in our products and services, and enhance your experience. Therefore, in compliance with industry standards and regulations enforced typically by federal and state governments, we abide by the following Privacy Policy.</p>
 
         <p>Information Collection and Use
-            This Privacy Policy applies to all users of our products and services ("Consumers"), including those who have used our website ("Web Site"), which is owned by Centerfield Media Parent, Inc., a Delaware corporation ("Owner"). Please note that this policy applies only to this Web Site, and services wherein comparehomesecurity.net determines the purposes or means of processing your personal information, and not to web sites maintained by other companies or organizations to which we link, or business partners to whom we provide your information, based on your requests as relating to the product or service in which you are interested, and for whom we serve as service providers. Alternatively, the information comparehomesecurity.net collects on behalf of a third party, to whom we provide marketing services, may be subject to both this Privacy Policy, and the third party's privacy policy. For more information on those companies or organizations' personal information practices, and your rights, please visit their respective privacy policies.
+            This Privacy Policy applies to all users of our products and services ("Consumers"), including those who have used our website ("Web Site"), which is owned by Centerfield Media Parent, Inc., a Delaware corporation ("Owner"). Please note that this policy applies only to this Web Site, and services wherein comparehomesecurity.org determines the purposes or means of processing your personal information, and not to web sites maintained by other companies or organizations to which we link, or business partners to whom we provide your information, based on your requests as relating to the product or service in which you are interested, and for whom we serve as service providers. Alternatively, the information comparehomesecurity.org collects on behalf of a third party, to whom we provide marketing services, may be subject to both this Privacy Policy, and the third party's privacy policy. For more information on those companies or organizations' personal information practices, and your rights, please visit their respective privacy policies.
             </br></br>
             Personal information is information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a natural person or household, such as a real name, postal address, e-mail address, telephone number, payment information, and account ID ("personal information"). When other information is directly associated with personal information, that information may also be considered personal information. Information that is aggregated, de-identified, or anonymized is not considered personal information. Publicly available information, as that information is defined by applicable law, also may not be personal information.
             </br></br>
@@ -231,7 +231,7 @@ We may sell or share your sensitive personal information or use such information
 <p>Depending on your state of residence, you may request that use of your sensitive personal information be limited by filling out the form titled "Limit Use of My Sensitive Personal Information" linked at the bottom of this privacy policy or in the footer of this webpage, or by contacting us at 844-280-2929. If you are a resident of certain states, we do not collect or process your sensitive data (as defined in those states' laws) without your consent.</p>
 <p>We may collect personal information (including sensitive personal information and other personal information) at the following times:</p>
  <ul class="wow fadeInUp" data-wow-delay="1.2s">
-      <li>when you register to receive communications from this website or any website owned by the owner of comparehomesecurity.net</li>
+      <li>when you register to receive communications from this website or any website owned by the owner of comparehomesecurity.org</li>
       <li>when you seek information or apply for products and services offered through this website or any website </li>
       <li> when you enter promotions or sweepstakes offered by this website or any website </li>
       <li>when you provide personal information to us through feedback, survey, or other forms hosted on this site or any website </li>
@@ -277,22 +277,22 @@ We may sell or share your sensitive personal information or use such information
   <p>You can opt out of marketing communications or newsletters by following unsubscribe instructions or contacting us. You may continue to receive emails for up to ten business days after opting out.</p>
 
   <h4 style=" margin-top:18px;">Third Party Links</h4>
-  <p>This Privacy Policy applies only to information collected by comparehomesecurity.net. When you visit other linked sites, their privacy and cookie policies apply. Please review third-party policies before submitting information.</p>
+  <p>This Privacy Policy applies only to information collected by comparehomesecurity.org. When you visit other linked sites, their privacy and cookie policies apply. Please review third-party policies before submitting information.</p>
 
   <h4 style=" margin-top:18px;">Minors</h4>
   <p>You must be at least 18 years old to use this website. We do not knowingly collect, use, or disclose personal information from individuals under 18 years of age.</p>
 
   <h4 style=" margin-top:18px;">Updating Your Information</h4>
-  <p>If you want to access or update your personal information, please email <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a> or write to:</p>
+  <p>If you want to access or update your personal information, please email <a href="mailto:info@comparehomesecurity.org">info@comparehomesecurity.org</a> or write to:</p>
   <ul>
-    <li>comparehomesecurity.net Attn: Customer Care<br>12130 Millennium Drive, Ste 600<br>Los Angeles, CA 90094</li>
+    <li>comparehomesecurity.org Attn: Customer Care<br>12130 Millennium Drive, Ste 600<br>Los Angeles, CA 90094</li>
   </ul>
 
   <h4 style=" margin-top:18px;">Questions and Suggestions</h4>
   <p>Contact us via:</p>
   <ul>
-    <li>Email: <a href="mailto:info@comparehomesecurity.net">info@comparehomesecurity.net</a></li>
-    <li>Mail: comparehomesecurity.net, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
+    <li>Email: <a href="mailto:info@comparehomesecurity.org">info@comparehomesecurity.org</a></li>
+    <li>Mail: comparehomesecurity.org, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
   </ul>
     
   <h4 style=" margin-top:18px;">Retention</h4>
@@ -322,11 +322,11 @@ We may sell or share your sensitive personal information or use such information
   <p>For assistance, contact:</p>
   <ul>
     <li>Toll-free: <strong>844-280-2929</strong></li>
-    <li>Email: <a href="mailto:privacyinfo@comparehomesecurity.net">privacyinfo@comparehomesecurity.net</a></li>
-    <li>Mail: comparehomesecurity.net Attn: Customer Care, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
+    <li>Email: <a href="mailto:privacyinfo@comparehomesecurity.org">privacyinfo@comparehomesecurity.org</a></li>
+    <li>Mail: comparehomesecurity.org Attn: Customer Care, 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
   </ul>
 
-  <p><strong>California Residents:</strong> You may opt out of data sharing per California’s Shine the Light Law by contacting <a href="mailto:privacyinfo@comparehomesecurity.net">privacyinfo@comparehomesecurity.net</a> or by mail as listed above.</p>
+  <p><strong>California Residents:</strong> You may opt out of data sharing per California’s Shine the Light Law by contacting <a href="mailto:privacyinfo@comparehomesecurity.org">privacyinfo@comparehomesecurity.org</a> or by mail as listed above.</p>
 
   <p><em>Last Updated: 11-12-2025</em></p>
 </section>
