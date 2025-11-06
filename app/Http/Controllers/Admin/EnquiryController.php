@@ -30,12 +30,12 @@ class EnquiryController extends Controller
             ->editColumn('subject', function ($enquiry) {
                 return $enquiry->subject;
             }) 
-            ->editColumn('email', function ($enquiry) {
-                return $enquiry->email;
-            }) 
+           ->editColumn('email', function ($enquiry) {
+                return '<a href="mailto:' . e($enquiry->email) . '">' . e($enquiry->email) . '</a>';
+            })
             ->editColumn('mobile', function ($enquiry) {
-                return $enquiry->mobile;
-            }) 
+                return '<a href="tel:' . e($enquiry->mobile) . '">' . e($enquiry->mobile) . '</a>';
+            })
             ->editColumn('message', function ($enquiry) {
                 return mb_strimwidth($enquiry->message, 0, 97, '...');
             }) 
