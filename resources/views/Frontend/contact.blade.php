@@ -166,7 +166,7 @@
 
                             <!-- Centered Captcha -->
                             <div class="form-group col-12 text-center mb-4">
-                                <div class="g-recaptcha d-inline-block" data-sitekey="=6LeQZfwrAAAAAC3tThs6M8ubAPYGMSrEoZ6A0Um9"></div>
+                                <div class="g-recaptcha d-inline-block" data-sitekey="6LeQZfwrAAAAAC3tThs6M8ubAPYGMSrEoZ6A0Um9"></div>
                             </div>
 
                             <!-- Centered Submit Button -->
@@ -177,9 +177,7 @@
                         </div>
                     </form>
 
-                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-                     
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>                     
                 </div>
             </div>
         </div>
