@@ -115,7 +115,7 @@ p{
      <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
     </br>
     7340 Lee Hwy, Falls Church, </br> VA, 22046
-        </p>
+    </p>
 
     <p>Thank you for using hank you for usi website. Access to and use of hank you for usi sites are provided subject to the following Terms of Use:</p>
 

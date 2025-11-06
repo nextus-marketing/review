@@ -115,9 +115,9 @@ p{
     <div class="post-entry">
         <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
         <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
-    </br>
-    7340 Lee Hwy, Falls Church, </br> VA, 22046
-    </p>
+      </br>
+      7340 Lee Hwy, Falls Church, </br> VA, 22046
+      </p>
        
 
         <p>At comparehomesecurity.org we take our ethical responsibilities and your privacy seriously by recognizing that your privacy is important. We have a strong commitment to providing excellent service to all our customers, visitors to this Web Site, and other users of our products and services, including respecting your concerns about privacy. This Privacy Policy discloses how we collect personal information, the types of personal information we receive and collect, our use and disclosure of current and former consumer information, as well as the steps that we take to safeguard your information. If you use this site, you understand and agree to the comparehomesecurity.org Privacy Policy in effect at the time of your use, and any other terms and conditions posted on the site. We hope that this disclosure will help increase your confidence in our products and services, and enhance your experience. Therefore, in compliance with industry standards and regulations enforced typically by federal and state governments, we abide by the following Privacy Policy.</p>
