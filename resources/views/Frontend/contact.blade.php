@@ -1,206 +1,195 @@
 @extends('layouts.frontend')
 @section('title')
-    Contact US | Premium Car Parts
+    Contact US | Compare Home Security
 @endsection
 @section('content')
-    <style>
-        p,
-        .p {
-            margin-bottom: -0.5rem;
-        }
-    </style>
-    <section class="breadcrumb__section breadcrumb__bg">
+  <!-- Page Header Section Start -->
+    <div class="page-header">
         <div class="container">
-            <div class="row row-cols-1">
-                <div class="col">
-                    <div class="breadcrumb__content text-center">
-                        <ul class="breadcrumb__content--menu d-flex justify-content-center">
-                            <li class="breadcrumb__content--menu__items"><a href="/">Home</a></li>
-                            <li class="breadcrumb__content--menu__items"><span>Contact Us</span></li>
-                        </ul>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Contact <span>us</span></h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+                            </ol>
+                        </nav>
                     </div>
+                    <!-- Page Header Box End -->
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="contact__section section--padding">
-        <div class="container">
-            <div class="contact__section--heading text-center mb-40">
-                <h2 class="contact__section--heading__maintitle">Get In Touch</h2>
-                <p class="contact__section--heading__desc">Have questions or need assistance? Our friendly support team is ready to help you with anything you need.</p>
-            </div>
-            <div class="main__contact--area position__relative">
-                <div class="contact__form">
-                    <h3 class="contact__form--title mb-30">Contact Me</h3>
-
-   <form action="/contact-enquiry" enctype="multipart/form-data" method="POST" id="contactForm" class="contact__form--inner" data-wow-delay="0.5s">
-    @csrf
-    <div class="row">
-        <div class="col-lg-6 col-md-6">
-            <div class="contact__form--list mb-20">
-                <input class="contact__form--input" name="full_name" id="full_name" placeholder="Your Full Name" type="text" value="{{ old('full_name') }}">
-                <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6">
-            <div class="contact__form--list mb-20">
-                <input class="contact__form--input" name="mobile" id="mobile" placeholder="Phone number" type="text" value="{{ old('mobile') }}">
-                <div class="field_error" id="mobile-error" style="color:#ff0000;"></div>
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6">
-            <div class="contact__form--list mb-20">
-                <input class="contact__form--input" name="email" id="email" placeholder="Email" type="text" value="{{ old('email') }}">
-                <div class="field_error" id="email-error" style="color:#ff0000;"></div>
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6">
-            <div class="contact__form--list mb-20">
-                <input class="contact__form--input" name="subject" id="subject" placeholder="Subject" type="text" value="{{ old('subject') }}">
-                <div class="field_error" id="subject-error" style="color:#ff0000;"></div>
-            </div>
-        </div>
-
-        <div class="col-12">
-            <div class="contact__form--list mb-15">
-                <textarea class="contact__form--textarea" name="message" id="message" placeholder="Write Your Message">{{ old('message') }}</textarea>
-            </div>
-        </div>
-
-         <div class="col-12 mt-1">
-                       <div style="text-align: center; margin-top: 10px;">
-                        <div class="g-recaptcha d-inline-block" data-sitekey="6LeuVdUrAAAAAJAmNQfEpWMHWmiFUErEfhweKNNJ"></div>
-                        <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
-                    </div>
-
-                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-        <div class="col-12 text-center mt-4">
-            <button class="contact__form--btn primary__btn" type="submit" id="submit">
-                <span>Submit Now</span>
-            </button>
         </div>
     </div>
-</form>
+    <!-- Page Header Section End -->
 
+    <!-- Scrolling Ticker Section Start -->
+    <div class="our-scrolling-ticker">
+        <!-- Scrolling Ticker Start -->
+        <div class="scrolling-ticker-box">
+            <div class="scrolling-content">
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+            </div>
 
+            <div class="scrolling-content">
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+            </div>
+        </div>
+        <!-- Scrolling Ticker End -->
+    </div>
+    <!-- Scrolling Ticker Section End -->
 
+    <!-- Page Contact Us Start -->
+    <div class="page-contact-us">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="contact-info-list">
+                        <div class="contact-info-item wow fadeInUp">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-phone-white.svg" alt="">
+                            </div>
+                            <div class="contact-info-content">
+                                <h3>Contact us</h3>
+                                <p><a href="tel:+15715008149">+(157) 150-08149</a></p>
+                                </br>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+
+                        
+                        
+                        <!-- Contact Info Item Start -->
+                        <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-mail-white.svg" alt="">
+                            </div>
+                            <div class="contact-info-content">
+                                <h3>Email us</h3>
+                                <p><a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a></p>
+                                </br>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+
+                        <!-- Contact Info Item Start -->
+                        <div class="contact-info-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon-box">
+                                <img src="/frontend/images/icon-location-white.svg" alt="">
+                            </div>
+                            <div class="contact-info-content">
+                                <h3>Address</h3>
+                                <p>7340 Lee Hwy, Falls Church, </br> VA, 22046
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+                    </div>
+                    <!-- Contact Info List End -->
                 </div>
-                <div class="contact__info border-radius-5">
-                    <div class="contact__info--items">
-                        <h3 class="contact__info--content__title text-white mb-15">Contact Us</h3>
-                        <div class="contact__info--items__inner d-flex">
-                            <div class="contact__info--icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="31.568" height="31.128"
-                                    viewBox="0 0 31.568 31.128">
-                                    <path id="ic_phone_forwarded_24px"
-                                        d="M26.676,16.564l7.892-7.782L26.676,1V5.669H20.362v6.226h6.314Zm3.157,7a18.162,18.162,0,0,1-5.635-.887,1.627,1.627,0,0,0-1.61.374l-3.472,3.424a23.585,23.585,0,0,1-10.4-10.257l3.472-3.44a1.48,1.48,0,0,0,.395-1.556,17.457,17.457,0,0,1-.9-5.556A1.572,1.572,0,0,0,10.1,4.113H4.578A1.572,1.572,0,0,0,3,5.669,26.645,26.645,0,0,0,29.832,32.128a1.572,1.572,0,0,0,1.578-1.556V25.124A1.572,1.572,0,0,0,29.832,23.568Z"
-                                        transform="translate(-3 -1)" fill="currentColor" />
-                                </svg>
-                            </div>
-                            <div class="contact__info--content">
-                                <p class="contact__info--content__desc text-white">Contact Our Support Team <br>
-                                    <a href="tel:+1-888-859-5720">+1-888-859-5720</a>
-                                </p>
-                            </div>
+                
+                <div class="col-xl-5">
+                    <!-- Contact Us Content Start -->
+                    <div class="contact-content-box">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">Get In Touch</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Contact us <span>today!</span></h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Have questions or need expert cybersecurity support? Our team is ready to guide you with tailored solutions.</p>
                         </div>
+                        <!-- Section Title End -->
+
+                        <!-- Google Map IFrame Start -->
+                        <div class="google-map-iframe wow fadeInUp" data-wow-delay="0.4s">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!-- Google Map IFrame End -->
                     </div>
-                    <div class="contact__info--items">
-                        <h3 class="contact__info--content__title text-white mb-15">Email Address</h3>
-                        <div class="contact__info--items__inner d-flex">
-                            <div class="contact__info--icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="31.57" height="31.13"
-                                    viewBox="0 0 31.57 31.13">
-                                    <path id="ic_email_24px"
-                                        d="M30.413,4H5.157C3.421,4,2.016,5.751,2.016,7.891L2,31.239c0,2.14,1.421,3.891,3.157,3.891H30.413c1.736,0,3.157-1.751,3.157-3.891V7.891C33.57,5.751,32.149,4,30.413,4Zm0,7.783L17.785,21.511,5.157,11.783V7.891l12.628,9.728L30.413,7.891Z"
-                                        transform="translate(-2 -4)" fill="currentColor" />
-                                </svg>
-                            </div>
-                           <div class="contact__info--content mt-4">
-                                    <p class="contact__info--content__desc text-white"> </p>
-                                     <p class="contact__info--content__desc text-white">Get in Touch via Email <br>
-                                    <a href="mailto:sales@premiumcarpart.com">sales@premiumcarpart.com</a>
-                                </p> 
-                                    {{-- <p class="contact__info--content__desc text-white"> <a
-                                            href="mailto:autovehiclepartsusa@gmail.com">autovehiclepartsusa@gmail.com</a>
-                                    </p> --}}
+                    <!-- Contact Us Content End -->
+                </div>
+
+                <div class="col-xl-7">
+                    <!-- Contact Us Form Start -->
+                    <div class="contact-us-form">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h2 class="text-anime-style-2">Fill up the <span>form</span></h2>
+                            <p class="wow fadeInUp">Simply fill out the form below with your details and requirements, and our team will get back to you promptly with the right solutions for your needs.</p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Contact Form Start -->
+                        <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="row">
+                                <div class="form-group col-md-6 mb-4">
+                                    <label class="form-label">First Name *</label>
+                                    <input type="text" name="fname" class="form-control" id="fname" placeholder="Your First Name" required>
+                                    <div class="help-block with-errors"></div>
                                 </div>
-                        </div>
-                    </div>
-                    <div class="contact__info--items">
-                        <h3 class="contact__info--content__title text-white mb-15">Office Location</h3>
-                        <div class="contact__info--items__inner d-flex">
-                            <div class="contact__info--icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="31.57" height="31.13"
-                                    viewBox="0 0 31.57 31.13">
-                                    <path id="ic_account_balance_24px"
-                                        d="M5.323,14.341V24.718h4.985V14.341Zm9.969,0V24.718h4.985V14.341ZM2,32.13H33.57V27.683H2ZM25.262,14.341V24.718h4.985V14.341ZM17.785,1,2,8.412v2.965H33.57V8.412Z"
-                                        transform="translate(-2 -1)" fill="currentColor" />
-                                </svg>
+        
+                                <div class="form-group col-md-6 mb-4">
+                                    <label class="form-label">Last Name *</label>
+                                    <input type="text" name="lname" class="form-control" id="lname" placeholder="Your Last Name" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                
+                                <div class="form-group col-md-6 mb-4">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" name ="email" class="form-control" id="email" placeholder="Your Email Address" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+
+                                <div class="form-group col-md-6 mb-4">
+                                    <label class="form-label">Phone Number *</label>
+                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Your Phone Number" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+        
+                                <div class="form-group col-md-12 mb-5">
+                                    <label class="form-label">Message</label>
+                                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Any Message..."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+        
+                                <div class="col-lg-12">
+                                    <div class="contact-form-btn">
+                                        <button type="submit" class="btn-default"><span>Submit Form</span></button>
+                                        <div id="msgSubmit" class="h3 hidden"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact__info--content">
-                                <p class="contact__info--content__desc text-white"> 7340 Lee Hwy, Falls Church, VA, 22046
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact__info--items">
-                        <h3 class="contact__info--content__title text-white mb-15">Follow Us</h3>
-                        <ul class="contact__info--social d-flex">
-                            <li class="contact__info--social__list">
-                                <a class="contact__info--social__icon" target="_blank" href="https://www.facebook.com/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.667" height="16.524"
-                                        viewBox="0 0 7.667 16.524">
-                                        <path data-name="Path 237"
-                                            d="M967.495,353.678h-2.3v8.253h-3.437v-8.253H960.13V350.77h1.624v-1.888a4.087,4.087,0,0,1,.264-1.492,2.9,2.9,0,0,1,1.039-1.379,3.626,3.626,0,0,1,2.153-.6l2.549.019v2.833h-1.851a.732.732,0,0,0-.472.151.8.8,0,0,0-.246.642v1.719H967.8Z"
-                                            transform="translate(-960.13 -345.407)" fill="currentColor"></path>
-                                    </svg>
-                                    <span class="visually-hidden">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="contact__info--social__list">
-                                <a class="contact__info--social__icon" target="_blank" href="https://twitter.com/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.489" height="13.384"
-                                        viewBox="0 0 16.489 13.384">
-                                        <path data-name="Path 303"
-                                            d="M966.025,1144.2v.433a9.783,9.783,0,0,1-.621,3.388,10.1,10.1,0,0,1-1.845,3.087,9.153,9.153,0,0,1-3.012,2.259,9.825,9.825,0,0,1-4.122.866,9.632,9.632,0,0,1-2.748-.4,9.346,9.346,0,0,1-2.447-1.11q.4.038.809.038a6.723,6.723,0,0,0,2.24-.376,7.022,7.022,0,0,0,1.958-1.054,3.379,3.379,0,0,1-1.958-.687,3.259,3.259,0,0,1-1.186-1.666,3.364,3.364,0,0,0,.621.056,3.488,3.488,0,0,0,.885-.113,3.267,3.267,0,0,1-1.374-.631,3.356,3.356,0,0,1-.969-1.186,3.524,3.524,0,0,1-.367-1.5v-.057a3.172,3.172,0,0,0,1.544.433,3.407,3.407,0,0,1-1.1-1.214,3.308,3.308,0,0,1-.4-1.609,3.362,3.362,0,0,1,.452-1.694,9.652,9.652,0,0,0,6.964,3.538,3.911,3.911,0,0,1-.075-.772,3.293,3.293,0,0,1,.452-1.694,3.409,3.409,0,0,1,1.233-1.233,3.257,3.257,0,0,1,1.685-.461,3.351,3.351,0,0,1,2.466,1.073,6.572,6.572,0,0,0,2.146-.828,3.272,3.272,0,0,1-.574,1.083,3.477,3.477,0,0,1-.913.8,6.869,6.869,0,0,0,1.958-.546A7.074,7.074,0,0,1,966.025,1144.2Z"
-                                            transform="translate(-951.23 -1140.849)" fill="currentColor"></path>
-                                    </svg>
-                                    <span class="visually-hidden">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="contact__info--social__list">
-                                <a class="contact__info--social__icon" target="_blank" href="https://www.instagram.com/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.497" height="16.492"
-                                        viewBox="0 0 19.497 19.492">
-                                        <path data-name="Icon awesome-instagram"
-                                            d="M9.747,6.24a5,5,0,1,0,5,5A4.99,4.99,0,0,0,9.747,6.24Zm0,8.247A3.249,3.249,0,1,1,13,11.238a3.255,3.255,0,0,1-3.249,3.249Zm6.368-8.451A1.166,1.166,0,1,1,14.949,4.87,1.163,1.163,0,0,1,16.115,6.036Zm3.31,1.183A5.769,5.769,0,0,0,17.85,3.135,5.807,5.807,0,0,0,13.766,1.56c-1.609-.091-6.433-.091-8.042,0A5.8,5.8,0,0,0,1.64,3.13,5.788,5.788,0,0,0,.065,7.215c-.091,1.609-.091,6.433,0,8.042A5.769,5.769,0,0,0,1.64,19.341a5.814,5.814,0,0,0,4.084,1.575c1.609.091,6.433.091,8.042,0a5.769,5.769,0,0,0,4.084-1.575,5.807,5.807,0,0,0,1.575-4.084c.091-1.609.091-6.429,0-8.038Zm-2.079,9.765a3.289,3.289,0,0,1-1.853,1.853c-1.283.509-4.328.391-5.746.391S5.28,19.341,4,18.837a3.289,3.289,0,0,1-1.853-1.853c-.509-1.283-.391-4.328-.391-5.746s-.113-4.467.391-5.746A3.289,3.289,0,0,1,4,3.639c1.283-.509,4.328-.391,5.746-.391s4.467-.113,5.746.391a3.289,3.289,0,0,1,1.853,1.853c.509,1.283.391,4.328.391,5.746S17.855,15.705,17.346,16.984Z"
-                                            transform="translate(0.004 -1.492)" fill="currentColor"></path>
-                                    </svg>
-                                    <span class="visually-hidden">Instagram</span>
-                                </a>
-                            </li>
-                            <li class="contact__info--social__list">
-                                <a class="contact__info--social__icon" target="_blank" href="https://www.youtube.com/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.49" height="11.582"
-                                        viewBox="0 0 16.49 11.582">
-                                        <path data-name="Path 321"
-                                            d="M967.759,1365.592q0,1.377-.019,1.717-.076,1.114-.151,1.622a3.981,3.981,0,0,1-.245.925,1.847,1.847,0,0,1-.453.717,2.171,2.171,0,0,1-1.151.6q-3.585.265-7.641.189-2.377-.038-3.387-.085a11.337,11.337,0,0,1-1.5-.142,2.206,2.206,0,0,1-1.113-.585,2.562,2.562,0,0,1-.528-1.037,3.523,3.523,0,0,1-.141-.585c-.032-.2-.06-.5-.085-.906a38.894,38.894,0,0,1,0-4.867l.113-.925a4.382,4.382,0,0,1,.208-.906,2.069,2.069,0,0,1,.491-.755,2.409,2.409,0,0,1,1.113-.566,19.2,19.2,0,0,1,2.292-.151q1.82-.056,3.953-.056t3.952.066q1.821.067,2.311.142a2.3,2.3,0,0,1,.726.283,1.865,1.865,0,0,1,.557.49,3.425,3.425,0,0,1,.434,1.019,5.72,5.72,0,0,1,.189,1.075q0,.095.057,1C967.752,1364.1,967.759,1364.677,967.759,1365.592Zm-7.6.925q1.49-.754,2.113-1.094l-4.434-2.339v4.66Q958.609,1367.311,960.156,1366.517Z"
-                                            transform="translate(-951.269 -1359.8)" fill="currentColor"></path>
-                                    </svg>
-                                    <span class="visually-hidden">Youtube</span>
-                                </a>
-                            </li>
-                        </ul>
+                        </form>
+                        <!-- Contact Form End -->
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-
+    </div>
+    <!-- Page Contact Us End -->
     
 @endsection
