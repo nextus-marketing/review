@@ -104,10 +104,10 @@ p{
   <div class="container" style="max-width:100%; word-wrap:break-word;">
 </br>
     <h2 style="font-size:26px; font-weight:700; margin-bottom:10px;">ACCESSIBILITY</h2>
-    <p>of comparehomesecurity.org and all related websites<br>
-    comparehomesecurity.org <br>
-    12130 Millennium Drive, Ste 600 <br>
-    Los Angeles, CA 90094</p>
+    <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
+      </br>
+      7340 Lee Hwy, Falls Church, </br> VA, 22046
+      </p>
 
     <p>comparehomesecurity.org is committed to making our website's content accessible and user friendly to everyone. If you are having difficulty viewing or navigating the content on this website, or notice any content, feature, 
         or functionality that you believe is not fully accessible to people with disabilities, please call our Customer Service team at <a href="tel:+15715008149">+(157)-1500-8149</a> or email our team at <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a>

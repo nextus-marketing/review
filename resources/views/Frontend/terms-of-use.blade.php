@@ -112,9 +112,10 @@ p{
   <div class="container post-entry" style="max-width:100%; word-wrap:break-word;">
 </br>
     <h2 class="wow fadeInUp" data-wow-delay="0.8s">Terms Of Use</h2>
-    <p><strong>comparehomesecurity.org</strong><br>
-    12130 Millennium Drive, Ste 600<br>
-    Los Angeles, CA 90094</p>
+     <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
+    </br>
+    7340 Lee Hwy, Falls Church, </br> VA, 22046
+        </p>
 
     <p>Thank you for using hank you for usi website. Access to and use of hank you for usi sites are provided subject to the following Terms of Use:</p>
 

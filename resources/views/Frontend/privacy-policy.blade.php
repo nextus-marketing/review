@@ -114,10 +114,11 @@ p{
 <div class="post-content">
     <div class="post-entry">
         <h2 class="wow fadeInUp" data-wow-delay="0.8s">Privacy Policy</h2>
-        <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites</p>
-        <p>
-        12130 Millennium Drive, Ste 600 </br>
-        Los Angeles, CA 90094</p>
+        <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
+    </br>
+    7340 Lee Hwy, Falls Church, </br> VA, 22046
+    </p>
+       
 
         <p>At comparehomesecurity.org we take our ethical responsibilities and your privacy seriously by recognizing that your privacy is important. We have a strong commitment to providing excellent service to all our customers, visitors to this Web Site, and other users of our products and services, including respecting your concerns about privacy. This Privacy Policy discloses how we collect personal information, the types of personal information we receive and collect, our use and disclosure of current and former consumer information, as well as the steps that we take to safeguard your information. If you use this site, you understand and agree to the comparehomesecurity.org Privacy Policy in effect at the time of your use, and any other terms and conditions posted on the site. We hope that this disclosure will help increase your confidence in our products and services, and enhance your experience. Therefore, in compliance with industry standards and regulations enforced typically by federal and state governments, we abide by the following Privacy Policy.</p>
 
@@ -301,7 +302,7 @@ We may sell or share your sensitive personal information or use such information
   <p>Contact us via:</p>
   <ul>
     <li>Email: <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a></li>
-    <li>Location: 12130 Millennium Drive, Ste 600, Los Angeles, CA 90094</li>
+    <li>Location: 7340 Lee Hwy, Falls Church, VA, 22046</li>
   </ul>
     
   <h6 style=" margin-top:18px;">Retention</h6>
