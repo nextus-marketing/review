@@ -61,7 +61,7 @@ class HomeController extends Controller
     $enquiry->message = $request->message;
     $enquiry->save();
 
-    Mail::to('siddhesh.sonavane024@gmail.com')->send(new ContactMail($enquiry));
+    Mail::to('offers@comparehomesecurity.org')->send(new ContactMail($enquiry));
     Mail::to($request->email)->send(new Thankyou($enquiry));
 
     return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);

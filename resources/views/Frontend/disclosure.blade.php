@@ -42,17 +42,24 @@
     padding-left: 10;
   }
 }
+p{
+  font-size: 13px !important;
+}
+.post-entry p {
+    margin-bottom: 13px !important;
+}
 </style>
 <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Disclosure</h1>
-                       <nav class="wow fadeInUp">
-                        <ol class="breadcrumb">
-                        </ol>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Disclosure</span></h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Disclosure</li>
+                            </ol>
                         </nav>
                     </div>
                 </div>
@@ -104,12 +111,12 @@
     <p>The comparehomesecurity.org editorial team is committed to delivering the most current resources in home and personal security. We want to keep offering our services for free and without ads, so at times, we do link to products and include phone numbers of service providers we review. We may earn compensation when you purchase a product or service from certain advertising partners. We may also earn commissions from clicks or inquiries on certain partners.</p>
 
     <p>comparehomesecurity.org is committed to making our website's content accessible and user friendly to everyone. If you are having difficulty viewing or navigating the content on this website, or notice any content, feature, 
-        or functionality that you believe is not fully accessible to people with disabilities, please call our Customer Service team at 855-957-4069 or email our team at info@comparehomesecurity.org 
+        or functionality that you believe is not fully accessible to people with disabilities, please call our Customer Service team at <a href="tel:+15715008149">+(157)-1500-8149</a> or email our team at <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a>
         with "Disabled Access" in the subject line and provide a description of the specific feature you feel is not fully accessible or a suggestion for improvement. 
         We take your feedback seriously and will consider it as we evaluate ways to accommodate all of our customers and our overall accessibility policies. Additionally, while we do not control such vendors, 
         we strongly encourage vendors of third-party digital content to provide content that is accessible and user friendly.</p>
 
-         <h2 style="font-size:26px; font-weight:700; margin-bottom:10px;">Our Partners</h2>
+         <h6 style="font-size:26px; font-weight:700; margin-bottom:10px;">Our Partners</h6>
             <p><b>Compare Home Security</b> maintains partnerships with leading security providers and technology companies.
 </br>
         However, we maintain complete editorial independence in all our reviews. We don’t always receive compensation for recommended products, and the compensation we do make helps us sustain our website. It allows us to continue offering valuable services to our readers for free, while also keeping our website free from distracting ads.
@@ -124,7 +131,7 @@
         comparehomesecurity.org does not include all home security systems available to consumers in the marketplace.
         </br>   
         </br>
-        Finally, if you have any questions, comments, or concerns about this disclosure, please don’t hesitate to email us at <a href="mailto:comparehomesecurity@gmail.com">comparehomesecurity@gmail.com</a>.
+        Finally, if you have any questions, comments, or concerns about this disclosure, please don’t hesitate to email us at <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a>.
 </p>
   </div>
 </section>

@@ -89,7 +89,7 @@
               <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 18px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
-              <a href="tel:8552869128" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
+              <a href="tel:+18884476319" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 <i class="fa-solid fa-phone"></i> Enquire Now
               </a>
             </div>
@@ -151,7 +151,7 @@
               <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 18px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 View Packages <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
-              <a href="tel:8552869128" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
+              <a href="tel:+18884476320" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 <i class="fa-solid fa-phone"></i> Enquire Now
               </a>
             </div>
@@ -313,7 +313,7 @@
                   <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages
                   </a>
-                  <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">
+                  <a href="tel:+18884476319" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                     <i class="fa-solid fa-phone"></i> Call for FREE Quote
                   </a>
                 </div>
@@ -367,7 +367,7 @@
 
                     <div class="d-grid gap-2">
                       <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
+                      <a href="tel:+18884476320" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>
@@ -410,7 +410,7 @@
 
                     <div class="d-grid gap-2">
                       <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
+                      <a href="tel:+15715008149" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>
@@ -461,7 +461,7 @@
 
                     <div class="d-grid gap-2">
                       <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages</a>
-                      <a href="tel:+844-262-6777" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
+                      <a href="tel:+15715008149" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;"><i class="fa-solid fa-phone"></i> Call for FREE Quote</a>
                     </div>
                   </div>
                 </div>

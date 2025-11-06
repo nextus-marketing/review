@@ -11,11 +11,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Contact <span>us</span></h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Contact Us</span></h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            </ol>
+                        </nav>
                     </div>
-                    <!-- Page Header Box End -->
                 </div>
             </div>
         </div>
@@ -74,7 +78,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h3>Contact us</h3>
-                            <p><a href="tel:+123456789">+(123) 456-789</a></p>
+                            <p><a href="tel:+123456789">+(157)-1500-8149</a></p>
                         </div>
                     </div>
                     <!-- Contact Info Item End -->
@@ -86,7 +90,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h3>Email us</h3>
-                            <p><a href="mailto:info@comparehomesecurity.com">info@comparehomesecurity.com</a></p>
+                            <p><a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a></p>
                         </div>
                     </div>
                     <div class="contact-info-item wow fadeInUp" data-wow-delay="0.6s" style="flex: 0 1 300px;">
@@ -95,8 +99,7 @@
                         </div>
                         <div class="contact-info-content">
                             <h3>Address</h3>
-                            <p>221 Baker Street </br>   
-                                New York, NY 10001</p>
+                            <p>7340 Lee Hwy, Falls </br> Church, VA, 22046</p>
                         </div>
                     </div>
                 </div>
@@ -111,7 +114,7 @@
                     </div>
                     <!-- Google Map IFrame Start -->
                     <div class="google-map-iframe wow fadeInUp" data-wow-delay="0.4s">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.9977415102744!2d-77.1961429!3d38.8782935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64b4b6728993d%3A0x84046135090b6a29!2s7340%20Lee%20Hwy%2C%20Falls%20Church%2C%20VA%2022046%2C%20USA!5e0!3m2!1sen!2sin!4v1762454249730!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- Google Map IFrame End -->
                 </div> 

@@ -40,18 +40,26 @@
     padding-left: 10;
   }
 }
+
+p{
+  font-size: 13px !important;
+}
+.post-entry p {
+    margin-bottom: 13px !important;
+}
 </style>
 
 <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Accessibility</h1>
-                       <nav class="wow fadeInUp">
-                        <ol class="breadcrumb">
-                        </ol>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque"><span>Accessibility</span></h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Accessibility</li>
+                            </ol>
                         </nav>
                     </div>
                 </div>
@@ -102,7 +110,7 @@
     Los Angeles, CA 90094</p>
 
     <p>comparehomesecurity.org is committed to making our website's content accessible and user friendly to everyone. If you are having difficulty viewing or navigating the content on this website, or notice any content, feature, 
-        or functionality that you believe is not fully accessible to people with disabilities, please call our Customer Service team at 855-957-4069 or email our team at info@comparehomesecurity.org 
+        or functionality that you believe is not fully accessible to people with disabilities, please call our Customer Service team at <a href="tel:+15715008149">+(157)-1500-8149</a> or email our team at <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a>
         with "Disabled Access" in the subject line and provide a description of the specific feature you feel is not fully accessible or a suggestion for improvement. 
         We take your feedback seriously and will consider it as we evaluate ways to accommodate all of our customers and our overall accessibility policies. Additionally, while we do not control such vendors, 
         we strongly encourage vendors of third-party digital content to provide content that is accessible and user friendly.</p>

@@ -1,23 +1,21 @@
 @extends('layouts.frontend')
 @section('title')
-    404 | Compare Home Security
+    404 Not Found | Compare Home Security
 @endsection
 @section('content')
-<div class="page-header">
+ <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Page <span>Not Found</span></h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">404<span>Not Found</span></h1>
                         <nav class="wow fadeInUp">
-                            <!-- <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Page Not Found</li>
-                            </ol> -->
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">404 Not Found</li>
+                            </ol>
                         </nav>
                     </div>
-                    <!-- Page Header Box End -->
                 </div>
             </div>
         </div>

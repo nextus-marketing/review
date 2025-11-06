@@ -10,10 +10,10 @@
                     <div class="page-header-box">
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Thank <span>You</span></h1>
                         <nav class="wow fadeInUp">
-                            <!-- <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Page Not Found</li>
-                            </ol> -->
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Thank You</li>
+                            </ol>
                         </nav>
                     </div>
                 </div>

@@ -31,7 +31,7 @@ class Thankyou extends Mailable
     public function build()
     {
         return $this->markdown('Email.thankyou')
-            ->from("siddhesh.sonavane024@gmail.com", "Compare Home Security")
+            ->from("offers@comparehomesecurity.org", "Compare Home Security")
             ->subject("Compare Home Security - Your Enquiry Received");
     }
 }
