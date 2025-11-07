@@ -107,7 +107,7 @@ p{
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
             </div>
           </div>
-    </div>
+      </div>
 <section class="pt-5 post-conte" style="padding-top: 100px;">
   <div class="container post-entry" style="max-width:100%; word-wrap:break-word;">
 </br>

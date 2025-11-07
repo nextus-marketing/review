@@ -188,10 +188,10 @@
 
                         <!-- Social Media Icons -->
                             <div class="social-icons" style="margin-top: 20px;">
-                                <a href="#0" target="_blank" aria-label="Facebook" class="circle-icon">
+                                <a href="https://www.facebook.com/comparehomesecurity" target="_blank" aria-label="Facebook" class="circle-icon">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="#0" target="_blank" aria-label="Instagram" class="circle-icon">
+                                <a href="https://www.instagram.com/comparehomesecurity/" target="_blank" aria-label="Instagram" class="circle-icon">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                                 <a href="#0" target="_blank" aria-label="LinkedIn" class="circle-icon">
