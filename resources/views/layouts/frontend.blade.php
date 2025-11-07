@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
-  <link rel="canonical" href="{{ url()->current() }}" />
+  <link rel="canonical" href="{{ url()->current() }}"/>
   <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 </head>
 <body>
