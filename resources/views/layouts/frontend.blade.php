@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="@yield('description')">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <title>@yield('title')</title>
-	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
-	<link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="/frontend/css/slicknav.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
-	<link href="/frontend/css/all.min.css" rel="stylesheet" media="screen">
-	<link href="/frontend/css/animate.css" rel="stylesheet">
-	<link rel="stylesheet" href="/frontend/css/magnific-popup.css">
-	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
-	<link rel="stylesheet" href="/frontend/css/my.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
-	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
+  {{-- Handle Meta & Structured Data --}}
+  @if(View::hasSection('meta'))
+      @yield('meta')
+  @elseif(View::hasSection('meta_description'))
+      <meta name="description" content="@yield('meta_description')">
+  @endif
   <link rel="canonical" href="{{ url()->current() }}"/>
   <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+  <link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+  <link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="/frontend/css/slicknav.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
+  <link href="/frontend/css/all.min.css" rel="stylesheet" media="screen">
+  <link href="/frontend/css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="/frontend/css/magnific-popup.css">
+  <link rel="stylesheet" href="/frontend/css/mousecursor.css">
+  <link rel="stylesheet" href="/frontend/css/my.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
+  <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
+  @yield('structured_data')
 </head>
+
 <body>
 <style>
 /* ===== Top Info Bar ===== */
@@ -218,7 +222,7 @@
                         <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
                         <!-- <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Do Not Sell/Share My Personal Information</a></li>
                         <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Limit the Use of My Sensitive Personal Information</a></li> -->
-                        <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Blogs</a></li>
+                        <li><a href="/blogs" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Blogs</a></li>
                         <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
                     </ul>
                 </div>
