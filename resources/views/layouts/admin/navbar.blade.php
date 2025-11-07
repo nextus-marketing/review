@@ -16,7 +16,7 @@
         </li>
         @endcan
 
-        @can('role-view')
+        <!-- @can('role-view')
         <li class="sidebar-item">
             <a class="sidebar-link @if(Route::is('admin.roles.*')) active @endif" href="{{ route('admin.roles.index') }}" aria-expanded="false">
                 <span>
@@ -36,7 +36,7 @@
                 <span class="hide-menu">Employees</span>
             </a>
         </li>
-        @endcan
+        @endcan -->
 
         @can('enquiry-view')
         <li class="sidebar-item">
@@ -44,9 +44,21 @@
                 <span>
                     <i class="ti ti-headset"></i>
                 </span>
-                <span class="hide-menu">Enquiries</span>
+                <span class="hide-menu">Contact Enquiries</span>
             </a>
         </li>
+        @endcan
+
+        @can('blog-view')
+            <li class="sidebar-item">
+                <a class="sidebar-link @if (Route::is('admin.blogs.*')) active @endif"
+                    href="{{ route('admin.blogs.index') }}" aria-expanded="false">
+                    <span>
+                        <i class="ti ti-topology-star-3"></i>
+                    </span>
+                    <span class="hide-menu">Blogs</span>
+                </a>
+            </li>
         @endcan
 
         

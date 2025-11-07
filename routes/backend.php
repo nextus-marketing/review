@@ -123,7 +123,13 @@ Route::middleware(['auth', 'admin', 'preventBackHistory'])->group(function () {
          // Activity Logs
         Route::resource('activities', ActivityController::class); 
         Route::post('activities/data', [ActivityController::class, 'data'])->name('activities.data'); 
-        Route::post('activities/list', [ActivityController::class, 'list'])->name('activities.list'); 
+        Route::post('activities/list', [ActivityController::class, 'list'])->name('activities.list');
+        
+        // Blogs
+        Route::resource('blogs', BlogController::class);
+        Route::post('blogs/data', [BlogController::class, 'data'])->name('blogs.data');
+        Route::post('blogs/list',[BlogController::class, 'list'])->name('blogs.list');
+        Route::post('blogs/change-status',[BlogController::class, 'changeStatus'])->name('blogs.change.status');
 
 
         //End of File
