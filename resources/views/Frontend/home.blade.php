@@ -476,15 +476,13 @@
                     <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages
                       </a>
-                      
                     </div>
                   </div>
                 </div>
               </div>
-
-            </div> <!-- /row -->
-          </div> <!-- /pricing-tab-item -->
-        </div> <!-- /our-pricing-box -->
+            </div> 
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -515,7 +513,7 @@
 </style>
    <style>
   .text-primary {
-    color: #044ab3ff !important; /* deeper blue */
+    color: #044ab3ff !important; 
   }
   .bg-light {
     background-color: #9fc7e7ff !important;

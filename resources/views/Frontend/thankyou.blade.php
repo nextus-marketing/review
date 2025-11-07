@@ -21,7 +21,6 @@
         </div>
     </div>
     <div class="our-scrolling-ticker">
-        <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
@@ -54,7 +53,6 @@
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
             </div>
         </div>
-        <!-- Scrolling Ticker End -->
     </div>
     </div>
     <div class="error-page">
