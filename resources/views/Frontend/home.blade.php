@@ -88,7 +88,7 @@
 
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
               
-              <a href="tel:+18884476319" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
+              <a href="tel:+18884476319" class="custom-btn-outline" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 <i class="fa-solid fa-phone"></i> Enquire Now
               </a>
               <a href="#0" style="background: #0f2453; color: #fff; padding: 10px 18px; border-radius: 8px; font-weight: 600; text-decoration: none;">
@@ -151,7 +151,7 @@
 
             <div style="display: flex; gap: 12px; flex-wrap: wrap;">
               
-              <a href="tel:+18884476320" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
+              <a href="tel:+18884476320" class="custom-btn-outline" style="border: 2px solid #0f2453; color: #0f2453; padding: 9px 14px; border-radius: 8px; font-weight: 600; text-decoration: none;">
                 <i class="fa-solid fa-phone"></i> Enquire Now
               </a>
 
