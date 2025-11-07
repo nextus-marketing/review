@@ -447,16 +447,16 @@
                       </ul>
 
                       <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                        <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                        <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
                           <i class="bi bi-wrench-adjustable me-2"></i>DIY Installation
                         </span>
-                        <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                        <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
                           <i class="bi bi-truck me-2"></i>Professional Installation
                         </span>
-                        <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                        <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
                           <i class="bi bi-shield-check me-2"></i>24x7 Monitoring
                         </span>
-                        <span class="d-inline-flex align-items-center px-3 py-2 rounded-pill bg-light text-primary small fw-medium">
+                        <span class="d-inline-flex align-items-center px-3 py-1 rounded-pill bg-light text-primary small fw-medium">
                           <i class="bi bi-phone me-2"></i>Mobile App
                         </span>
                       </div>
