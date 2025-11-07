@@ -53,7 +53,7 @@ li {
 }
 
 .testimonial-item {
-    min-height: 378px !important;
+    min-height: 310px !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
