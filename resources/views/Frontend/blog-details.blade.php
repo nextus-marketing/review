@@ -17,6 +17,10 @@ font-size: 26px;
 .post-entry h6 {
     font-size: 16px;
 }
+.post-entry h2 {
+    font-size: 20px;
+}
+
 </style>
 
 <!-- Page Header -->
