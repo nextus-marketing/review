@@ -102,7 +102,7 @@
     </div>
 </section>
 
-<!-- ✅ Modal for Show -->
+<!-- Modal for Show -->
 <div class="modal fade" id="myModal" tabindex="-1">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -117,7 +117,7 @@
     </div>
 </div>
 
-<!-- ✅ Scripts -->
+<!-- Scripts -->
 <script type="text/javascript">
     $(document).ready(function () {
         $('.select2').select2({
@@ -162,7 +162,7 @@
             dataTable.draw();
         });
 
-        // ✅ Toggle status
+        // Toggle status
         $(document).on('change', '.blogs-status-switch', function (e) {
             e.preventDefault();
             const routeKey = $(this).data('routekey');

@@ -242,10 +242,9 @@
                             var errorText = Array.isArray(value) ? value.join(
                                 ', ') : value;
                             form.find('#' + key + '-error').html(
-                                errorText); // ✅ Scoped to form
+                                errorText); 
                         });
 
-                        // ✅ Scroll to first error in this form only
                         var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
                         $('html, body').animate({
                             scrollTop: form.find('#' + firstErrorKey + '-error')
