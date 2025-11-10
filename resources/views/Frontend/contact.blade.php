@@ -136,26 +136,25 @@
                      @csrf   
                     <div class="row">
                             <div class="form-group col-md-6 mb-4">
-                                <label class="form-label">Full Name *</label>
-                                <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Your First Name">
+                                <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Your Full Name*">
                                 <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>
                             </div>
 
                             <div class="form-group col-md-6 mb-4">
                                 <label class="form-label">Subject *</label>
-                                <input type="text" name="subject" class="form-control" id="subject" placeholder="Your Last Name">
+                                <input type="text" name="subject" class="form-control" id="subject" placeholder="Your Subject*">
                                 <div class="field_error" id="subject-error" style="color:#ff0000;"></div>
                             </div>
 
                             <div class="form-group col-md-6 mb-4">
                                 <label class="form-label">Email Address *</label>
-                                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email Address">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Your Email Address*">
                                 <div class="field_error" id="email-error" style="color:#ff0000;"></div>
                             </div>
 
                             <div class="form-group col-md-6 mb-4">
                                 <label class="form-label">Phone Number *</label>
-                                <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Your Phone Number">
+                                <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Your Phone Number*">
                                 <div class="field_error" id="mobile-error" style="color:#ff0000;"></div>
                             </div>
 
