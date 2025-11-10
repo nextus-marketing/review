@@ -141,25 +141,21 @@
                             </div>
 
                             <div class="form-group col-md-6 mb-4">
-                                <label class="form-label">Subject *</label>
                                 <input type="text" name="subject" class="form-control" id="subject" placeholder="Your Subject*">
                                 <div class="field_error" id="subject-error" style="color:#ff0000;"></div>
                             </div>
 
                             <div class="form-group col-md-6 mb-4">
-                                <label class="form-label">Email Address *</label>
                                 <input type="email" name="email" class="form-control" id="email" placeholder="Your Email Address*">
                                 <div class="field_error" id="email-error" style="color:#ff0000;"></div>
                             </div>
 
                             <div class="form-group col-md-6 mb-4">
-                                <label class="form-label">Phone Number *</label>
                                 <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Your Phone Number*">
                                 <div class="field_error" id="mobile-error" style="color:#ff0000;"></div>
                             </div>
 
                             <div class="form-group col-md-12 mb-5">
-                                <label class="form-label">Message</label>
                                 <textarea name="message" class="form-control" id="message" rows="5" placeholder="Any Message..."></textarea>
                             </div>
 
