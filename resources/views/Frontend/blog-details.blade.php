@@ -34,7 +34,7 @@ font-size: 26px;
                         <ol class="breadcrumb">
                             <li><i class="fa-regular fa-user"></i> {{ $blog->author }}</li>
                             <li>
-                                <i class="fa-regular fa-clock"></i>
+                                <i class="fa-solid fa-calendar-days"></i>
                                 {{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}
                             </li>
                         </ol>
