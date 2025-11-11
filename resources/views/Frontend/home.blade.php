@@ -2,6 +2,27 @@
 @section('title') Compare Home Security Systems | Find the Best Alarm & Monitoring Plans @endsection
 @section('meta_description') Discover the top home security systems of 2025 - compare features, monitoring plans, costs and get free quotes to secure your home with confidence. @endsection
 @section('content')
+<script>
+   {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Compare Home Security",
+  "url": "https://comparehomesecurity.org/",
+  "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo.png",
+  "sameAs": [
+    "https://www.facebook.com/comparehomesecurity",
+    "https://www.instagram.com/comparehomesecurity/",
+    "https://www.youtube.com/@CompareHomeSecurity",  // Fixed typo here
+    "https://www.linkedin.com/company/compare-home-security/"
+  ],
+  "description": "Compare Home Security Systems provides expert comparisons, reviews and free quotes to help homeowners select the best alarm and monitoring plans for their needs.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://comparehomesecurity.org/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
 <div class="hero hero-small-mobile" style="height:280px;">
     <div class="container">
