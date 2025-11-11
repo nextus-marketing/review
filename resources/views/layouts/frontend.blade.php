@@ -144,9 +144,9 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
 					<!-- Logo Start -->
-					 <a class="navbar-brand" href="/">
-                        <img src="/frontend/my-img/new-logo.png" alt="Logo" style="width: 139px; height: auto;">
-                    </a>
+					  <a class="navbar-brand" href="/">
+                <img src="/frontend/my-img/new-logo.png" alt="Logo" style="width: 139px; height: auto;">
+            </a>
 					    <!-- Logo End -->
               <!-- Header Btn Start -->
               <div class="header-btn">
