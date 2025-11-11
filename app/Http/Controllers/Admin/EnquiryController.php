@@ -18,11 +18,11 @@ class EnquiryController extends Controller
 
         return DataTables::eloquent($query)
            ->editColumn('datetime', function ($enquiry) {
-    // Convert created_at to IST and format
-    return $enquiry->created_at
-        ->timezone('Asia/Kolkata') // Convert to IST
-        ->format('d-m-Y h:i A');   // Format as 24-10-2025 11:58 PM
-})
+                // Convert created_at to IST and format
+                return $enquiry->created_at
+                    ->timezone('Asia/Kolkata') // Convert to IST
+                    ->format('d-m-Y || h:i A');   // Format as 24-10-2025 11:58 PM
+            })
 
             ->editColumn('full_name', function ($enquiry) {
                 return $enquiry->full_name;

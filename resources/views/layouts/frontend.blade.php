@@ -198,7 +198,7 @@
                                 <a href="https://www.instagram.com/comparehomesecurity/" target="_blank" aria-label="Instagram" class="circle-icon">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a href="#0" target="_blank" aria-label="LinkedIn" class="circle-icon">
+                                <a href="https://www.linkedin.com/company/compare-home-security/" target="_blank" aria-label="LinkedIn" class="circle-icon">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
                                 <a href="https://www.youtube.com/@ComapreHomeSecurity" target="_blank" aria-label="YouTube" class="circle-icon">

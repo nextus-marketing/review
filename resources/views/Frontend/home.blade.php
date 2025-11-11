@@ -375,11 +375,10 @@
                     <div class="d-grid gap-2 mt-auto">
                     <a href="tel:+18884476320" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                         <i class="fa-solid fa-phone"></i> Call for FREE Quote
-                      </a>  
+                    </a>  
                     <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages
-                      </a>
-                      
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -426,8 +425,7 @@
                       </a>  
                     <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages
-                      </a>
-                      
+                    </a>
                     </div>
                   </div>
                 </div>
@@ -471,11 +469,11 @@
                     <div class="d-grid gap-2 mt-auto">
                     <a href="tel:+15715008149" class="custom-btn-outline" style="background-color: transparent; color: #0f2453; border: 2px solid #0f2453; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                         <i class="fa-solid fa-phone"></i> Call for FREE Quote
-                      </a>  
+                    </a>  
                     
                     <a href="#0" class="custom-btn" style="background-color: #0f2453; color: #fff; border-radius: 8px; padding: 10px 0; font-weight: 600;">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i> View Packages
-                      </a>
+                    </a>
                     </div>
                   </div>
                 </div>
