@@ -166,7 +166,7 @@
 
       <div class="col-lg-10 mt-4">
         <p style="text-align: center; color: #0f2453; font-size: 15px; line-height: 1.7;">
-          Compare Home Security is your trusted resource for honest, expert reviews of today’s leading home security providers.
+         <b>Compare Home Security</b>  is your trusted resource for honest, expert reviews of today’s leading home security providers.
           We help you compare features, prices, and performance so you can protect your home with confidence.
           Our comparisons are unbiased, detailed, and designed to make your decision simple and secure.
         </p>
