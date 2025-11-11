@@ -29,6 +29,25 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
   <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
   @yield('structured_data')
+  {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Compare Home Security",
+  "url": "https://comparehomesecurity.org/",
+  "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo.png",
+  "sameAs": [
+    "https://www.facebook.com/comparehomesecurity",
+    "https://www.instagram.com/comparehomesecurity/",
+    "https://www.youtube.com/@CompareHomeSecurity",  // Fixed typo here
+    "https://www.linkedin.com/company/compare-home-security/"
+  ],
+  "description": "Compare Home Security Systems provides expert comparisons, reviews and free quotes to help homeowners select the best alarm and monitoring plans for their needs.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://comparehomesecurity.org/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
 </head>
 
 <body>
