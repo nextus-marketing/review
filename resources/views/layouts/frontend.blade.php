@@ -177,8 +177,11 @@
                 <div class="about-footer">
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
-                        <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width: 229px; height: auto;">
+                        <a href="/" title="Home">
+                            <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width: 229px; height: auto;">
+                        </a>
                     </div>
+
                     <!-- Footer Logo End -->
 
                     <!-- About Footer Content Start -->
@@ -334,9 +337,7 @@ window.addEventListener('click', function(event) {
     <script src="/frontend/js/ScrollTrigger.min.js"></script>
     <!-- YTPlayer js File -->
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
     <script src="/frontend/js/wow.min.js"></script>
-    <!-- Main Custom js file -->
     <script src="/frontend/js/function.js"></script>
 </body>
 </html>

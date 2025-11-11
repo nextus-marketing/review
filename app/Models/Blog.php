@@ -50,7 +50,4 @@ class Blog extends BaseModel
     {
         return $this->hasMany(BlogVisitor::class, 'blog_id');
     }
-
-
-
 }
