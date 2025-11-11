@@ -1,5 +1,45 @@
 @extends('layouts.frontend')
 @section('title') Blogs | Compare Home Security @endsection
+@section('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Blog - Compare Home Security",
+  "url": "https://comparehomesecurity.org/blogs",
+  "description": "Read expert blogs, tips, and guides to help homeowners choose the best home security systems.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Compare Home Security",
+    "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo.png",
+    "url": "https://comparehomesecurity.org/"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://comparehomesecurity.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://comparehomesecurity.org/blogs"
+      }
+    ]
+  },
+  "mainEntityOfPage": "https://comparehomesecurity.org/blogs",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://comparehomesecurity.org/blogs?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+@endsection
 @section('content')
 
 <!-- Page Header Start -->
