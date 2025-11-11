@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
   <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
   @yield('structured_data')
-  {
+   <script>{
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Compare Home Security",
@@ -47,7 +47,7 @@
     "target": "https://comparehomesecurity.org/?s={search_term_string}",
     "query-input": "required name=search_term_string"
   }
-}
+}</script>
 </head>
 
 <body>
