@@ -1,9 +1,7 @@
 @extends('layouts.admin')
-
 @section('author')
     Blogs
 @endsection
-
 @section('content')
 
 <style>
@@ -189,34 +187,32 @@
         });
 
 
-        // ✅ Delete blog
-       $(document).on('click', '.delete-blog', function (e) {
-    e.preventDefault();
-    const routeKey = $(this).data('routekey');
+            // Delete blog
+            $(document).on('click', '.delete-blog', function (e) {
+            e.preventDefault();
+            const routeKey = $(this).data('routekey');
 
-    if (confirm("Are you sure you want to delete this blog?")) {
-        $.ajax({
-            url: `/admin/blogs/${routeKey}`,
-            type: 'DELETE',
-            data: {
-                _token: $('meta[name=csrf-token]').attr('content')
-            },
-            success: function (data) {
-                if (data.status === 'success') {
-                    toastr.success(data.message);
-                    dataTable.ajax.reload();
-                } else {
-                    toastr.error(data.message);
-                }
-            },
-            error: function () {
-                toastr.error('Failed to delete blog.');
+            if (confirm("Are you sure you want to delete this blog?")) {
+                $.ajax({
+                    url: `/admin/blogs/${routeKey}`,
+                    type: 'DELETE',
+                    data: {
+                        _token: $('meta[name=csrf-token]').attr('content')
+                    },
+                    success: function (data) {
+                        if (data.status === 'success') {
+                            toastr.success(data.message);
+                            dataTable.ajax.reload();
+                        } else {
+                            toastr.error(data.message);
+                        }
+                    },
+                    error: function () {
+                        toastr.error('Failed to delete blog.');
+                    }
+                });
             }
         });
-    }
-});
-
-        // Style export buttons
         $(".buttons-copy, .buttons-csv, .buttons-print, .buttons-pdf, .buttons-excel").addClass("btn btn-primary me-1");
     });
 </script>
