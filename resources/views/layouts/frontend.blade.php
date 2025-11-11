@@ -201,7 +201,7 @@
                                 <a href="#0" target="_blank" aria-label="LinkedIn" class="circle-icon">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
-                                <a href="#0" target="_blank" aria-label="YouTube" class="circle-icon">
+                                <a href="https://www.youtube.com/@ComapreHomeSecurity" target="_blank" aria-label="YouTube" class="circle-icon">
                                     <i class="fab fa-youtube"></i>
                                 </a>
                             </div>
