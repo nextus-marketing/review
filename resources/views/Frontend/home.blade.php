@@ -308,7 +308,7 @@
                       </div>
 
                       <div class="text-center">
-                        <a href="https://www.vivint.com/" class="see-more-btn">
+                        <a href="https://www.vivint.com/" target="_blank" class="see-more-btn">
                           See More Features <i class="fa-solid fa-circle-arrow-right"></i>
                         </a>
                       </div>
@@ -365,7 +365,7 @@
                       </div>
 
                       <div class="text-center">
-                        <a href="https://www.adt.com/" class="see-more-btn">
+                        <a href="https://www.adt.com/" target="_blank" class="see-more-btn">
                           See More Features <i class="fa-solid fa-circle-arrow-right"></i>
                         </a>
                       </div>
@@ -414,7 +414,7 @@
                       </div>
 
                       <div class="text-center">
-                        <a href="https://brinkshome.com/" class="see-more-btn">
+                        <a href="https://brinkshome.com/" target="_blank" class="see-more-btn">
                           See More Features <i class="fa-solid fa-circle-arrow-right"></i>
                         </a>
                       </div>
@@ -462,7 +462,7 @@
                       </div>
 
                       <div class="text-center">
-                        <a href="https://simplisafe.com/" class="see-more-btn">
+                        <a href="https://simplisafe.com/" target="_blank" class="see-more-btn">
                           See More Features <i class="fa-solid fa-circle-arrow-right"></i>
                         </a>
                       </div>
