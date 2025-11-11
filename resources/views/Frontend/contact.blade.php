@@ -42,23 +42,10 @@
             <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
             <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
             <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-            <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-        </div>
-
-        <div class="scrolling-content">
-            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-            <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
             <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
             <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
             <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
             <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-            <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-            <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
         </div>
     </div>
 </div>

@@ -20,42 +20,27 @@
             </div>
         </div>
     </div>
-     <div class="our-scrolling-ticker">
-        <!-- Scrolling Ticker Start -->
-        <div class="scrolling-ticker-box">
-            <div class="scrolling-content">
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-            </div>
-
-            <div class="scrolling-content">
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-                <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
-                <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
-                <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
-                <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
-            </div>
+    <div class="our-scrolling-ticker">
+    <div class="scrolling-ticker-box">
+        <div class="scrolling-content">
+            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+            <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+            <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+            <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+            <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+            <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
+            <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
+            <span><img src="/frontend/my-img/simplisafe.png" alt=""></span>
+            <span style="margin-top:22px"><img src="/frontend/my-img/Brinks_logo.png" alt=""></span>
+            <span><img src="/frontend/my-img/adt-logo.svg" alt=""></span>
         </div>
-        <!-- Scrolling Ticker End -->
     </div>
+</div>
     <div class="error-page">
         <div class="container">
             <div class="row">
