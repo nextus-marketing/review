@@ -7,6 +7,33 @@
 @section('meta_description')
     {{ $blog->meta_description }}
 @endsection
+@section('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ addslashes($blog->title) }}",
+  "url": "{{ url('blogs/' . $blog->slug) }}",
+  "description": "{{ addslashes(strip_tags($blog->meta_description ?? '')) }}",
+  "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->toDateString() }}",
+  "image": "{{ asset(Storage::url($blog->photo)) }}",
+  "mainEntityOfPage": "{{ url('blogs/' . $blog->slug) }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Compare Home Security",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ asset('frontend/my-img/new-logo.png') }}"
+    },
+    "url": "{{ url('/') }}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ addslashes($blog->author ?? 'Admin') }}"
+  }
+}
+</script>
+@endsection
 
 @section('content')
 
