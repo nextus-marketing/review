@@ -28,8 +28,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
   <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
-  @yield('structured_data')
-   <script>{
+   <script>
+   {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Compare Home Security",
@@ -47,7 +47,9 @@
     "target": "https://comparehomesecurity.org/?s={search_term_string}",
     "query-input": "required name=search_term_string"
   }
-}</script>
+}
+</script>
+  @yield('structured_data')
 </head>
 
 <body>
