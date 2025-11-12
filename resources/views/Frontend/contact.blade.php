@@ -164,14 +164,12 @@
                                 <div class="g-recaptcha d-inline-block" data-sitekey="6LeQZfwrAAAAAC3tThs6M8ubAPYGMSrEoZ6A0Um9"></div>
                             </div>
 
-                            <!-- Centered Submit Button -->
                             <div class="col-12 text-center">
                                 <button type="submit" class="btn-default"><span>Submit Form</span></button>
                                 <div id="msgSubmit" class="h3 hidden"></div>
                             </div>
                         </div>
                     </form>
-
                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>                     
                 </div>
             </div>

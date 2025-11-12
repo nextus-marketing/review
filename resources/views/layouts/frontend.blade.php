@@ -2,23 +2,38 @@
 <html lang="en">
 <head>
   <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CX4Y0X405"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-6CX4Y0X405'); </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CX4Y0X405"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-6CX4Y0X405');
+  </script>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
   <title>@yield('title')</title>
+
   {{-- Handle Meta & Structured Data --}}
   @if(View::hasSection('meta'))
-      @yield('meta')
+    @yield('meta')
   @elseif(View::hasSection('meta_description'))
-      <meta name="description" content="@yield('meta_description')">
+    <meta name="description" content="@yield('meta_description')">
   @endif
-  <link rel="canonical" href="{{ url()->current() }}"/>
-  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+
+  <link rel="canonical" href="{{ url()->current() }}" />
+  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+
   <link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
   <link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="/frontend/css/slicknav.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
@@ -27,12 +42,24 @@
   <link rel="stylesheet" href="/frontend/css/magnific-popup.css">
   <link rel="stylesheet" href="/frontend/css/mousecursor.css">
   <link rel="stylesheet" href="/frontend/css/my.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"/>
   <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
-  <script type="text/javascript">     (function(c,l,a,r,i,t,y){         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);     })(window, document, "clarity", "script", "u4mc5ekps8"); </script>
+
+  <!-- External Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){ (c[a].q=c[a].q||[]).push(arguments) };
+      t=l.createElement(r); t.async=1; t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "u4mc5ekps8");
+  </script>
+
   @yield('structured_data')
 </head>
+
 
 <body>
 <style>
