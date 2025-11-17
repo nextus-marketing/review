@@ -131,7 +131,6 @@
                     <div class="section-title">
                         <h2 class="text-anime-style-2">Fill up the <span>form</span></h2>
                     </div>
-                    
                     <form action="/contact-enquiry" enctype="multipart/form-data" method="POST" id="contactForm" class="wow fadeInUp" data-wow-delay="0.2s " data-toggle="validator">
                      @csrf   
                     <div class="row">
@@ -182,91 +181,86 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>
-    $(document).ready(function() {
-       
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
+$(document).ready(function() {
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    $('#contactForm').submit(function(e) {
+        e.preventDefault();
+        var form = $(this);
+        form.find('div[id$="-error"]').empty(); 
+        var url = form.attr('action');
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData: false,
+            beforeSend: function() {
+                form.find('#started').attr('disabled', true).hide();
+                form.find('#form_loader').show();
+            },
+            success: function(data) {
+                if (data.status === 'success') {
+                    toastr.success(data.message, '', {
+                        showMethod: "slideDown",
+                        hideMethod: "slideUp",
+                        timeOut: 1500,
+                        closeButton: true,
+                    });
 
-        $('#contactForm').submit(function(e) {
-            e.preventDefault();
-            var form = $(this);
-            form.find('div[id$="-error"]').empty(); 
+                    form[0].reset();
 
-            var url = form.attr('action');
+                    setTimeout(function() {
+                        window.location.href = '/thankyou';
+                    }, 1000);
+                }   
+            },      
+            error: function(xhr) {
+                console.log(xhr);
+                toastr.error(
+                    'There are some errors in the form. Please check your inputs.',
+                    '', {
+                        showMethod: "slideDown",
+                        hideMethod: "slideUp",
+                        timeOut: 1500,
+                        closeButton: true,
+                    });
 
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: new FormData(this),
-                contentType: false,
-                cache: false,
-                processData: false,
-                beforeSend: function() {
-                    form.find('#started').attr('disabled', true).hide();
-                    form.find('#form_loader').show();
-                },
-                success: function(data) {
-                    if (data.status === 'success') {
-                        toastr.success(data.message, '', {
-                            showMethod: "slideDown",
-                            hideMethod: "slideUp",
-                            timeOut: 1500,
-                            closeButton: true,
-                        });
-
-                        form[0].reset();
-
-                        setTimeout(function() {
-                            window.location.href = '/thankyou';
-                        }, 1000);
-                    }
-                },
-                error: function(xhr) {
-                    console.log(xhr);
+                if (xhr.responseJSON && xhr.responseJSON.errors) {
+                    $.each(xhr.responseJSON.errors, function(key, value) {
+                        var errorText = Array.isArray(value) ? value.join(
+                            ', ') : value;
+                        form.find('#' + key + '-error').html(
+                            errorText); 
+                    });
+                    var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
+                    $('html, body').animate({
+                        scrollTop: form.find('#' + firstErrorKey + '-error')
+                            .offset().top - 200
+                    }, 500);
+                    
+                } else {
                     toastr.error(
-                        'There are some errors in the form. Please check your inputs.',
+                        'An unexpected error occurred. Please try again later.',
                         '', {
                             showMethod: "slideDown",
                             hideMethod: "slideUp",
                             timeOut: 1500,
                             closeButton: true,
                         });
-
-                    if (xhr.responseJSON && xhr.responseJSON.errors) {
-                        $.each(xhr.responseJSON.errors, function(key, value) {
-                            var errorText = Array.isArray(value) ? value.join(
-                                ', ') : value;
-                            form.find('#' + key + '-error').html(
-                                errorText); 
-                        });
-
-                        var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
-                        $('html, body').animate({
-                            scrollTop: form.find('#' + firstErrorKey + '-error')
-                                .offset().top - 200
-                        }, 500);
-
-                    } else {
-                        toastr.error(
-                            'An unexpected error occurred. Please try again later.',
-                            '', {
-                                showMethod: "slideDown",
-                                hideMethod: "slideUp",
-                                timeOut: 1500,
-                                closeButton: true,
-                            });
-                    }
-                },
-                complete: function() {
-                    form.find('#started').attr('disabled', false).show();
-                    form.find('#form_loader').hide();
                 }
-            });
+            },
+            complete: function() {
+                form.find('#started').attr('disabled', false).show();
+                form.find('#form_loader').hide();
+            }
         });
     });
+});
 </script>
 
 @endsection
