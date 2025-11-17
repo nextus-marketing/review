@@ -226,7 +226,6 @@ font-size: 26px;
                                     </a>
                                 </h2>
                             </div>
-                        </br>
                             <div class="post-item-btn mt-2">
                                 <a href="{{ route('blogs.details', $latest->slug) }}" class="readmore-btn">
                                     Read More
