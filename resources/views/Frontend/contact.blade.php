@@ -78,7 +78,7 @@
             </div>
             <div class="contact-info-content">
                 <h3>Contact us</h3>
-                <p><a href="tel:+15715008149">+(157) 150-08149</a></p>
+                <p><a href="tel:+15715008149">+1(571) 500-8149</a></p>
                 <br>
             </div>
         </div>
