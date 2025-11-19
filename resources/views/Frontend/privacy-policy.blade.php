@@ -331,7 +331,7 @@ We may sell or share your sensitive personal information or use such information
 
   <p>For assistance, contact:</p>
   <ul>
-    <li>Contact Number: <strong><a href="tel:+15715008149">+(157)-1500-8149</a></strong></li>
+    <li>Contact Number:<a href="tel:+15715008149">+1(571) 500-8149</a></li>
     <li>Email: <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a></li>
   </ul>
 
