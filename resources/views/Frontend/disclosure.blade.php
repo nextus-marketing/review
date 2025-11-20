@@ -42,9 +42,7 @@
     padding-left: 10;
   }
 }
-p{
-  font-size: 13px !important;
-}
+
 .post-entry p {
     margin-bottom: 13px !important;
 }
@@ -108,16 +106,16 @@ p{
     <h2 class="wow fadeInUp" data-wow-delay="0.8s">Earnings Disclosure</h2>
 </br>
 </br>
-    <p>The comparehomesecurity.org editorial team is committed to delivering the most current resources in home and personal security. We want to keep offering our services for free and without ads, so at times, we do link to products and include phone numbers of service providers we review. We may earn compensation when you purchase a product or service from certain advertising partners. We may also earn commissions from clicks or inquiries on certain partners.</p>
+    <p style="font-size: 13px;">The comparehomesecurity.org editorial team is committed to delivering the most current resources in home and personal security. We want to keep offering our services for free and without ads, so at times, we do link to products and include phone numbers of service providers we review. We may earn compensation when you purchase a product or service from certain advertising partners. We may also earn commissions from clicks or inquiries on certain partners.</p>
 
-    <p>comparehomesecurity.org is committed to making our website's content accessible and user friendly to everyone. If you are having difficulty viewing or navigating the content on this website, or notice any content, feature, 
+    <p style="font-size: 13px;">comparehomesecurity.org is committed to making our website's content accessible and user friendly to everyone. If you are having difficulty viewing or navigating the content on this website, or notice any content, feature, 
         or functionality that you believe is not fully accessible to people with disabilities, please call our Customer Service team at <a href="tel:+15715008149">+1(571) 500-8149</a> or email our team at <a href="mailto:offers@comparehomesecurity.org">offers@comparehomesecurity.org</a>
         with "Disabled Access" in the subject line and provide a description of the specific feature you feel is not fully accessible or a suggestion for improvement. 
         We take your feedback seriously and will consider it as we evaluate ways to accommodate all of our customers and our overall accessibility policies. Additionally, while we do not control such vendors, 
         we strongly encourage vendors of third-party digital content to provide content that is accessible and user friendly.</p>
 
          <h6 style="font-size:26px; font-weight:700; margin-bottom:10px;">Our Partners</h6>
-            <p><b>Compare Home Security</b> maintains partnerships with leading security providers and technology companies.
+            <p style="font-size: 13px;"><b>Compare Home Security</b> maintains partnerships with leading security providers and technology companies.
 </br>
         However, we maintain complete editorial independence in all our reviews. We don’t always receive compensation for recommended products, and the compensation we do make helps us sustain our website. It allows us to continue offering valuable services to our readers for free, while also keeping our website free from distracting ads.
         </br>    
