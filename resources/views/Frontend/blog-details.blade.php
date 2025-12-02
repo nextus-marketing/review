@@ -46,7 +46,7 @@
           "name": "{{ addslashes($faq['question']) }}",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "{{ addslashes(strip_tags($faq['answer'])) }}"
+            "text": "{{ addslashes($faq['answer']) }}"
           }
         }@if(!$loop->last),@endif
         @endforeach
@@ -58,6 +58,7 @@
 }
 </script>
 @endsection
+
 
 
 @section('content')
