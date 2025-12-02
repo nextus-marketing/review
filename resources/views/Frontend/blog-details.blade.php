@@ -79,6 +79,44 @@ font-size: 26px;
     }
 }
 
+/* Editor Table Styling */
+.editor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+.editor-table th,
+.editor-table td {
+    border: 1px solid #d7d7d7;
+    padding: 12px 14px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.editor-table th {
+    background: #f1f4f7;
+    font-weight: 600;
+    color: #0c1b33;
+}
+
+.editor-table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* Make table scrollable on mobile */
+.editor-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.editor-table td p {
+    margin: 0; /* Removes double spacing created by <p> tags inside cells */
+}
+
+
 </style>
 
 
