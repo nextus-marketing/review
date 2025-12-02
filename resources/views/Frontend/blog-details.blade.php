@@ -11,29 +11,54 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "{{ addslashes($blog->title) }}",
-  "url": "{{ url('blogs/' . $blog->slug) }}",
-  "description": "{{ addslashes(strip_tags($blog->meta_description ?? '')) }}",
-  "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->toDateString() }}",
-  "image": "{{ asset(Storage::url($blog->photo)) }}",
-  "mainEntityOfPage": "{{ url('blogs/' . $blog->slug) }}",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Compare Home Security",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ asset('frontend/my-img/new-logo.png') }}"
-    },
-    "url": "{{ url('/') }}"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "{{ addslashes($blog->author ?? 'Admin') }}"
-  }
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "{{ addslashes($blog->title) }}",
+      "url": "{{ url('blogs/' . $blog->slug) }}",
+      "description": "{{ addslashes(strip_tags($blog->meta_description ?? '')) }}",
+      "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->toDateString() }}",
+      "image": "{{ asset(Storage::url($blog->photo)) }}",
+      "mainEntityOfPage": "{{ url('blogs/' . $blog->slug) }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Compare Home Security",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ asset('frontend/my-img/new-logo.png') }}"
+        },
+        "url": "{{ url('/') }}"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "{{ addslashes($blog->author ?? 'Admin') }}"
+      }
+    }
+
+    @if(!empty($blog->faqs) && count($blog->faqs) > 0)
+    ,
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        @foreach($blog->faqs as $faq)
+        {
+          "@type": "Question",
+          "name": "{{ addslashes($faq['question']) }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ addslashes(strip_tags($faq['answer'])) }}"
+          }
+        }@if(!$loop->last),@endif
+        @endforeach
+      ]
+    }
+    @endif
+
+  ]
 }
 </script>
 @endsection
+
 
 @section('content')
 
