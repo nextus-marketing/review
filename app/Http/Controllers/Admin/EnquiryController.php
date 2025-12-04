@@ -14,38 +14,36 @@ class EnquiryController extends Controller
     }
 
     public function data(Request $request){
-        $query = Enquiry::where('id','!=',0)->orderBy('created_at', 'desc'); 
+    $query = Enquiry::where('id','!=',0)
+        ->orderBy('created_at', 'desc')   // latest first
+        ->orderBy('id', 'desc');          // force ordering
 
-        return DataTables::eloquent($query)
-           ->editColumn('datetime', function ($enquiry) {
-                // Convert created_at to IST and format
-                return $enquiry->created_at
-                    ->timezone('Asia/Kolkata') // Convert to IST
-                    ->format('d-m-Y || h:i A');   // Format as 24-10-2025 11:58 PM
-            })
+    return DataTables::eloquent($query)
+       ->editColumn('datetime', function ($enquiry) {
+            return $enquiry->created_at
+                ->timezone('Asia/Kolkata')
+                ->format('d-m-Y || h:i A');
+        })
+        ->editColumn('full_name', fn($enquiry) => $enquiry->full_name)
+        ->editColumn('subject', fn($enquiry) => $enquiry->subject)
+        ->editColumn('email', fn($enquiry) =>
+            '<a href="mailto:' . e($enquiry->email) . '">' . e($enquiry->email) . '</a>'
+        )
+        ->editColumn('mobile', fn($enquiry) =>
+            '<a href="tel:' . e($enquiry->mobile) . '">' . e($enquiry->mobile) . '</a>'
+        )
+        ->editColumn('message', fn($enquiry) =>
+            mb_strimwidth($enquiry->message, 0, 97, '...')
+        )
+        ->addColumn('action', function ($enquiry) {
+            return '<a href="'.route('admin.enquiries.show',['enquiry' => $enquiry->route_key]).'" class="badge bg-info fs-1 modal-one-btn" data-entity="enquiries" data-title="Enquiry" data-route-key="'.$enquiry->route_key.'"><i class="fa fa-eye"></i></a>';
+        })
+        ->addIndexColumn()
+        ->rawColumns(['datetime','full_name','subject','email','mobile','status','action'])
+        ->setRowId('id')
+        ->make(true);
+}
 
-            ->editColumn('full_name', function ($enquiry) {
-                return $enquiry->full_name;
-            }) 
-            ->editColumn('subject', function ($enquiry) {
-                return $enquiry->subject;
-            }) 
-           ->editColumn('email', function ($enquiry) {
-                return '<a href="mailto:' . e($enquiry->email) . '">' . e($enquiry->email) . '</a>';
-            })
-            ->editColumn('mobile', function ($enquiry) {
-                return '<a href="tel:' . e($enquiry->mobile) . '">' . e($enquiry->mobile) . '</a>';
-            })
-            ->editColumn('message', function ($enquiry) {
-                return mb_strimwidth($enquiry->message, 0, 97, '...');
-            }) 
-            ->addColumn('action', function ($enquiry) {
-                $show = '<a href="'.route('admin.enquiries.show',['enquiry' => $enquiry->route_key]).'" class="badge bg-info fs-1 modal-one-btn" data-entity="enquiries" data-title="Enquiry" data-route-key="'.$enquiry->route_key.'"><i class="fa fa-eye"></i></a>';
-                return $show;
-            })   
-           ->addIndexColumn()
-           ->rawColumns(['datetime','full_name','subject','email','mobile','status','action'])->setRowId('id')->make(true);
-    }
 
     public function list(){
 		$enquiries = Enquiry::all();
