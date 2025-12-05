@@ -1,5 +1,8 @@
 @extends('layouts.frontend')
 @section('title') Blogs | Compare Home Security @endsection
+@section('meta_description')
+<meta name="description" content="Explore expert articles and guides on home security from choosing alarm systems and monitoring services, to DIY tips, smart-home integrations and safety best practices for every homeowner.">
+@endsection
 @section('structured_data')
 <script type="application/ld+json">
 {
