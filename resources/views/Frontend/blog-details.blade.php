@@ -10,54 +10,58 @@
 
 @section('structured_data')
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ url()->current() }}"
-      },
-      "headline": "{{ addslashes($blog->meta_title ?? $blog->title) }}",
-        "description": "{{ addslashes(strip_tags($blog->meta_description ?: Str::limit(strip_tags($blog->content ?? ''), 150))) }}",
-       "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ addslashes($blog->author_name ?? 'Admin') }}"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Compare Home Security",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{ url('/frontend/my-img/new-logo.png') }}"
-        }
-      },
-      "dateModified": "{{ $blog->updated_at->toIso8601String() }}"
-    }
-    @if(!empty($blog->faqs) && count($blog->faqs) > 0)
-    ,
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        @foreach($blog->faqs as $faq)
-        {
-          "@type": "Question",
-          "name": "{{ addslashes($faq['question']) }}",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "{{ addslashes(strip_tags($faq['answer'])) }}"
-          }
-        }@if(!$loop->last),@endif
-        @endforeach
-      ]
-    }
-    @endif
-  ]
-}
+{!! json_encode([
+    "@context" => "https://schema.org",
+    "@graph" => [
+
+        // ARTICLE SCHEMA
+        [
+            "@type" => "Article",
+            "mainEntityOfPage" => [
+                "@type" => "WebPage",
+                "@id" => url()->current()
+            ],
+            "headline" => $blog->meta_title ?: $blog->title,
+            "description" => $blog->meta_description
+                ?: Str::limit(strip_tags($blog->content ?? ''), 160),
+            "image" => asset(Storage::url($blog->photo)),
+            "datePublished" => \Carbon\Carbon::parse($blog->publish_date)
+                ->timezone('Asia/Kolkata')
+                ->toIso8601String(),
+            "dateModified" => $blog->updated_at->toIso8601String(),
+            "author" => [
+                "@type" => "Person",
+                "name" => $blog->author_name ?? "Admin"
+            ],
+            "publisher" => [
+                "@type" => "Organization",
+                "name" => "Compare Home Security",
+                "logo" => [
+                    "@type" => "ImageObject",
+                    "url" => url('/frontend/my-img/new-logo.png')
+                ]
+            ]
+        ],
+
+        // FAQ SCHEMA
+        !empty($blog->faqs) && count($blog->faqs) > 0 ? [
+            "@type" => "FAQPage",
+            "mainEntity" => array_map(function($faq) {
+                return [
+                    "@type" => "Question",
+                    "name" => $faq['question'],
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => strip_tags($faq['answer'])
+                    ]
+                ];
+            }, $blog->faqs)
+        ] : null
+    ]
+], JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT) !!}
 </script>
 @endsection
+
 
 
 @section('content')
