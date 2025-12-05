@@ -7,6 +7,7 @@
 @section('meta_description')
     {{ $blog->meta_description }}
 @endsection
+
 @section('structured_data')
 <script type="application/ld+json">
 {
@@ -14,27 +15,28 @@
   "@graph": [
     {
       "@type": "Article",
-      "headline": "{{ addslashes($blog->title) }}",
-      "url": "{{ url('blogs/' . $blog->slug) }}",
-      "description": "{{ addslashes(strip_tags($blog->meta_description ?? '')) }}",
-      "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->toDateString() }}",
-      "image": "{{ asset(Storage::url($blog->photo)) }}",
-      "mainEntityOfPage": "{{ url('blogs/' . $blog->slug) }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ url()->current() }}"
+      },
+      "headline": "{{ addslashes($blog->meta_title ?? $blog->title) }}",
+      "description": "{{ addslashes(strip_tags($blog->meta_description ?? Str::limit($blog->content ?? '', 150))) }}",
+       "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ addslashes($blog->author_name ?? 'Admin') }}"
+      },
       "publisher": {
         "@type": "Organization",
         "name": "Compare Home Security",
         "logo": {
           "@type": "ImageObject",
-          "url": "{{ asset('frontend/my-img/new-logo.png') }}"
-        },
-        "url": "{{ url('/') }}"
+          "url": "{{ url('/frontend/my-img/new-logo.png') }}"
+        }
       },
-      "author": {
-        "@type": "Person",
-        "name": "{{ addslashes($blog->author ?? 'Admin') }}"
-      }
+      "datePublished": "{{ $blog->created_at->toIso8601String() }}",
+      "dateModified": "{{ $blog->updated_at->toIso8601String() }}"
     }
-
     @if(!empty($blog->faqs) && count($blog->faqs) > 0)
     ,
     {
@@ -46,19 +48,17 @@
           "name": "{{ addslashes($faq['question']) }}",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "{{ addslashes($faq['answer']) }}"
+            "text": "{{ addslashes(strip_tags($faq['answer'])) }}"
           }
         }@if(!$loop->last),@endif
         @endforeach
       ]
     }
     @endif
-
   ]
 }
 </script>
 @endsection
-
 
 
 @section('content')

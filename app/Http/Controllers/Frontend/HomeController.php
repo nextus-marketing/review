@@ -24,7 +24,7 @@ class HomeController extends Controller
         return view('Frontend.blogs', compact('blogs'));
     }
 
-  public function blog_details(Request $request, $slug)
+    public function blog_details(Request $request, $slug)
 {
     $blog = Blog::withCount('visitors')
         ->where('slug', $slug) 
@@ -44,7 +44,6 @@ class HomeController extends Controller
     if (!empty($description['blocks']) && is_array($description['blocks'])) {
         foreach ($description['blocks'] as $block) {
             switch ($block['type']) {
-
                 case 'header':
                     $level = $block['data']['level'] ?? 2;
                     $text = $block['data']['text'] ?? '';
@@ -124,27 +123,20 @@ class HomeController extends Controller
         }
     }
 
-    // ----------------------------
-    // UPDATED FAQ EXTRACTION BLOCK
-    // ----------------------------
-    $faqs = [];
-
+    // Extract FAQs from content
     preg_match_all(
-        '/<h([1-6])[^>]*>.*?Q[\.:]?\s*(.*?)<\/h\1>\s*(?:<p[^>]*>(.*?)<\/p>)?/is',
+        '/<h([1-6])[^>]*>\s*Q[.:]?\s*(.*?)<\/h\1>[\s\S]*?<p[^>]*>(.*?)<\/p>/i',
         $htmlContent,
         $matches,
         PREG_SET_ORDER
     );
 
+    $faqs = [];
     foreach ($matches as $match) {
         $question = trim(strip_tags($match[2] ?? ''));
         $answer = trim(strip_tags($match[3] ?? ''));
-
-        if ($question !== '' && $answer !== '') {
-            $faqs[] = [
-                'question' => $question,
-                'answer'   => $answer
-            ];
+        if ($question && $answer) {
+            $faqs[] = ['question' => $question, 'answer' => $answer];
         }
     }
 
@@ -160,6 +152,7 @@ class HomeController extends Controller
 
     return view('Frontend.blog-details', compact('blog', 'htmlContent', 'latestBlogs'));
 }
+
 
 
     public function ContactEnquiryStore(Request $request)
