@@ -34,7 +34,6 @@
           "url": "{{ url('/frontend/my-img/new-logo.png') }}"
         }
       },
-      "datePublished": "{{ $blog->created_at->toIso8601String() }}",
       "dateModified": "{{ $blog->updated_at->toIso8601String() }}"
     }
     @if(!empty($blog->faqs) && count($blog->faqs) > 0)
@@ -310,29 +309,5 @@ font-size: 26px;
         </div>
     </div>
 </div>
-
-@endsection
-
-{{-- ✅ Add FAQ structured data if available --}}
-@if(!empty($blog->faqs))
-@section('structured_data')
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    @foreach($blog->faqs as $index => $faq)
-    {
-      "@type": "Question",
-      "name": "{{ addslashes($faq['question']) }}",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "{{ addslashes($faq['answer']) }}"
-      }
-    }@if(!$loop->last),@endif
-    @endforeach
-  ]
-}
-</script>
 @endsection
 @endif
