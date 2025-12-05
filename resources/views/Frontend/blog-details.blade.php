@@ -118,7 +118,50 @@ font-size: 20px;
 .editor-table td p {
     margin: 0; /* Removes double spacing created by <p> tags inside cells */
 }
+/* Wrapper for horizontal scrolling */
+.editor-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
 
+/* Table styling */
+.editor-table {
+    width: 100%;
+    min-width: 600px; /* optional, ensures scroll on very small screens */
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    background: #ffffff;
+}
+
+.editor-table th,
+.editor-table td {
+    border: 1px solid #d7d7d7;
+    padding: 12px 10px;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap; /* prevents breaking text in cells */
+}
+
+.editor-table th {
+    background: #f1f4f7;
+    font-weight: 600;
+    color: #0c1b33;
+}
+
+.editor-table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+/* Optional: reduce font size on small screens */
+@media (max-width: 768px) {
+    .editor-table th,
+    .editor-table td {
+        font-size: 14px;
+        padding: 8px 6px;
+    }
+}
 
 </style>
 
@@ -237,6 +280,7 @@ font-size: 20px;
                                             break;
                                         case 'table':
                                             if (!empty($d['data']['content'])) {
+                                                echo '<div class="editor-table-wrapper">'; // Add wrapper
                                                 echo '<table class="editor-table">';
                                                 foreach ($d['data']['content'] as $row) {
                                                     echo '<tr>';
@@ -244,6 +288,7 @@ font-size: 20px;
                                                     echo '</tr>';
                                                 }
                                                 echo '</table>';
+                                                echo '</div>'; // Close wrapper
                                             }
                                             break;
                                         case 'linkTool':
