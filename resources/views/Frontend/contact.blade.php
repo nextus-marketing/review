@@ -2,9 +2,7 @@
 @section('title')
     Contact Us | Compare Home Security
 @endsection
-@section('meta_description')
-<meta name="description" content="Get in touch with Compare Home Security for queries, support, or expert guidance. Our team is here to help you choose the best home security solutions for your needs.">
-@endsection
+
 @section('content')
 
 <!-- Page Header Section Start -->
