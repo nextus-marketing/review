@@ -68,17 +68,17 @@
 
 <style>
 .post-entry h3 {
-font-size: 26px;
+font-size: 20px;
 }
 .post-entry h6 {
     font-size: 16px;
 }
 .post-entry h2 {
-    font-size: 20px;
+    font-size: 26px;
 }
 @media (min-width: 1200px) {
     .h2, h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
