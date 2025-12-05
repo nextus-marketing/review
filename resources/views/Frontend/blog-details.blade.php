@@ -20,7 +20,7 @@
         "@id": "{{ url()->current() }}"
       },
       "headline": "{{ addslashes($blog->meta_title ?? $blog->title) }}",
-      "description": "{{ $blog->meta_description }}",
+        "description": "{{ addslashes(strip_tags($blog->meta_description ?: Str::limit(strip_tags($blog->content ?? ''), 150))) }}",
        "datePublished": "{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}",
       "author": {
         "@type": "Person",
