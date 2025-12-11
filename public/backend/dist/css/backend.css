@@ -34,8 +34,31 @@
     text-align: right !important;
 }
 
-.table-responsive::-webkit-scrollbar {
+/* .table-responsive::-webkit-scrollbar {
     -webkit-appearance: none;
+} */
+.table-responsive {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.table-responsive {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #0f2453;
+    border-radius: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
 }
 
 /* Select 2 */
