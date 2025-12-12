@@ -1,13 +1,5 @@
-# robots.txt for comparehomesecurity.org
-
 User-agent: *
+Disallow: /login
 Allow: /
 
-# Prevent indexing of admin, staging, parameter URLs
-Disallow: /
-Disallow: /login
-Disallow: /*?utm_ 
-Disallow: /*&utm_
-
-# Sitemap location
 Sitemap: https://comparehomesecurity.org/sitemap.xml
