@@ -1,267 +1,212 @@
 @extends('layouts.admin')
+
 @section('title')
     Blog Management
 @endsection
+
 @section('content')
-    <!-- Include Editor.js and Tools -->
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/list@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/image@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/raw@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/table@latest"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/link@latest"></script>
 
-    <form method="POST"
-        action="{{ Route::is('admin.blogs.create') ? route('admin.blogs.store') : route('admin.blogs.update', ['blog' => $blog->id ?? null]) }}"
-        enctype="multipart/form-data" autocomplete="off" id="blogs-form">
-        @csrf
-        {{ Route::is('admin.blogs.create') ? '' : method_field('PUT') }}
+<!-- ================= EDITOR JS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/list@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/image@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/table@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@editorjs/link@latest"></script>
 
-        <div class="row">
-            <div class="col-lg-12 d-flex align-items-stretch">
-                <div class="card w-100">
-                    <div class="card-header">
-                        <h5>{{ Route::is('admin.blogs.create') ? 'Create' : 'Edit' }} Blog</h5>
-                    </div>
+<!-- ================= EDITOR STYLES ================= -->
+<style>
+.ce-block__content img,
+.image-tool__image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+}
 
-                    <div class="card-body border-top">
-                        <div class="row mt-4">
-                            <!-- Title -->
-                            <div class="col-sm-12 col-md-6 mb-3">
-                                <label class="control-label col-form-label">
-                                    Title <sup class="tcul-star-restrict">*</sup>
-                                </label>
-                                <input type="text" class="form-control" placeholder="Write Title Name here..."
-                                    name="title" id="title" value="{{ isset($blog) ? $blog->title : '' }}" />
-                                <div id="title-error" class="text-danger mt-1"></div>
-                            </div>
+.ce-block__content {
+    max-width: 900px;
+}
 
-                            <!-- Slug -->
-                            <div class="col-sm-12 col-md-6">
-                                <label class="control-label col-form-label">Slug <sup
-                                        class="tcul-star-restrict">*</sup></label>
-                                <input type="text" class="form-control" placeholder="Write Slug here..." name="slug" id="slug"
-                                    value="{{ isset($blog) ? $blog->slug : '' }}" />
-                                <div id="slug-error" style="color:red"></div>
-                            </div>
+</style>
 
-                            <!-- Publish Date -->
-                            <div class="col-sm-12 col-md-6 mb-3">
-                                <label class="control-label col-form-label">
-                                    Publish Date <sup class="tcul-star-restrict">*</sup>
-                                </label>
-                                <input type="date" class="form-control" name="publish_date"
-                                    value="{{ isset($blog) ? $blog->publish_date : '' }}" />
-                                <div id="publish_date-error" class="text-danger mt-1"></div>
-                            </div>
+<form method="POST"
+      action="{{ Route::is('admin.blogs.create') ? route('admin.blogs.store') : route('admin.blogs.update', $blog->id ?? null) }}"
+      enctype="multipart/form-data"
+      id="blogs-form">
 
-                            <!-- Author Name -->
-                            <div class="col-sm-12 col-md-6 mb-3">
-                                <label class="control-label col-form-label">
-                                    Author Name <sup class="tcul-star-restrict">*</sup>
-                                </label>
-                                <input type="text" class="form-control" placeholder="Write Author Name here..."
-                                    name="author" value="{{ isset($blog) ? $blog->author : '' }}" />
-                                <div id="author-error" class="text-danger mt-1"></div>
-                            </div>
+    @csrf
+    {{ Route::is('admin.blogs.create') ? '' : method_field('PUT') }}
 
-                            <!-- Sub Title -->
-                            <div class="col-sm-12 col-md-6 mb-3">
-                                <label class="control-label col-form-label">
-                                    Sub Title <sup class="tcul-star-restrict">*</sup>
-                                </label>
-                                <input type="text" class="form-control" placeholder="Write Sub Title Name here..."
-                                    name="sub_title" id="sub_title" value="{{ isset($blog) ? $blog->sub_title : '' }}" />
-                                <div id="sub_title-error" class="text-danger mt-1"></div>
-                            </div>
-
-                            <!-- Blog Image -->
-                            <div class="col-sm-12 col-md-6 mb-3">
-                                <label class="control-label col-form-label">Image </label>
-                                <div class="col-md-8">	
-                                    <fieldset class="form-group">
-                                        <input type="file" name="photo" class="form-control" id="blog-photo"
-                                            placeholder="Please Select Photo">
-                                        <div id="photo-error" style="color:red"></div>
-                                    </fieldset>
-                                    @if (isset($blog))
-                                        <img src="{{ $blog->photo_link }}" border="10" width="100" height="100"
-                                            class="img-rounded img-thumbnail">
-                                    @endif
-                                </div>
-                            </div>
-
-                            <!-- Meta Title -->
-                            <div class="col-sm-12 col-md-12 mb-3">
-                                <label class="control-label col-form-label">
-                                    Meta Title
-                                </label>
-                                <input type="text" class="form-control" placeholder="Enter Meta Title here..."
-                                    name="meta_title" value="{{ isset($blog) ? $blog->meta_title : '' }}" />
-                                <div id="meta_title-error" class="text-danger mt-1"></div>
-                            </div>
-
-                            <!-- Meta Keywords -->
-                            <!-- <div class="col-sm-12 col-md-12 mb-3">
-                                <label class="control-label col-form-label">
-                                    Meta Keywords
-                                </label>
-                                <input type="text" class="form-control" placeholder="Enter Meta Keywords here..."
-                                    name="meta_keyword" value="{{ isset($blog) ? $blog->meta_keyword : '' }}" />
-                                <div id="meta_keyword-error" class="text-danger mt-1"></div>
-                            </div> -->
-
-                            <!-- Meta Description -->
-                            <div class="col-sm-12 col-md-12 mb-3">
-                                <label class="control-label col-form-label">
-                                    Meta Description
-                                </label>
-                                <input type="text" class="form-control" placeholder="Enter Meta Description here..."
-                                    name="meta_description" value="{{ isset($blog) ? $blog->meta_description : '' }}" />
-                                <div id="meta_description-error" class="text-danger mt-1"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- ================= BASIC DETAILS ================= -->
+    <div class="card">
+        <div class="card-header">
+            <h5>{{ Route::is('admin.blogs.create') ? 'Create' : 'Edit' }} Blog</h5>
         </div>
 
-        <!-- Blog Description -->
-        <div class="row">
-            <div class="col-lg-12 d-flex align-items-stretch">
-                <div class="card w-100">
-                    <div class="card-header">
-                        <h5>Blog Description</h5>
-                    </div>
-                    <div class="card-body border-top">
-                        <div class="col-sm-12 col-md-12 mb-3">
-                            <div id="editorjs"></div>
-                            <div id="description-error" class="text-danger mt-1"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="card-body row">
 
-        <!-- Submit Buttons -->
-        <div class="row">
-            <div class="col-lg-12 d-flex align-items-stretch">
-                <div class="card w-100">
-                    <div class="card-footer">
-                        <button type="submit" class="btn btn-primary">
-                            Save &nbsp; <i class="ti ti-device-floppy"></i>
-                        </button>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="{{ route('admin.blogs.index') }}" type="button" class="btn btn-secondary">
-                            Cancel &nbsp; <i class="ti ti-arrow-back-up-double"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-md-6 mb-3">
+                <label>Title *</label>
+                <input type="text" name="title" id="title" class="form-control"
+                       value="{{ $blog->title ?? '' }}">
+                <div id="title-error" class="text-danger"></div>
             </div>
-        </div>
-    </form>
 
-    <!-- Editor.js Initialization -->
-    <script>
-        const editor = new EditorJS({
-            holder: 'editorjs',
-            tools: {
-                header: {
-                    class: Header,
-                    config: {
-                        placeholder: 'Enter a heading',
-                        levels: [1, 2, 3, 4, 5, 6],
-                        defaultLevel: 2,
-                    },
-                },
-                list: {
-                    class: EditorjsList,
-                    inlineToolbar: true,
-                    config: { defaultStyle: 'unordered' }
-                },
-                quote: Quote,
-                image: {
-                    class: ImageTool,
-                    config: {
-                        uploader: { 
-                            uploadByFile: (file) => {
-                                return new Promise((resolve, reject) => {
-                                    if (file.size > 5 * 1024 * 1024) {
-                                        reject('File size exceeds 5MB');
-                                        return;
-                                    }
-                                    const reader = new FileReader();
-                                    reader.readAsDataURL(file);
-                                    reader.onloadend = () => resolve({ success: 1, file: { url: reader.result } });
-                                    reader.onerror = (error) => reject('File reading error: ' + error);
-                                });
+            <div class="col-md-6 mb-3">
+                <label>Slug *</label>
+                <input type="text" name="slug" id="slug" class="form-control"
+                       value="{{ $blog->slug ?? '' }}">
+                <div id="slug-error" class="text-danger"></div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label>Publish Date *</label>
+                <input type="date" name="publish_date" class="form-control"
+                       value="{{ $blog->publish_date ?? '' }}">
+                <div id="publish_date-error" class="text-danger"></div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label>Author *</label>
+                <input type="text" name="author" class="form-control"
+                       value="{{ $blog->author ?? '' }}">
+                <div id="author-error" class="text-danger"></div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label>Sub Title *</label>
+                <input type="text" name="sub_title" class="form-control"
+                       value="{{ $blog->sub_title ?? '' }}">
+                <div id="sub_title-error" class="text-danger"></div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label>Main Image</label>
+                <input type="file" name="photo" class="form-control">
+                @if(isset($blog))
+                    <img src="{{ $blog->photo_link }}" class="img-thumbnail mt-2" width="120">
+                @endif
+                <div id="photo-error" class="text-danger"></div>
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <label>Meta Title</label>
+                <input type="text" name="meta_title" class="form-control"
+                       value="{{ $blog->meta_title ?? '' }}">
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <label>Meta Description</label>
+                <input type="text" name="meta_description" class="form-control"
+                       value="{{ $blog->meta_description ?? '' }}">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ================= BLOG CONTENT ================= -->
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5>Blog Description</h5>
+        </div>
+        <div class="card-body">
+            <div id="editorjs"></div>
+            <div id="description-error" class="text-danger mt-2"></div>
+        </div>
+    </div>
+
+    <!-- ================= ACTIONS ================= -->
+    <div class="mt-3">
+        <button class="btn btn-primary">Save</button>
+        <a href="{{ route('admin.blogs.index') }}" class="btn btn-secondary">Cancel</a>
+    </div>
+
+</form>
+
+<!-- ================= EDITOR INIT ================= -->
+<script>
+const editor = new EditorJS({
+    holder: 'editorjs',
+
+    tools: {
+        header: {
+            class: Header,
+            config: { levels: [1,2,3,4,5,6], defaultLevel: 2 }
+        },
+
+        list: { class: EditorjsList, inlineToolbar: true },
+        quote: { class: Quote, inlineToolbar: true },
+        table: { class: Table, inlineToolbar: true },
+
+        image: {
+            class: ImageTool,
+            config: {
+                captionPlaceholder: 'Enter image ALT text (SEO)',
+                uploader: {
+                    uploadByFile(file) {
+                        const formData = new FormData();
+                        formData.append('image', file);
+
+                        return fetch("{{ route('editor.image.upload') }}", {
+                            method: 'POST',
+                            headers: {
+                                'X-CSRF-TOKEN': '{{ csrf_token() }}'
                             },
-                        },
-                    },
-                },
-                table: {
-                    class: Table,
-                    inlineToolbar: true,
-                    config: { rows: 2, cols: 3 }
-                },
-                linkTool: {
-                    class: LinkTool,
-                    config: { endpoint: '/link-preview' }
-                },
-            },
-            data: {!! isset($blog) && $blog->description ? ($blog->description) : '{}' !!},
-            onReady: () => { editor.focus(); },
-            onChange: async () => {
-                const savedData = await editor.save();
-                localStorage.setItem('editorContent', JSON.stringify(savedData));
-            }
-        });
-
-        // Form Submit
-        $('#blogs-form').submit(async function(e) {
-            e.preventDefault();
-            $('div[id$="-error"]').empty();
-            const savedData = await editor.save();
-            var form = $(this);
-            var formData = new FormData(this);
-            formData.append('description', JSON.stringify(savedData));
-            var url = form.attr('action');
-
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: formData,
-                contentType: false,
-                cache: false,
-                processData: false,
-                success: function(data) {
-                    if (data.status === 'success') {
-                        toastr.success(data.message, '', { timeOut: 1500, closeButton: true });
-                        setTimeout(() => window.location.href = "{!! route('admin.blogs.index') !!}", 100);
-                    } else {
-                        toastr.error('There is some error!!', '', { timeOut: 1500, closeButton: true });
+                            body: formData
+                        }).then(res => res.json());
                     }
-                },
-                error: function(xhr) {
-                    toastr.error('There are some errors in Form. Please check your inputs', '', { timeOut: 1500, closeButton: true });
-                    $.each(xhr.responseJSON.errors, function(key, value) {
-                        $('#' + key + '-error').html(value);
-                    });
-                    $('html, body').animate({
-                        scrollTop: $('#' + Object.keys(xhr.responseJSON.errors)[0] + '-error').offset().top - 200
-                    }, 500);
                 }
-            });
-        });
+            }
+        }
+    },
 
-        // Auto-generate Slug
-        $('#title').keyup(function () {
-            var title = $(this).val();
-            var slug = title.toLowerCase().replace(/ /g, '-');
-            $('#slug').val(slug);
-        });
-    </script>
+    data: {!! isset($blog) && $blog->description ? $blog->description : '{}' !!}
+});
+</script>
+
+<!-- ================= FORM SUBMIT ================= -->
+<script>
+$('#blogs-form').on('submit', async function(e) {
+    e.preventDefault();
+    $('div[id$="-error"]').empty();
+
+    const content = await editor.save();
+    let formData = new FormData(this);
+    formData.append('description', JSON.stringify(content));
+
+    $.ajax({
+        url: $(this).attr('action'),
+        method: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+
+        success(res) {
+            toastr.success(res.message || 'Saved Successfully');
+            setTimeout(() => {
+                window.location.href = "{{ route('admin.blogs.index') }}";
+            }, 800);
+        },
+
+        error(xhr) {
+            toastr.error('Validation Error');
+            $.each(xhr.responseJSON.errors, function(key, val) {
+                $('#' + key + '-error').html(val[0]);
+            });
+        }
+    });
+});
+
+// AUTO SLUG
+$('#title').keyup(function () {
+    $('#slug').val(
+        $(this).val().toLowerCase().replace(/[^a-z0-9]+/g, '-')
+    );
+});
+</script>
+
 @endsection

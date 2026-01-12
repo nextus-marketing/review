@@ -131,7 +131,7 @@ Route::middleware(['auth', 'admin', 'preventBackHistory'])->group(function () {
         Route::post('blogs/list',[BlogController::class, 'list'])->name('blogs.list');
         Route::post('blogs/change-status',[BlogController::class, 'changeStatus'])->name('blogs.change.status');
 
-
+      
         //End of File
     });
 });
