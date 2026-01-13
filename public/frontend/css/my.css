@@ -341,3 +341,8 @@ body {
     padding: 155px 0 140px !important;
     overflow: hidden !important;
 }
+
+.footer-logo img {
+    width: 100%;
+    max-width: 185px;
+}
