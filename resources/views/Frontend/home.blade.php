@@ -313,7 +313,7 @@
                       </ul>
                       <p class="text-muted" style="font-size: 0.9rem; margin-bottom: 20px;">
                         Get up to <strong>3 FREE months</strong> of monitoring plus FREE installation with 
-                        <strong>Promo code (THREEFREE)</strong>
+                        <strong>Promo code (THREEFREE)</strong> 
                       </p>
 
                       <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
@@ -980,7 +980,7 @@
                             </div>
                             <div class="hero-author-image">
                                 <figure class="image-anime">
-                                    <img src="/frontend/images/hero-author-image.jpg" alt="Olivia Grant - Home Security Expert">
+                                    <img src="/frontend/my-img/hero-author-image.webp" alt="Olivia Grant - Home Security Expert">
                                 </figure>
                             </div>
                         </div>
@@ -998,27 +998,27 @@
                                 <div class="satisfy-client-images">
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/images/author-1.jpg" alt="">
+                                            <img src="/frontend/my-img/author-1.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/images/author-2.jpg" alt="">
+                                            <img src="/frontend/my-img/author-2.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/images/author-3.jpg" alt="">
+                                            <img src="/frontend/my-img/author-3.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/images/author-4.jpg" alt="">
+                                            <img src="/frontend/my-img/author-4.webp" alt="">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/images/author-5.jpg" alt="">
+                                            <img src="/frontend/my-img/author-5.webp" alt="">
                                         </figure>
                                     </div>
                                 </div>
