@@ -298,7 +298,7 @@
                   <div style="background-color: #ffffff; width: 100%; padding: 0 10px; display: flex; align-items: center; justify-content: center; border-top-left-radius: 8px; border-top-right-radius: 8px; gap: 10px;">
                     <img src="/frontend/my-img/special-offer.webp" alt="Special Offer" style="width: 260px; height: auto; margin-top: -25px;">
                   </div>
-
+                  </br>
                   <!-- Product Image -->
                   <img src="/frontend/my-img/vivint-product.png" alt="vivint-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
 
