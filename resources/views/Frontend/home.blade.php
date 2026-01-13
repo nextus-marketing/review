@@ -300,7 +300,7 @@
                   </div>
                   </br>
                   <!-- Product Image -->
-                  <img src="/frontend/my-img/vivint-product.png" alt="vivint-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                  <img src="/frontend/my-img/vivint-product.webp" alt="vivint-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
 
                   <!-- Card Body -->
                   <div class="card-body p-0 d-flex flex-column justify-content-between flex-grow-1">
@@ -998,27 +998,27 @@
                                 <div class="satisfy-client-images">
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-1.webp" alt="author">
+                                            <img src="/frontend/my-img/author-1.webp" alt="author-1">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-2.webp" alt="author">
+                                            <img src="/frontend/my-img/author-2.webp" alt="author-2">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-3.webp" alt="author">
+                                            <img src="/frontend/my-img/author-3.webp" alt="author-3">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-4.webp" alt="author">
+                                            <img src="/frontend/my-img/author-4.webp" alt="author-4">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-5.webp" alt="author">
+                                            <img src="/frontend/my-img/author-5.webp" alt="author-5">
                                         </figure>
                                     </div>
                                 </div>
