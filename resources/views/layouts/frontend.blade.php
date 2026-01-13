@@ -59,9 +59,8 @@
 
   @yield('structured_data')
 </head>
-
-
 <body>
+
 <style>
 /* ===== Top Info Bar ===== */
 .top-info-bar {
@@ -161,7 +160,7 @@
 </div>
 
     <!-- Header Start -->
-	<header class="main-header">
+<header class="main-header">
     <div class="top-info-bar mobile">
   <div class="container-fluid">
     <p class="info-text mb-0">
@@ -212,7 +211,7 @@
                     <!-- Footer Logo End -->
 
                     <!-- About Footer Content Start -->
-                    <div class="about-footer-content">
+                      <div class="about-footer-content">
                         <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
                             contained on this website is for informational purposes only. Any third party contributor 
                             to any such profile, article or video has been compensated by Compare Home Security
@@ -245,7 +244,7 @@
                 <!-- About Footer End -->
             </div>
 
-            <div class="col-xl-4 col-md-6">
+        <div class="col-xl-4 col-md-6">
                 <!-- Footer Contact Start -->
                 <div class="footer-contact footer-links">
                     <h3 style="color:#fff;">User Rights & Legal Info</h3>
@@ -307,7 +306,6 @@
         });
       });
     </script>
-
 
 <!-- Script -->
 <script>
