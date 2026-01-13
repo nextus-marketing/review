@@ -40,14 +40,6 @@
     padding-left: 10;
   }
 }
-li {
-    position: relative;
-    font-size: 13px !important;
-    font-weight: 500 !important;
-    line-height: 1.9em !important;
-    color: #313338 !important;
-    /* margin-bottom: 15px !important; */
-}
 
 </style>
 <div class="page-header">

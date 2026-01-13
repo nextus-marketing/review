@@ -31,8 +31,6 @@
     max-width: 900px;
 }
 
-
-
 </style>
 
 <form method="POST"
