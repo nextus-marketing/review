@@ -147,12 +147,11 @@ class HomeController extends Controller
     $latestBlogs = Blog::where('status', 'ACTIVE')
         ->where('slug', '!=', $slug)
         ->orderBy('publish_date', 'desc')
-        ->take(5)
+        ->take(3)
         ->get();
 
     return view('Frontend.blog-details', compact('blog', 'htmlContent', 'latestBlogs'));
 }
-
 
 
     public function ContactEnquiryStore(Request $request)
