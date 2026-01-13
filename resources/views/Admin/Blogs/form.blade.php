@@ -31,15 +31,7 @@
     max-width: 900px;
 }
 
-.ce-toolbar__actions {
-    position: absolute;
-    right: 100%;
-    opacity: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-right: 96px !important;
-}
+
 
 </style>
 
