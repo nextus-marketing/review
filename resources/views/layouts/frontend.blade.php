@@ -251,12 +251,10 @@
                     <h3 style="color:#fff;">User Rights & Legal Info</h3>
                     <ul style="list-style:none; margin:0; padding:0;">
                       <li><a href="/" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Home</a></li>
+                        <li><a href="/blogs" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Blogs</a></li>
                         <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Privacy Policy</a></li>
                         <li><a href="/terms-of-use" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Terms of Use</a></li>
                         <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
-                        <!-- <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Do Not Sell/Share My Personal Information</a></li>
-                        <li><a href="https://compliance.centerfield.com/doNotSell.php?lang=en-us#/rightsRequest" target="_blank" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Limit the Use of My Sensitive Personal Information</a></li> -->
-                        <li><a href="/blogs" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Blogs</a></li>
                         <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
                     </ul>
                 </div>
