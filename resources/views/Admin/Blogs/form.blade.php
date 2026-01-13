@@ -38,7 +38,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-right: 96px;
+    padding-right: 96px !important;
 }
 
 </style>
