@@ -58,7 +58,7 @@
 
           <!-- Header Label -->
           <div style="background: linear-gradient(90deg, #0f2453 0%, #2a4fa5 100%); color: #fff; padding: 16px 22px; font-size: 18px; font-weight: 700; letter-spacing: 0.5px; display: flex; align-items: center; gap: 16px;">
-            <img src="/frontend/my-img/RatingBadge.png" alt="Rating Badge" style="width: 36px;">
+            <img src="/frontend/my-img/RatingBadge.webp" alt="Rating Badge" style="width: 36px;">
             Best Automation Security System
           </div>
 
@@ -67,7 +67,7 @@
             <!-- Top Content -->
             <div>
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-                <img src="/frontend/my-img/vivint-black.png" alt="Vivint Logo" class="vivint-logo" style="height: 55px; width: auto;">
+                <img src="/frontend/my-img/vivint-black.webp" alt="Vivint Logo" class="vivint-logo" style="height: 55px; width: auto;">
                 <div class="testimonial-google-review" style="display: flex; align-items: center; gap: 8px; background: #f7f9fc; padding: 8px 12px !important; border-radius: 8px;">
                   <h6 style="color:#ffff; margin-bottom:5px;">Ratings</h6>
                   <div style="display: flex; align-items: center; gap: 6px;">
@@ -296,7 +296,7 @@
 
                   <!-- Header Section -->
                   <div style="background-color: #ffffff; width: 100%; padding: 0 10px; display: flex; align-items: center; justify-content: center; border-top-left-radius: 8px; border-top-right-radius: 8px; gap: 10px;">
-                    <img src="/frontend/my-img/special-offer.png" alt="Special Offer" style="width: 260px; height: auto; margin-top: -25px;">
+                    <img src="/frontend/my-img/special-offer.webp" alt="Special Offer" style="width: 260px; height: auto; margin-top: -25px;">
                   </div>
 
                   <!-- Product Image -->
@@ -354,7 +354,7 @@
               <!-- ADT Card -->
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100 d-flex flex-column h-100">
-                  <img src="/frontend/my-img/adt.png" alt="adt-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                  <img src="/frontend/my-img/adt.webp" alt="adt-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
                   <div class="card-body p-0 d-flex flex-column flex-grow-1">
                     <div class="card-content">
                       <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about ADT</h5>
@@ -411,7 +411,7 @@
               <!-- Brinks Card -->
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100 d-flex flex-column h-100">
-                  <img src="/frontend/my-img/brings-home.png" alt="brinks-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                  <img src="/frontend/my-img/brings-home.webp" alt="brinks-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
                   <div class="card-body p-0 d-flex flex-column flex-grow-1">
                     <div class="card-content">
                       <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about Brinks</h5>
@@ -458,7 +458,7 @@
               <!-- SimpliSafe Card -->
               <div class="col-xl-3 col-md-6 mb-4 d-flex">
                 <div class="card shadow-sm text-center w-100 d-flex flex-column h-100">
-                  <img src="/frontend/my-img/simplysafe.png" alt="simplysafe-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                  <img src="/frontend/my-img/simplysafe.webp" alt="simplysafe-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
                   <div class="card-body p-0 d-flex flex-column flex-grow-1">
                     <div class="card-content">
                       <h5 class="card-title mb-3" style="font-size: 1.2rem; color: #333;">What we like about SimpliSafe</h5>
@@ -1051,7 +1051,7 @@
                                   display:flex;
                                   justify-content:center;
                                   align-items:center;">
-                                  <img src="/frontend/my-img/security.jpg" 
+                                  <img src="/frontend/my-img/security.webp" 
                                       alt="Home Security Illustration"
                                       style="width:100%; height:100%; object-fit:cover; object-position:center top;">
                               </figure>

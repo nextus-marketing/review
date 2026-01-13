@@ -174,7 +174,7 @@
 				<div class="container-fluid">
 					<!-- Logo Start -->
 					  <a class="navbar-brand" href="/">
-                <img src="/frontend/my-img/new-logo.png" alt="Logo" style="width: 139px; height: auto;">
+                <img src="/frontend/my-img/new-logo.webp" alt="Logo" style="width: 139px; height: auto;">
             </a>
 					    <!-- Logo End -->
               <!-- Header Btn Start -->
@@ -204,7 +204,7 @@
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
                         <a href="/" title="Home">
-                            <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width: 229px; height: auto;">
+                            <img src="/frontend/my-img/footer-logo.webp" alt="Logo" style="width: 229px; height: auto;">
                         </a>
                     </div>
 
