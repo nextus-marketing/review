@@ -998,27 +998,27 @@
                                 <div class="satisfy-client-images">
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-1.webp" alt="">
+                                            <img src="/frontend/my-img/author-1.webp" alt="author">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-2.webp" alt="">
+                                            <img src="/frontend/my-img/author-2.webp" alt="author">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-3.webp" alt="">
+                                            <img src="/frontend/my-img/author-3.webp" alt="author">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-4.webp" alt="">
+                                            <img src="/frontend/my-img/author-4.webp" alt="author">
                                         </figure>
                                     </div>
                                     <div class="satisfy-client-image">
                                         <figure class="image-anime">
-                                            <img src="/frontend/my-img/author-5.webp" alt="">
+                                            <img src="/frontend/my-img/author-5.webp" alt="author">
                                         </figure>
                                     </div>
                                 </div>
