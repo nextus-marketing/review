@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Compare Home Security Systems | Find the Best Alarm & Monitoring Plans @endsection
-@section('meta_description') Discover the top home security systems of 2025 - compare features, monitoring plans, costs and get free quotes to secure your home with confidence. @endsection
+@section('meta_description') Discover the top home security systems of 2026 - compare features, monitoring plans, costs and get free quotes to secure your home with confidence. @endsection
 @section('structured_data')
 <script type="application/ld+json">
 {
