@@ -160,7 +160,7 @@
 </div>
 
     <!-- Header Start -->
-<header class="main-header">
+<header class="main-header" role="banner">
     <div class="top-info-bar mobile">
   <div class="container-fluid">
     <p class="info-text mb-0">
@@ -195,7 +195,7 @@
     @yield('content')
     
     <!-- Footer Start -->
-    <footer class="main-footer">
+    <footer class="main-footer" role="contentinfo">
     <div class="container">
         <div class="row">
             <div class="col-xl-8 col-md-6">

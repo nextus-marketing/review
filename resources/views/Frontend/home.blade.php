@@ -27,7 +27,7 @@
 @section('content')
 
 
-<div class="hero hero-small-mobile" style="height:280px;">
+<div class="hero hero-small-mobile" style="height:280px;" role="navigation">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -47,7 +47,7 @@
 </div>
 
 
-<div class="our-services" style="padding: 60px 0; background: #f4f6fb;">
+<div class="our-services" style="padding: 60px 0; background: #f4f6fb;" role="main">
   <div class="container">
     <div class="row justify-content-center" style="gap: 30px;">
 
