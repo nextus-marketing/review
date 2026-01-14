@@ -103,7 +103,7 @@ li {
 
 .hero {
     position: relative !important;
-    background: url(../images/hero-bg-image.png) no-repeat !important;
+    background: url(/frontend/my-img/hero-bg-image.webp) no-repeat !important;
     background-position: top center !important;
     background-size: auto !important;
     padding: 120px 0 48px !important;
