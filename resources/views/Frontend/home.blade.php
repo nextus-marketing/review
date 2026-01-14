@@ -300,7 +300,21 @@
                   </div>
                   </br>
                   <!-- Product Image -->
-                  <img src="/frontend/my-img/vivint-product.webp" alt="vivint-product" class="img-fluid mb-3" style="max-height: 180px; object-fit: contain; border-radius: 8px;">
+                  <img 
+                    src="/frontend/my-img/vivint-product-300.webp"
+                    srcset="
+                      /frontend/my-img/vivint-product-300.webp 300w,
+                      /frontend/my-img/vivint-product-300.webp 600w
+                    "
+                    sizes="(max-width: 768px) 300px, 600px"
+                    width="600"
+                    height="300"
+                    alt="Vivint Home Security System"
+                    class="img-fluid mb-3"
+                    style="max-height:180px; object-fit:contain; border-radius:8px;"
+                    loading="lazy"
+                    decoding="async"
+                  />
 
                   <!-- Card Body -->
                   <div class="card-body p-0 d-flex flex-column justify-content-between flex-grow-1">
