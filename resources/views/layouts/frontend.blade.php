@@ -267,7 +267,7 @@
                 <div class="col-lg-12">
                     <div class="footer-copyright-box">
                         <div class="footer-copyright-text">
-                            <p>Copyright © 2025 All Rights Reserved.</p>
+                            <p>Copyright © 2026 All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
