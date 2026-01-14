@@ -204,7 +204,7 @@
                     <!-- Footer Logo Start -->
                     <div class="footer-logo">
                         <a href="/" title="Home">
-                            <img src="/frontend/my-img/footer-logo.webp" alt="Logo" style="width: 229px; height: auto;">
+                            <img src="/frontend/my-img/footer-logo-280.webp" alt="Logo"  width="183" height="58">
                         </a>
                     </div>
 
