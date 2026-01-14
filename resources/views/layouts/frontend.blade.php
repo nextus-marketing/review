@@ -174,7 +174,7 @@
 				<div class="container-fluid">
 					<!-- Logo Start -->
 					  <a class="navbar-brand" href="/">
-                <img src="/frontend/my-img/new-logo.webp" alt="Logo" style="width: 139px; height: auto;">
+                <img src="/frontend/my-img/new-logo-243.webp" width="243" height="87" alt="Logo">
             </a>
 					    <!-- Logo End -->
               <!-- Header Btn Start -->
