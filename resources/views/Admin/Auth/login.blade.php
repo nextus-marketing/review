@@ -82,7 +82,7 @@
                             <div class="col-sm-8 col-md-6 col-xl-9">
 
                                 <div class="text-center mb-4">
-                                    <img src="/frontend/my-img/new-logo.png" width="180" alt="Logo" />
+                                    <img src="/frontend/my-img/new-logo-243.webp" width="180" alt="Logo" />
                                     <h2 class="mb-2 fs-7 fw-bolder">
                                         Welcome to <span style="color: #0f2453">Compare Home Security</span>
                                     </h2>

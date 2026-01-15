@@ -16,7 +16,7 @@ Explore expert articles and guides on home security from choosing alarm systems 
   "publisher": {
     "@type": "Organization",
     "name": "Compare Home Security",
-    "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo.png",
+    "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo-243.webp",
     "url": "https://comparehomesecurity.org/"
   },
   "breadcrumb": {

@@ -38,7 +38,7 @@
                 "name" => "Compare Home Security",
                 "logo" => [
                     "@type" => "ImageObject",
-                    "url" => url('/frontend/my-img/new-logo.png')
+                    "url" => url('/frontend/my-img/new-logo-243.webp')
                 ]
             ]
         ],

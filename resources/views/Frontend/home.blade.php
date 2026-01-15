@@ -8,7 +8,7 @@
   "@type": "Organization",
   "name": "Compare Home Security",
   "url": "https://comparehomesecurity.org/",
-  "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo.png",
+  "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo-243.webp",
   "sameAs": [
     "https://www.facebook.com/comparehomesecurity",
     "https://www.instagram.com/comparehomesecurity/",
