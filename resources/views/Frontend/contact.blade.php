@@ -166,9 +166,12 @@ Get in touch with Compare Home Security for queries, support, or expert guidance
                             </div>
 
                             <div class="col-12 text-center">
-                                <button type="submit" class="btn-default"><span>Submit Form</span></button>
+                                <button type="submit" id="submitBtn" class="btn-default">
+                                    <span class="btn-text">Submit Form</span>
+                                </button>
                                 <div id="msgSubmit" class="h3 hidden"></div>
                             </div>
+
                         </div>
                     </form>
                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>                     
@@ -183,17 +186,24 @@ Get in touch with Compare Home Security for queries, support, or expert guidance
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>
-$(document).ready(function() {
+$(document).ready(function () {
+
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    $('#contactForm').submit(function(e) {
+
+    $('#contactForm').on('submit', function (e) {
         e.preventDefault();
+
         var form = $(this);
-        form.find('div[id$="-error"]').empty(); 
+        var submitBtn = $('#submitBtn');
+        var btnText = submitBtn.find('.btn-text');
+
+        form.find('div[id$="-error"]').empty();
         var url = form.attr('action');
+
         $.ajax({
             type: "POST",
             url: url,
@@ -201,68 +211,60 @@ $(document).ready(function() {
             contentType: false,
             cache: false,
             processData: false,
-            beforeSend: function() {
-                form.find('#started').attr('disabled', true).hide();
-                form.find('#form_loader').show();
+
+            beforeSend: function () {
+                submitBtn.prop('disabled', true);
+                btnText.text('Submitting...');
+                $('#form_loader').show();
             },
-            success: function(data) {
+
+            success: function (data) {
                 if (data.status === 'success') {
                     toastr.success(data.message, '', {
-                        showMethod: "slideDown",
-                        hideMethod: "slideUp",
                         timeOut: 1500,
                         closeButton: true,
                     });
 
                     form[0].reset();
 
-                    setTimeout(function() {
+                    setTimeout(function () {
                         window.location.href = '/thankyou';
                     }, 1000);
-                }   
-            },      
-            error: function(xhr) {
-                console.log(xhr);
+                }
+            },
+
+            error: function (xhr) {
                 toastr.error(
                     'There are some errors in the form. Please check your inputs.',
                     '', {
-                        showMethod: "slideDown",
-                        hideMethod: "slideUp",
                         timeOut: 1500,
                         closeButton: true,
-                    });
+                    }
+                );
 
                 if (xhr.responseJSON && xhr.responseJSON.errors) {
-                    $.each(xhr.responseJSON.errors, function(key, value) {
-                        var errorText = Array.isArray(value) ? value.join(
-                            ', ') : value;
-                        form.find('#' + key + '-error').html(
-                            errorText); 
+                    $.each(xhr.responseJSON.errors, function (key, value) {
+                        form.find('#' + key + '-error').html(value);
                     });
+
                     var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
                     $('html, body').animate({
-                        scrollTop: form.find('#' + firstErrorKey + '-error')
-                            .offset().top - 200
+                        scrollTop: form.find('#' + firstErrorKey + '-error').offset().top - 200
                     }, 500);
-                    
-                } else {
-                    toastr.error(
-                        'An unexpected error occurred. Please try again later.',
-                        '', {
-                            showMethod: "slideDown",
-                            hideMethod: "slideUp",
-                            timeOut: 1500,
-                            closeButton: true,
-                        });
                 }
             },
-            complete: function() {
-                form.find('#started').attr('disabled', false).show();
-                form.find('#form_loader').hide();
+
+            complete: function () {
+                submitBtn.prop('disabled', false);
+                btnText.text('Submit Form');
+                $('#form_loader').hide();
             }
         });
     });
+
 });
 </script>
+
+
 
 @endsection
