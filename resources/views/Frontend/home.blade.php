@@ -36,7 +36,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp"><span>Welcome!</span> To Compare Home Security</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">
-                                Find the <span>Best Home Security Systems</span> for Your Family
+                                Find the <span>Best Home Security Systems</span> For Your Family
                             </h1>
                         </div>
                     </div>
@@ -769,7 +769,7 @@
                           </h3>
 
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What homeowners say about <span>Compare Home Security</span>
+                            What Homeowners Say About <span>Compare Home Security</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             Read how real users found the best home security systems through our trusted reviews and easy-to-understand comparisons. Your peace of mind starts here.
@@ -902,7 +902,7 @@
                     <div class="our-faqs-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Frequently Asked Questions</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Everything you want to <span>know Home security</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Everything You Want To <span>Know Home Security</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">From service details to protection strategies, we provide clear explanations to help you make informed decisions.</p>
                         </div>
                     </div>
