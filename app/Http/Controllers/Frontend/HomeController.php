@@ -154,54 +154,55 @@ class HomeController extends Controller
 }
 
 
-public function ContactEnquiryStore(Request $request)
+    public function ContactEnquiryStore(Request $request)
 {
-    $request->validate([
+    $rules = [
         'full_name' => 'required',
         'subject' => 'required',
         'email' => 'required|email',
         'mobile' => 'required|digits:10',
-        'message' => 'required',
-    ]);
+    ];
 
-    // Optional: Google reCAPTCHA verification
-    $recaptcha = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+    $messages = [
+        'full_name.required' => 'Your Full Name is required',
+        'subject.required' => 'Your Subject is required',
+        'email.required' => 'Email is required',
+        'email.email' => 'Email should be a valid email',
+        'mobile.required' => 'mobile number field is required.',
+        'mobile.digits' => 'mobile number must be exactly 10 digits.',
+    ];
+
+    $request->validate($rules, $messages);
+
+    $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
         'secret' => env('RECAPTCHA_SECRET_KEY'),
         'response' => $request->input('g-recaptcha-response'),
         'remoteip' => $request->ip(),
     ]);
 
-    $recaptchaBody = $recaptcha->json();
-    if (!isset($recaptchaBody['success']) || !$recaptchaBody['success']) {
-        return response()->json(['status' => 'error', 'message' => 'Captcha verification failed.'], 422);
+    $responseBody = $response->json();
+
+    if (!isset($responseBody['success']) || !$responseBody['success']) {
+        return response()->json([
+            'status' => 'error',
+            'message' => 'Captcha verification failed. Please try again.'
+        ], 422);
     }
 
-    // Optional: Save locally
+
+    // Save enquiry as before...
     $enquiry = new Enquiry();
-    $enquiry->fill($request->only('full_name','subject','email','mobile','message'));
+    $enquiry->full_name = $request->full_name;
+    $enquiry->subject = $request->subject;
+    $enquiry->mobile = $request->mobile;
+    $enquiry->email = $request->email;
+    $enquiry->message = $request->message;
     $enquiry->save();
 
-    // Web3Forms submission
-    $response = Http::post('https://api.web3forms.com/submit', [
-        'access_key' => env('WEB3FORMS_API_KEY'),
-        'subject' => 'Compare Home Security - New Enquiry',
-        'from_name' => $request->full_name,
-        'from_email' => $request->email,
-        'message' => $request->message,
-        'data' => [
-            'Full Name' => $request->full_name,
-            'Email' => $request->email,
-            'Phone' => $request->mobile,
-            'Subject' => $request->subject,
-        ],
-    ]);
+    Mail::to('offers@comparehomesecurity.org')->send(new ContactMail($enquiry));
+    Mail::to($request->email)->send(new Thankyou($enquiry));
 
-    $body = $response->json();
-
-    if(isset($body['success']) && $body['success'] === true){
-        return response()->json(['status'=>'success','message'=>'Enquiry Sent Successfully']);
-    } else {
-        return response()->json(['status'=>'error','message'=>$body['message'] ?? 'Something went wrong'],422);
-    }
+    return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);
 }
+
 }
