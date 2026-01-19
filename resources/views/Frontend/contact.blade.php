@@ -229,7 +229,7 @@ $(document).ready(function () {
 
                     setTimeout(function () {
                         window.location.href = '/thankyou';
-                    }, 1000);
+                    }, 1000); 
                 }
             },
 

@@ -83,9 +83,9 @@
                                     <th>Photo</th>
                                     <th>Title</th>
                                     <th>Publish Date</th>
-                                    <th>Sub Title</th>
+                                    <!-- <th>Sub Title</th>
                                     <th>Slug</th>
-                                    <th>Author Name</th>
+                                    <th>Author Name</th> -->
                                     <th>View Count</th>
                                 </tr>
                             </thead>
@@ -145,9 +145,9 @@
                 { data: 'photo', name: 'blogs.photo' },
                 { data: 'title', name: 'blogs.title' },
                 { data: 'publish_date', name: 'blogs.publish_date' },
-                { data: 'sub_title', name: 'blogs.sub_title' },
-                { data: 'slug', name: 'blogs.slug' },
-                { data: 'author', name: 'blogs.author' },
+                // { data: 'sub_title', name: 'blogs.sub_title' },
+                // { data: 'slug', name: 'blogs.slug' },
+                // { data: 'author', name: 'blogs.author' },
                 { data: 'blog_visitors_count', name: 'blogs.blog_visitors_count' },
             ],
             columnDefs: [
