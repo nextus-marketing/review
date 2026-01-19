@@ -28,14 +28,14 @@ Route::view('/disclosure', 'Frontend.disclosure')->name('disclosure');
       ->name('editor.image.upload');
 
 
-      Route::get('/smtp-test', function () {
-    Mail::raw('Titan SMTP Test Success', function ($message) {
-        $message->to('offers@comparehomesecurity.org')
-                ->subject('SMTP Test');
-    });
+//       Route::get('/smtp-test', function () {
+//     Mail::raw('Titan SMTP Test Success', function ($message) {
+//         $message->to('offers@comparehomesecurity.org')
+//                 ->subject('SMTP Test');
+//     });
 
-    return 'SMTP working!';
-});
+//     return 'SMTP working!';
+// });
 
 
 
