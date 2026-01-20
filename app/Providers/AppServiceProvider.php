@@ -26,7 +26,12 @@ class AppServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
-        //
-    }
+{
+    view()->composer('*', function ($view) {
+        $view->with(
+            'unreadEnquiryCount',
+            Enquiry::where('is_read', 0)->count()
+        );
+    });
+}
 }
