@@ -62,8 +62,6 @@
 </script>
 @endsection
 
-
-
 @section('content')
 
 <style>
