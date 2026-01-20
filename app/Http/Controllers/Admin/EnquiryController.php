@@ -9,11 +9,9 @@ use Yajra\DataTables\Facades\DataTables;
 
 class EnquiryController extends Controller
 {
-    public function index()
-        {
-            Enquiry::where('is_read', 0)->update(['is_read' => 1]);
-            return view('Admin.Enquiries.index');
-        }
+    public function index(){
+        return view('Admin.Enquiries.index');
+    }
 
     public function data(Request $request){
         $query = Enquiry::where('id','!=',0)->orderBy('created_at', 'desc'); 
