@@ -39,23 +39,23 @@
         @endcan -->
 
         @can('enquiry-view')
-<li class="sidebar-item">
-    <a class="sidebar-link @if(Route::is('admin.enquiries.*')) active @endif"
-       href="{{ route('admin.enquiries.index') }}" aria-expanded="false">
+        <li class="sidebar-item">
+            <a class="sidebar-link @if(Route::is('admin.enquiries.*')) active @endif"
+            href="{{ route('admin.enquiries.index') }}" aria-expanded="false">
 
-        <span>
-            <i class="ti ti-headset"></i>
-        </span>
+                <span>
+                    <i class="ti ti-headset"></i>
+                </span>
 
-        <span class="hide-menu">
-            Contact Enquiries
-            @if($unreadEnquiryCount > 0)
-                <span class="badge bg-danger ms-2">New</span>
-            @endif
-        </span>
-    </a>
-</li>
-@endcan
+                <span class="hide-menu">
+                    Contact Enquiries
+                    @if($unreadEnquiryCount > 0)
+                        <span class="badge bg-danger ms-2">New</span>
+                    @endif
+                </span>
+            </a>
+        </li>
+        @endcan
 
         @can('blog-view')
             <li class="sidebar-item">
