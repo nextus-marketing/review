@@ -67,6 +67,15 @@
 @section('content')
 
 <style>
+.page-header-box h1 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    cursor: none;
+}
+
 .post-entry h3 {
 font-size: 20px;
 }

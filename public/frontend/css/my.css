@@ -338,7 +338,7 @@ body {
     background: url(../images/page-header-bg.png) no-repeat !important;
     background-position: top center !important;
     background-size: cover !important;
-    padding: 155px 0 140px !important;
+    padding: 155px 0 50px !important;
     overflow: hidden !important;
 }
 

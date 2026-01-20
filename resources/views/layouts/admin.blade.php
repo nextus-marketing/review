@@ -6,16 +6,15 @@
         <title>@yield('title')</title>
 
         <!-- META -->
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="handheldfriendly" content="true" />
-        <meta name="MobileOptimized" content="width" />
-        <meta name="description" content="Mordenize" />
-        <meta name="author" content="" />
-        <meta name="keywords" content="Mordenize" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="handheldfriendly" content="true"/>
+        <meta name="MobileOptimized" content="width"/>
+        <meta name="description" content="Mordenize"/>
+        <meta name="author" content=""/>
+        <meta name="keywords" content="Mordenize"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        
         <!-- FAVICON -->
         <link rel="shortcut icon" type="/frontend/image/png" href="/frontend/my-img/favicon.png"/>
 
@@ -39,7 +38,7 @@
         <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script>
         <script src="/backend/dist/js/datatable/datatable-advanced.init.js"></script>
-
+                
         <!-- SELECT2 -->
         <link rel="stylesheet" href="/backend/dist/libs/select2/dist/css/select2.min.css">
 
@@ -169,7 +168,6 @@
 
         <!-- BOOTSTRAP -->
         <script src="/backend/dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
         <!-- APP -->
         <script src="/backend/dist/js/app.min.js"></script>
         <script src="/backend/dist/js/app.init.js"></script>
