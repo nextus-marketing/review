@@ -15,7 +15,7 @@
             --bs-btn-bg: #0f2453 !important;
             --bs-btn-border-color: #0f2453 !important;
             --bs-btn-hover-color: #fff !important;
-            --bs-btn-hover-bg: #0c1d40 !important; /* darker hover shade */
+            --bs-btn-hover-bg: #0c1d40 !important; 
             --bs-btn-hover-border-color: #0c1d40 !important;
         }
 
@@ -72,7 +72,7 @@
                     <div class="col-xl-7 col-xxl-8">
                         <div class="d-none d-xl-flex align-items-center justify-content-center"
                             style="height: calc(100vh - 80px);">
-                            <img src="/backend/dist/images/backgrounds/login-security.svg" alt="" class="img-fluid" width="500">
+                            <img src="/frontend/my-img/dashbord-removebg-preview.jpg" alt="" class="img-fluid" width="500">
                         </div>
                     </div>
 
