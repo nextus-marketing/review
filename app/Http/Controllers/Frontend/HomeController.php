@@ -24,7 +24,7 @@ class HomeController extends Controller
         return view('Frontend.blogs', compact('blogs'));
     }
 
-   public function blog_details(Request $request, $slug)
+ public function blog_details(Request $request, $slug)
 {
     $blog = Blog::withCount('visitors')
         ->where('slug', $slug)
@@ -41,63 +41,41 @@ class HomeController extends Controller
     $description = json_decode($blog->description, true);
     $htmlContent = '';
     $faqs = [];
-
     $pendingQuestion = null;
 
     if (!empty($description['blocks']) && is_array($description['blocks'])) {
         foreach ($description['blocks'] as $block) {
 
-            /* ---------------- HTML RENDERING ---------------- */
-
             switch ($block['type']) {
 
+                /* ---------- HEADER ---------- */
                 case 'header':
                     $level = $block['data']['level'] ?? 2;
                     $text  = $block['data']['text'] ?? '';
                     $htmlContent .= "<h{$level}>{$text}</h{$level}>";
 
-                    // Detect FAQ Question
+                    // Detect FAQ question
                     if (preg_match('/^Q[.:]?\s*(.+)/i', strip_tags($text), $m)) {
                         $pendingQuestion = trim($m[1]);
                     }
                     break;
 
+                /* ---------- PARAGRAPH ---------- */
                 case 'paragraph':
                     $text = $block['data']['text'] ?? '';
                     $htmlContent .= "<p>{$text}</p>";
 
-                    // Detect FAQ Answer
+                    // Capture FAQ answer
                     if ($pendingQuestion) {
-                        $answer = trim(strip_tags($text));
-                        if ($answer !== '') {
-                            $faqs[] = [
-                                'question' => $pendingQuestion,
-                                'answer'   => $answer,
-                            ];
-                        }
+                        $faqs[] = [
+                            'question' => $pendingQuestion,
+                            'answer'   => trim(strip_tags($text)),
+                        ];
                         $pendingQuestion = null;
                     }
                     break;
 
-                case 'delimiter':
-                    $htmlContent .= '<hr>';
-                    break;
-
-                case 'image':
-                    if (!empty($block['data']['file']['url'])) {
-                        $url     = htmlspecialchars($block['data']['file']['url']);
-                        $caption = $block['data']['caption'] ?? '';
-                        $align   = $block['data']['alignment'] ?? 'center';
-
-                        $htmlContent .= "<div class='image-container {$align}'>
-                                            <img src='{$url}' alt='" . strip_tags($caption) . "'>";
-                        if ($caption) {
-                            $htmlContent .= "<p class='caption'>{$caption}</p>";
-                        }
-                        $htmlContent .= "</div>";
-                    }
-                    break;
-
+                /* ---------- LIST ---------- */
                 case 'list':
                     $items = $block['data']['items'] ?? [];
                     $style = $block['data']['style'] ?? 'unordered';
@@ -113,9 +91,7 @@ class HomeController extends Controller
                         $htmlContent .= "<ul class='checklist'>";
                         foreach ($items as $item) {
                             $checked = !empty($item['meta']['checked']) ? 'checked' : '';
-                            $htmlContent .= "<li>
-                                <input type='checkbox' disabled {$checked}> {$item['content']}
-                            </li>";
+                            $htmlContent .= "<li><input type='checkbox' disabled {$checked}> {$item['content']}</li>";
                         }
                         $htmlContent .= '</ul>';
                     }
@@ -126,12 +102,45 @@ class HomeController extends Controller
                         }
                         $htmlContent .= '</ul>';
                     }
+
+                    // Capture list as FAQ answer
+                    if ($pendingQuestion && !empty($items)) {
+                        $answer = implode(' ', array_map(
+                            fn($i) => strip_tags($i['content'] ?? ''),
+                            $items
+                        ));
+
+                        $faqs[] = [
+                            'question' => $pendingQuestion,
+                            'answer'   => $answer,
+                        ];
+                        $pendingQuestion = null;
+                    }
                     break;
 
+                /* ---------- IMAGE ---------- */
+                case 'image':
+                    if (!empty($block['data']['file']['url'])) {
+                        $url     = htmlspecialchars($block['data']['file']['url']);
+                        $caption = $block['data']['caption'] ?? '';
+                        $align   = $block['data']['alignment'] ?? 'center';
+
+                        $htmlContent .= "<div class='image-container {$align}'>
+                                            <img src='{$url}' alt='" . strip_tags($caption) . "'>";
+                        if ($caption) {
+                            $htmlContent .= "<p class='caption'>{$caption}</p>";
+                        }
+                        $htmlContent .= "</div>";
+                    }
+
+                    // Close pending FAQ safely
+                    $pendingQuestion = null;
+                    break;
+
+                /* ---------- TABLE ---------- */
                 case 'table':
-                    if (!empty($block['data']['content']) && is_array($block['data']['content'])) {
-                        $htmlContent .= '<div class="editor-table-wrapper">';
-                        $htmlContent .= '<table class="editor-table">';
+                    if (!empty($block['data']['content'])) {
+                        $htmlContent .= '<div class="editor-table-wrapper"><table class="editor-table">';
                         foreach ($block['data']['content'] as $row) {
                             $htmlContent .= '<tr>';
                             foreach ($row as $cell) {
@@ -141,8 +150,17 @@ class HomeController extends Controller
                         }
                         $htmlContent .= '</table></div>';
                     }
+
+                    $pendingQuestion = null;
                     break;
 
+                /* ---------- DELIMITER ---------- */
+                case 'delimiter':
+                    $htmlContent .= '<hr>';
+                    $pendingQuestion = null;
+                    break;
+
+                /* ---------- LINK ---------- */
                 case 'linkTool':
                     if (!empty($block['data']['link'])) {
                         $href = htmlspecialchars($block['data']['link']);
@@ -154,10 +172,10 @@ class HomeController extends Controller
         }
     }
 
-    // Attach extracted FAQs to blog model (for Schema)
+    // Attach FAQs for Schema
     $blog->faqs = $faqs;
 
-    // Get latest blogs
+    // Latest blogs
     $latestBlogs = Blog::where('status', 'ACTIVE')
         ->where('slug', '!=', $slug)
         ->orderBy('publish_date', 'desc')
@@ -166,6 +184,7 @@ class HomeController extends Controller
 
     return view('Frontend.blog-details', compact('blog', 'htmlContent', 'latestBlogs'));
 }
+
 
 
 

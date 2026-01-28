@@ -170,10 +170,6 @@ font-size: 20px;
     }
 }
 
-.post-entry p:last-child {
-    margin-bottom: 0;
-    display: none;
-}
 
 </style>
 
