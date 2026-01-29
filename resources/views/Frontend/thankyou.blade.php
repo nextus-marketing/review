@@ -3,7 +3,7 @@
     Thank You | Compare Home Security
 @endsection
 @section('content')
-<div class="page-header">
+    <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -53,7 +53,6 @@
                 <span><img src="/frontend/my-img/vivint-black.png" alt=""></span>
             </div>
         </div>
-    </div>
     </div>
     <div class="error-page">
         <div class="container">

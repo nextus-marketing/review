@@ -3,25 +3,25 @@
 @section('meta_description') Discover the top home security systems of 2026 - compare features, monitoring plans, costs and get free quotes to secure your home with confidence. @endsection
 @section('structured_data')
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Compare Home Security",
-  "url": "https://comparehomesecurity.org/",
-  "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo-243.webp",
-  "sameAs": [
-    "https://www.facebook.com/comparehomesecurity",
-    "https://www.instagram.com/comparehomesecurity/",
-    "https://www.youtube.com/@CompareHomeSecurity",
-    "https://www.linkedin.com/company/compare-home-security/"
-  ],
-  "description": "Compare Home Security Systems provides expert comparisons, reviews and free quotes to help homeowners select the best alarm and monitoring plans for their needs.",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://comparehomesecurity.org/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Compare Home Security",
+    "url": "https://comparehomesecurity.org/",
+    "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo-243.webp",
+    "sameAs": [
+      "https://www.facebook.com/comparehomesecurity",
+      "https://www.instagram.com/comparehomesecurity/",
+      "https://www.youtube.com/@CompareHomeSecurity",
+      "https://www.linkedin.com/company/compare-home-security/"
+    ],
+    "description": "Compare Home Security Systems provides expert comparisons, reviews and free quotes to help homeowners select the best alarm and monitoring plans for their needs.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://comparehomesecurity.org/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
   }
-}
 </script>
 @endsection
 @section('content')
@@ -45,7 +45,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="our-services" style="padding: 60px 0; background: #f4f6fb;" role="main">
   <div class="container">
@@ -202,71 +201,133 @@
 
 
 <style>
-@keyframes glowingShadow {
-  0% {
-    box-shadow: 0 0 10px rgba(42, 79, 165, 0.4), 0 0 20px rgba(42, 79, 165, 0.2);
-  }
-  50% {
-    box-shadow: 0 0 28px rgba(42, 79, 165, 0.75), 0 0 50px rgba(42, 79, 165, 0.4);
-  }
-  100% {
-    box-shadow: 0 0 10px rgba(42, 79, 165, 0.4), 0 0 20px rgba(42, 79, 165, 0.2);
-  }
-}
+    @keyframes glowingShadow {
+      0% {
+        box-shadow: 0 0 10px rgba(42, 79, 165, 0.4), 0 0 20px rgba(42, 79, 165, 0.2);
+      }
+      50% {
+        box-shadow: 0 0 28px rgba(42, 79, 165, 0.75), 0 0 50px rgba(42, 79, 165, 0.4);
+      }
+      100% {
+        box-shadow: 0 0 10px rgba(42, 79, 165, 0.4), 0 0 20px rgba(42, 79, 165, 0.2);
+      }
+    }
 
-.best-seller {
-  animation: glowingShadow 1.8s infinite ease-in-out; /* faster, smooth pulse */
-  border: 2px solid #2a4fa5;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+    .best-seller {
+      animation: glowingShadow 1.8s infinite ease-in-out; /* faster, smooth pulse */
+      border: 2px solid #2a4fa5;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
 
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+    }
+    @media (max-width: 767px) {
+      .service-card {
+        margin-bottom: 25px;
+      }
+    }
+
+  .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        border-radius: 12px;
+        padding: 20px;
+        background-color: #f9f9f9;
+      }
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+      }
+      .card-content {
+        flex-grow: 1;
+      }
+      .d-grid.gap-2 {
+        margin-top: auto;
+      }
+      .custom-btn:hover {
+        background-color: #1d366f !important;
+        transform: translateY(-2px);
+      }
+      .custom-btn-outline:hover {
+        background-color: #0f2453 !important;
+        color: #fff !important;
+        transform: translateY(-2px);
+      }
+          .see-more-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 4px 12px;
+        font-size: 0.875rem; /* small size like btn-sm */
+        font-weight: 500;
+        border: 1px solid #0f2453;
+        color: #0f2453;
+        background: transparent;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .see-more-btn:hover {
+        background-color: #0f2453;
+        color: #fff;
+        text-decoration: none;
+    }
+    </style>
+      <style>
+      .text-primary {
+        color: #044ab3ff !important; 
+      }
+      .bg-light {
+        background-color: #9fc7e7ff !important;
+      }
+      .bi {
+        font-size: 1rem;
+      }
+      .rounded-pill {
+        border-radius: 50px !important;
+      }
+
+      .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+    }
+    .modal-content {
+        background-color: #fff;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 600px;
+        position: relative;
+    }
+    .close {
+        color: #aaa;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .close:hover {
+        color: #000;
+    }
 </style>
 
-
-<style>
-.service-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
-}
-@media (max-width: 767px) {
-  .service-card {
-    margin-bottom: 25px;
-  }
-}
-</style> 
-
-<style>
-    .card {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 100%;
-      border-radius: 12px;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      flex-grow: 1;
-    }
-    .card-content {
-      flex-grow: 1;
-    }
-    .d-grid.gap-2 {
-      margin-top: auto;
-    }
-    .custom-btn:hover {
-      background-color: #1d366f !important;
-      transform: translateY(-2px);
-    }
-    .custom-btn-outline:hover {
-      background-color: #0f2453 !important;
-      color: #fff !important;
-      transform: translateY(-2px);
-    }
-</style>
 
 <div class="our-pricing dark-section" id="pricing">
   <div class="container">
@@ -525,44 +586,6 @@
 </div>
 
 
-<style>
-.see-more-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    padding: 4px 12px;
-    font-size: 0.875rem; /* small size like btn-sm */
-    font-weight: 500;
-    border: 1px solid #0f2453;
-    color: #0f2453;
-    background: transparent;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.see-more-btn:hover {
-    background-color: #0f2453;
-    color: #fff;
-    text-decoration: none;
-}
-</style>
-   <style>
-  .text-primary {
-    color: #044ab3ff !important; 
-  }
-  .bg-light {
-    background-color: #9fc7e7ff !important;
-  }
-  .bi {
-    font-size: 1rem;
-  }
-  .rounded-pill {
-    border-radius: 50px !important;
-  }
-</style>
-
-
 <!-- Modal 1 -->
 <div id="modal1" class="modal">
     <div class="modal-content">
@@ -587,44 +610,9 @@
     </div>
 </div>
 
-<!-- Styles -->
-<style>
-.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1000; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(0,0,0,0.5); 
-}
-.modal-content {
-    background-color: #fff;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    position: relative;
-}
-.close {
-    color: #aaa;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.close:hover {
-    color: #000;
-}
-</style>
 
 
-      <div class="pricing-tab-item d-none" id="annually">
+  <div class="pricing-tab-item d-none" id="annually">
           <div class="row">
               <div class="col-xl-3 col-md-6">
                   <!-- PricingItemStart -->
@@ -753,146 +741,144 @@
       </div>
       </div>
   </div>
-</div>
-</div>
-</div>
 
 
-    <div class="our-testimonials dark-section parallaxie">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-5 col-lg-6">
-                <div class="our-testimonial-content">
-                    <div class="section-title">
-                      <h3 class="wow fadeInUp">
-                            Customer Reviews
-                          </h3>
 
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What Homeowners Say About <span>Compare Home Security</span>
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Read how real users found the best home security systems through our trusted reviews and easy-to-understand comparisons. Your peace of mind starts here.
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <div class="our-testimonials dark-section parallaxie">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-5 col-lg-6">
+                  <div class="our-testimonial-content">
+                      <div class="section-title">
+                        <h3 class="wow fadeInUp">
+                              Customer Reviews
+                            </h3>
 
-            <div class="col-xl-7 col-lg-6">
-                <div class="testimonial-slider">
-                    <div class="swiper">
-                        <div class="swiper-wrapper" data-cursor-text="Drag">
+                          <h2 class="text-anime-style-2" data-cursor="-opaque">
+                              What Homeowners Say About <span>Compare Home Security</span>
+                          </h2>
+                          <p class="wow fadeInUp" data-wow-delay="0.2s">
+                              Read how real users found the best home security systems through our trusted reviews and easy-to-understand comparisons. Your peace of mind starts here.
+                          </p>
+                      </div>
+                  </div>
+              </div>
 
-                            <!-- Testimonial 1 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote">
-                                            <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="testimonial-content">
-                                            <p>“Compare Home Security helped me choose the perfect alarm system for my new home. Their comparisons were clear, honest, and easy to understand. I ended up saving money and getting better protection than I expected.”</p>
-                                        </div>
-                                        <div class="testimonial-author-content">
-                                            <h3>Emily Johnson</h3>
-                                            <p>Homeowner, California</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+              <div class="col-xl-7 col-lg-6">
+                  <div class="testimonial-slider">
+                      <div class="swiper">
+                          <div class="swiper-wrapper" data-cursor-text="Drag">
 
-                            <!-- Testimonial 2 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote">
-                                            <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="testimonial-content">
-                                            <p>“I had no idea there were so many options for smart home security. Thanks to Compare Home Security, I found a system that integrates with Alexa and my cameras perfectly. Their top-rated list was spot on.”</p>
-                                        </div>
-                                        <div class="testimonial-author-content">
-                                            <h3>David Miller</h3>
-                                            <p>Apartment Owner, Texas</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              <!-- Testimonial 1 -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-header">
+                                          <div class="testimonial-quote">
+                                              <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
+                                          </div>
+                                      </div>
+                                      <div class="testimonial-body">
+                                          <div class="testimonial-content">
+                                              <p>“Compare Home Security helped me choose the perfect alarm system for my new home. Their comparisons were clear, honest, and easy to understand. I ended up saving money and getting better protection than I expected.”</p>
+                                          </div>
+                                          <div class="testimonial-author-content">
+                                              <h3>Emily Johnson</h3>
+                                              <p>Homeowner, California</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
 
-                            <!-- Testimonial 3 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote">
-                                            <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="testimonial-content">
-                                            <p>“Their review on professional vs DIY systems was super helpful. I finally went with a monitored plan that fits my family’s lifestyle. The site saved me a lot of time and confusion.”</p>
-                                        </div>
-                                        <div class="testimonial-author-content">
-                                            <h3>Sophia Lee</h3>
-                                            <p>Homeowner, Florida</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              <!-- Testimonial 2 -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-header">
+                                          <div class="testimonial-quote">
+                                              <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
+                                          </div>
+                                      </div>
+                                      <div class="testimonial-body">
+                                          <div class="testimonial-content">
+                                              <p>“I had no idea there were so many options for smart home security. Thanks to Compare Home Security, I found a system that integrates with Alexa and my cameras perfectly. Their top-rated list was spot on.”</p>
+                                          </div>
+                                          <div class="testimonial-author-content">
+                                              <h3>David Miller</h3>
+                                              <p>Apartment Owner, Texas</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
 
-                            <!-- Testimonial 4 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote">
-                                            <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="testimonial-content">
-                                            <p>“The team at Compare Home Security truly knows what they’re doing. Their detailed breakdowns made it easy to compare installation costs, monitoring fees, and features — all in one place.”</p>
-                                        </div>
-                                        <div class="testimonial-author-content">
-                                            <h3>Michael Thompson</h3>
-                                            <p>Townhouse Owner, New York</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                              <!-- Testimonial 3 -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-header">
+                                          <div class="testimonial-quote">
+                                              <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
+                                          </div>
+                                      </div>
+                                      <div class="testimonial-body">
+                                          <div class="testimonial-content">
+                                              <p>“Their review on professional vs DIY systems was super helpful. I finally went with a monitored plan that fits my family’s lifestyle. The site saved me a lot of time and confusion.”</p>
+                                          </div>
+                                          <div class="testimonial-author-content">
+                                              <h3>Sophia Lee</h3>
+                                              <p>Homeowner, Florida</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
 
-                            <!-- Testimonial 5 -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote">
-                                            <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="testimonial-content">
-                                            <p>“After reading their in-depth reviews, I switched from my old provider to a new one that costs less and offers better smart alerts. The comparisons are 100% unbiased and genuinely useful.”</p>
-                                        </div>
-                                        <div class="testimonial-author-content">
-                                            <h3>Rachel Adams</h3>
-                                            <p>Homeowner, Illinois</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-slider-btn">
-                            <div class="testimonial-button-prev"></div>
-                            <div class="testimonial-button-next"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                              <!-- Testimonial 4 -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-header">
+                                          <div class="testimonial-quote">
+                                              <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
+                                          </div>
+                                      </div>
+                                      <div class="testimonial-body">
+                                          <div class="testimonial-content">
+                                              <p>“The team at Compare Home Security truly knows what they’re doing. Their detailed breakdowns made it easy to compare installation costs, monitoring fees, and features — all in one place.”</p>
+                                          </div>
+                                          <div class="testimonial-author-content">
+                                              <h3>Michael Thompson</h3>
+                                              <p>Townhouse Owner, New York</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <!-- Testimonial 5 -->
+                              <div class="swiper-slide">
+                                  <div class="testimonial-item">
+                                      <div class="testimonial-header">
+                                          <div class="testimonial-quote">
+                                              <img src="/frontend/images/testimonial-quote.svg" alt="Quote Icon">
+                                          </div>
+                                      </div>
+                                      <div class="testimonial-body">
+                                          <div class="testimonial-content">
+                                              <p>“After reading their in-depth reviews, I switched from my old provider to a new one that costs less and offers better smart alerts. The comparisons are 100% unbiased and genuinely useful.”</p>
+                                          </div>
+                                          <div class="testimonial-author-content">
+                                              <h3>Rachel Adams</h3>
+                                              <p>Homeowner, Illinois</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="testimonial-slider-btn">
+                              <div class="testimonial-button-prev"></div>
+                              <div class="testimonial-button-next"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 <div class="our-faqs">

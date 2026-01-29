@@ -2,47 +2,47 @@
 @section('title') Terms Of Use | Compare Home Security @endsection
 @section('content')
 <style>
-/* Default (desktop/tablet) */
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  padding-right: 70px;
-  padding-left: 70px;
-}
+    /* Default (desktop/tablet) */
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      padding-right: 70px;
+      padding-left: 70px;
+    }
 
-/* ===== Responsive Fixes ===== */
-@media (max-width: 991px) {
-  .container,
-  .container-fluid,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
+    /* ===== Responsive Fixes ===== */
+    @media (max-width: 991px) {
+      .container,
+      .container-fluid,
+      .container-lg,
+      .container-md,
+      .container-sm,
+      .container-xl,
+      .container-xxl {
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+    }
 
-@media (max-width: 576px) {
-  .container,
-  .container-fluid,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    padding-right: 10;
-    padding-left: 10;
-  }
-}
+    @media (max-width: 576px) {
+      .container,
+      .container-fluid,
+      .container-lg,
+      .container-md,
+      .container-sm,
+      .container-xl,
+      .container-xxl {
+        padding-right: 10;
+        padding-left: 10;
+      }
+    }
 
 </style>
-<div class="page-header">
+    <div class="page-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -59,7 +59,7 @@
             </div>
         </div>
     </div>
-    <div class="our-scrolling-ticker">
+      <div class="our-scrolling-ticker">
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
             <div class="scrolling-content">
@@ -96,7 +96,7 @@
       </div>
 <section class="pt-5 post-conte" style="padding-top: 100px;">
   <div class="container post-entry" style="max-width:100%; word-wrap:break-word;">
-</br>
+    </br>
     <h2 class="wow fadeInUp" data-wow-delay="0.8s">Terms Of Use</h2>
      <p class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
     </br>

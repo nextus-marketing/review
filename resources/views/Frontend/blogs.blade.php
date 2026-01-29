@@ -7,42 +7,42 @@ Explore expert articles and guides on home security from choosing alarm systems 
 
 @section('structured_data')
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Blog - Compare Home Security",
-  "url": "https://comparehomesecurity.org/blogs",
-  "description": "Read expert blogs, tips, and guides to help homeowners choose the best home security systems.",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Compare Home Security",
-    "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo-243.webp",
-    "url": "https://comparehomesecurity.org/"
-  },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://comparehomesecurity.org/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Blog",
-        "item": "https://comparehomesecurity.org/blogs"
-      }
-    ]
-  },
-  "mainEntityOfPage": "https://comparehomesecurity.org/blogs",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://comparehomesecurity.org/blogs?s={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
+    {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Blog - Compare Home Security",
+    "url": "https://comparehomesecurity.org/blogs",
+    "description": "Read expert blogs, tips, and guides to help homeowners choose the best home security systems.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Compare Home Security",
+        "logo": "https://comparehomesecurity.org/frontend/my-img/new-logo-243.webp",
+        "url": "https://comparehomesecurity.org/"
+    },
+    "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://comparehomesecurity.org/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://comparehomesecurity.org/blogs"
+        }
+        ]
+    },
+    "mainEntityOfPage": "https://comparehomesecurity.org/blogs",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://comparehomesecurity.org/blogs?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+    }
 </script>
 @endsection
 
@@ -69,7 +69,6 @@ Explore expert articles and guides on home security from choosing alarm systems 
     </div>
 </div>
 <!-- Page Header End -->
-
 
 <!-- Scrolling Ticker Start -->
 <div class="our-scrolling-ticker">
@@ -99,7 +98,6 @@ Explore expert articles and guides on home security from choosing alarm systems 
     </div>
 </div>
 <!-- Scrolling Ticker End -->
-
 
 <!-- Blog Section Start -->
 <div class="page-blog pt-100 pb-100">

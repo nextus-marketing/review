@@ -10,166 +10,165 @@
 
 @section('structured_data')
 <script type="application/ld+json">
-{!! json_encode([
-    "@context" => "https://schema.org",
-    "@graph" => [
+    {!! json_encode([
+        "@context" => "https://schema.org",
+        "@graph" => [
 
-        // ARTICLE SCHEMA
-        [
-            "@type" => "Article",
-            "mainEntityOfPage" => [
-                "@type" => "WebPage",
-                "@id" => url()->current()
-            ],
-            "headline" => $blog->meta_title ?: $blog->title,
-            "description" => $blog->meta_description
-                ?: Str::limit(strip_tags($blog->content ?? ''), 160),
-            "image" => asset(Storage::url($blog->photo)),
-            "datePublished" => \Carbon\Carbon::parse($blog->publish_date)
-                ->timezone('Asia/Kolkata')
-                ->toIso8601String(),
-            "dateModified" => $blog->updated_at->toIso8601String(),
-            "author" => [
-                "@type" => "Person",
-                "name" => $blog->author_name ?? "Admin"
-            ],
-            "publisher" => [
-                "@type" => "Organization",
-                "name" => "Compare Home Security",
-                "logo" => [
-                    "@type" => "ImageObject",
-                    "url" => url('/frontend/my-img/new-logo-243.webp')
-                ]
-            ]
-        ],
-
-        // FAQ SCHEMA
-        !empty($blog->faqs) && count($blog->faqs) > 0 ? [
-            "@type" => "FAQPage",
-            "mainEntity" => array_map(function($faq) {
-                return [
-                    "@type" => "Question",
-                    "name" => $faq['question'],
-                    "acceptedAnswer" => [
-                        "@type" => "Answer",
-                        "text" => strip_tags($faq['answer'])
+            // ARTICLE SCHEMA
+            [
+                "@type" => "Article",
+                "mainEntityOfPage" => [
+                    "@type" => "WebPage",
+                    "@id" => url()->current()
+                ],
+                "headline" => $blog->meta_title ?: $blog->title,
+                "description" => $blog->meta_description
+                    ?: Str::limit(strip_tags($blog->content ?? ''), 160),
+                "image" => asset(Storage::url($blog->photo)),
+                "datePublished" => \Carbon\Carbon::parse($blog->publish_date)
+                    ->timezone('Asia/Kolkata')
+                    ->toIso8601String(),
+                "dateModified" => $blog->updated_at->toIso8601String(),
+                "author" => [
+                    "@type" => "Person",
+                    "name" => $blog->author_name ?? "Admin"
+                ],
+                "publisher" => [
+                    "@type" => "Organization",
+                    "name" => "Compare Home Security",
+                    "logo" => [
+                        "@type" => "ImageObject",
+                        "url" => url('/frontend/my-img/new-logo-243.webp')
                     ]
-                ];
-            }, $blog->faqs)
-        ] : null
-    ]
-], JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT) !!}
+                ]
+            ],
+
+            // FAQ SCHEMA
+            !empty($blog->faqs) && count($blog->faqs) > 0 ? [
+                "@type" => "FAQPage",
+                "mainEntity" => array_map(function($faq) {
+                    return [
+                        "@type" => "Question",
+                        "name" => $faq['question'],
+                        "acceptedAnswer" => [
+                            "@type" => "Answer",
+                            "text" => strip_tags($faq['answer'])
+                        ]
+                    ];
+                }, $blog->faqs)
+            ] : null
+        ]
+    ], JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT) !!}
 </script>
 @endsection
 
 @section('content')
 
 <style>
-.page-header-box h1 {
-    display: inline-block;
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: -0.02em;
-    margin-bottom: 10px;
-    cursor: none;
-}
-
-.post-entry h3 {
-font-size: 20px;
-}
-.post-entry h6 {
-    font-size: 16px;
-}
-.post-entry h2 {
-    font-size: 26px;
-}
-@media (min-width: 1200px) {
-    .h2, h2 {
-        font-size: 25px;
+    .page-header-box h1 {
+        display: inline-block;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        margin-bottom: 10px;
+        cursor: none;
     }
-}
 
-/* Editor Table Styling */
-.editor-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 15px;
-    background: #ffffff;
-}
+    .post-entry h3 {
+    font-size: 20px;
+    }
+    .post-entry h6 {
+        font-size: 16px;
+    }
+    .post-entry h2 {
+        font-size: 26px;
+    }
+    @media (min-width: 1200px) {
+        .h2, h2 {
+            font-size: 25px;
+        }
+    }
 
-.editor-table th,
-.editor-table td {
-    border: 1px solid #d7d7d7;
-    padding: 12px 14px;
-    text-align: left;
-    vertical-align: middle;
-}
+    /* Editor Table Styling */
+    .editor-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 15px;
+        background: #ffffff;
+    }
 
-.editor-table th {
-    background: #f1f4f7;
-    font-weight: 600;
-    color: #0c1b33;
-}
-
-.editor-table tr:nth-child(even) {
-    background: #fafafa;
-}
-
-/* Make table scrollable on mobile */
-.editor-table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-}
-
-.editor-table td p {
-    margin: 0; /* Removes double spacing created by <p> tags inside cells */
-}
-/* Wrapper for horizontal scrolling */
-.editor-table-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-/* Table styling */
-.editor-table {
-    width: 100%;
-    min-width: 600px; /* optional, ensures scroll on very small screens */
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 15px;
-    background: #ffffff;
-}
-
-.editor-table th,
-.editor-table td {
-    border: 1px solid #d7d7d7;
-    padding: 12px 10px;
-    text-align: left;
-    vertical-align: middle;
-    white-space: nowrap; /* prevents breaking text in cells */
-}
-
-.editor-table th {
-    background: #f1f4f7;
-    font-weight: 600;
-    color: #0c1b33;
-}
-
-.editor-table tr:nth-child(even) {
-    background: #fafafa;
-}
-
-/* Optional: reduce font size on small screens */
-@media (max-width: 768px) {
     .editor-table th,
     .editor-table td {
-        font-size: 14px;
-        padding: 8px 6px;
+        border: 1px solid #d7d7d7;
+        padding: 12px 14px;
+        text-align: left;
+        vertical-align: middle;
     }
-}
 
+    .editor-table th {
+        background: #f1f4f7;
+        font-weight: 600;
+        color: #0c1b33;
+    }
+
+    .editor-table tr:nth-child(even) {
+        background: #fafafa;
+    }
+
+    /* Make table scrollable on mobile */
+    .editor-table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .editor-table td p {
+        margin: 0; /* Removes double spacing created by <p> tags inside cells */
+    }
+    /* Wrapper for horizontal scrolling */
+    .editor-table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Table styling */
+    .editor-table {
+        width: 100%;
+        min-width: 600px; /* optional, ensures scroll on very small screens */
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 15px;
+        background: #ffffff;
+    }
+
+    .editor-table th,
+    .editor-table td {
+        border: 1px solid #d7d7d7;
+        padding: 12px 10px;
+        text-align: left;
+        vertical-align: middle;
+        white-space: nowrap; /* prevents breaking text in cells */
+    }
+
+    .editor-table th {
+        background: #f1f4f7;
+        font-weight: 600;
+        color: #0c1b33;
+    }
+
+    .editor-table tr:nth-child(even) {
+        background: #fafafa;
+    }
+
+    /* Optional: reduce font size on small screens */
+    @media (max-width: 768px) {
+        .editor-table th,
+        .editor-table td {
+            font-size: 14px;
+            padding: 8px 6px;
+        }
+    }
 
 </style>
 
@@ -239,7 +238,7 @@ font-size: 20px;
                 <!-- Blog Content -->
                 <div class="post-content wow fadeInUp">
                     <div class="post-entry">
-                       @php
+                        @php
                             $description = json_decode($blog->description, true);
                             if (!empty($description['blocks']) && is_array($description['blocks'])) {
                                 foreach ($description['blocks'] as $d) {
@@ -364,14 +363,14 @@ font-size: 20px;
     </div>
 </div>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    document
-        .querySelectorAll(".post-entry a")
-        .forEach(function (link) {
-            link.setAttribute("target", "_blank");
-            link.setAttribute("rel", "noopener noreferrer");
-        });
-});
+    document.addEventListener("DOMContentLoaded", function () {
+        document
+            .querySelectorAll(".post-entry a")
+            .forEach(function (link) {
+                link.setAttribute("target", "_blank");
+                link.setAttribute("rel", "noopener noreferrer");
+            });
+    });
 </script>
 
 @endsection

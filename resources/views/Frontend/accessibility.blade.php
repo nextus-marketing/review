@@ -2,44 +2,44 @@
 @section('title') Accessibility | Compare Home Security @endsection
 @section('content')
 <style>
-/* Default (desktop/tablet) */
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  padding-right: 70px;
-  padding-left: 70px;
-}
+    /* Default (desktop/tablet) */
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+    padding-right: 70px;
+    padding-left: 70px;
+    }
 
-/* ===== Responsive Fixes ===== */
-@media (max-width: 991px) {
-  .container,
-  .container-fluid,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
+    /* ===== Responsive Fixes ===== */
+    @media (max-width: 991px) {
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    }
 
-@media (max-width: 576px) {
-  .container,
-  .container-fluid,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    padding-right: 10;
-    padding-left: 10;
-  }
-}
+    @media (max-width: 576px) {
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        padding-right: 10;
+        padding-left: 10;
+    }
+    }
 
 </style>
 
@@ -96,7 +96,7 @@
     </div>
 <section class="pt-5" style="padding-top: 100px;">
   <div class="container" style="max-width:100%; word-wrap:break-word;">
-</br>
+    </br>
     <h2 style="font-size:26px; font-weight:700; margin-bottom:10px;">ACCESSIBILITY</h2>
       <p style="font-size: 13px;" class="wow fadeInUp" data-wow-delay="1s">of a comparehomesecurity.org and all related websites
       </br>
