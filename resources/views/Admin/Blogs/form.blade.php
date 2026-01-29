@@ -30,6 +30,33 @@
 .ce-block__content {
     max-width: 900px;
 }
+/* Editor wrapper spacing */
+#editorjs {
+    padding-left: 60px; /* space for + and toolbar */
+}
+
+/* Editor main content width */
+.ce-block__content,
+.ce-toolbar__content {
+    max-width: 900px;
+}
+
+/* Move the plus (+) button to the left */
+.ce-toolbar__plus {
+    left: -45px !important;
+}
+
+/* Move the inline toolbar properly */
+.ce-toolbar__actions {
+    right: 100%;
+    margin-right: 10px;
+}
+
+/* Prevent toolbar overlapping text */
+.ce-paragraph,
+.ce-header {
+    padding-left: 0 !important;
+}
 
 </style>
 
