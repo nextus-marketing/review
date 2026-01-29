@@ -366,7 +366,7 @@ font-size: 20px;
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     document
-        .querySelectorAll(".blog__details--content a")
+        .querySelectorAll(".post-entry a")
         .forEach(function (link) {
             link.setAttribute("target", "_blank");
             link.setAttribute("rel", "noopener noreferrer");
