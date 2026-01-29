@@ -30,15 +30,7 @@
 .ce-block__content {
     max-width: 900px;
 }
-.ce-toolbar__actions {
-    position: absolute !important;
-    right: 118% !important !important;
-    opacity: 0 !important;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    padding-right: 5px !important;
-}
+
 </style>
 
 <form method="POST"
