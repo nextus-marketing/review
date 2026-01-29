@@ -227,7 +227,6 @@ font-size: 20px;
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10">
-
                 <!-- Blog Image -->
                 <div class="post-image mb-4">
                     <figure class="image-anime reveal">
@@ -237,7 +236,6 @@ font-size: 20px;
                              style="object-fit: cover; max-height: 500px;">
                     </figure>
                 </div>
-
                 <!-- Blog Content -->
                 <div class="post-content wow fadeInUp">
                     <div class="post-entry">
@@ -314,7 +312,6 @@ font-size: 20px;
                         @endphp
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -366,5 +363,16 @@ font-size: 20px;
         </div>
     </div>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document
+        .querySelectorAll(".blog__details--content a")
+        .forEach(function (link) {
+            link.setAttribute("target", "_blank");
+            link.setAttribute("rel", "noopener noreferrer");
+        });
+});
+</script>
+
 @endsection
 
