@@ -14,13 +14,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>@yield('title')</title>
+  <title>{{ trim($__env->yieldContent('title')) }}</title>
 
   {{-- Handle Meta & Structured Data --}}
   @if(View::hasSection('meta'))
     @yield('meta')
   @elseif(View::hasSection('meta_description'))
-    <meta name="description" content="@yield('meta_description')">
+    <meta name="description" content="{{ trim($__env->yieldContent('meta_description')) }}">
   @endif
 
   <link rel="canonical" href="{{ url()->current() }}" />
