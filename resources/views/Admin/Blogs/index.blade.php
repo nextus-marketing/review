@@ -148,7 +148,13 @@
                 // { data: 'sub_title', name: 'blogs.sub_title' },
                 // { data: 'slug', name: 'blogs.slug' },
                 // { data: 'author', name: 'blogs.author' },
-                { data: 'blog_visitors_count', name: 'blogs.blog_visitors_count' },
+                {
+                    data: 'blog_visitors_count',
+                    name: 'blog_visitors_count',
+                    searchable: false,
+                    orderable: false
+                },
+
             ],
             columnDefs: [
                 { targets: [0, 1, 2], className: "text-center" }
