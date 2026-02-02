@@ -39,7 +39,7 @@ class BlogController extends Controller
         $query->where('status', $request->status);
     }
 
-    $query->orderByDesc('id');
+        $query->orderByDesc('id');
 
     return DataTables::eloquent($query)
         ->editColumn('category', function ($blog) {
@@ -74,8 +74,8 @@ class BlogController extends Controller
             return $blog->slug;
         })
         ->editColumn('sub_title', function ($blog) {
-    return Str::limit(strip_tags($blog->sub_title), 40, '...');
-})
+        return Str::limit(strip_tags($blog->sub_title), 40, '...');
+        })
 
         ->editColumn('status', function ($blog) {
             return '<div class="form-check form-switch">
@@ -89,12 +89,12 @@ class BlogController extends Controller
             </a>';
 
 
-    $delete = '<a href="javascript:void(0);" class="badge bg-danger fs-1 delete-blog" data-routekey="' . $blog->id . '">
-                  <i class="fa fa-trash"></i>
-               </a>';
+        $delete = '<a href="javascript:void(0);" class="badge bg-danger fs-1 delete-blog" data-routekey="' . $blog->id . '">
+                    <i class="fa fa-trash"></i>
+                </a>';
 
-    return $edit . ' ' . $delete;
-})
+        return $edit . ' ' . $delete;
+        })
 
         ->addIndexColumn()
         ->rawColumns([
@@ -104,7 +104,7 @@ class BlogController extends Controller
         ])
         ->setRowId('id')
         ->make(true);
-}
+    }
 
 
 
@@ -219,27 +219,27 @@ class BlogController extends Controller
         ], 201);
     }
 
- public function destroy(Blog $blog)
-{
-    try {
-        // Optional: delete associated user if needed
-        if ($blog->user) {
-            $blog->user->delete();
+    public function destroy(Blog $blog)
+    {
+        try {
+            // Optional: delete associated user if needed
+            if ($blog->user) {
+                $blog->user->delete();
+            }
+
+            $blog->delete();
+
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Blog and related user deleted successfully.'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Failed to delete blog: ' . $e->getMessage()
+            ], 500);
         }
-
-        $blog->delete();
-
-        return response()->json([
-            'status' => 'success',
-            'message' => 'Blog and related user deleted successfully.'
-        ]);
-    } catch (\Exception $e) {
-        return response()->json([
-            'status' => 'error',
-            'message' => 'Failed to delete blog: ' . $e->getMessage()
-        ], 500);
     }
-}
 
 
     
