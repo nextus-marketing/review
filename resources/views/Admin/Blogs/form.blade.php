@@ -13,10 +13,10 @@
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/image@latest"></script>
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/quote@latest"></script>
 <script src="https://cdn.jsdelivr.net/npm/@editorjs/table@latest"></script>
-<script src="https://cdn.jsdelivr.net/npm/@editorjs/link@latest"></script>
 
 <!-- ================= EDITOR STYLES ================= -->
 <style>
+/* Image responsive */
 .ce-block__content img,
 .image-tool__image img {
     max-width: 100%;
@@ -27,37 +27,35 @@
     border-radius: 6px;
 }
 
-.ce-block__content {
-    max-width: 900px;
-}
-/* Editor wrapper spacing */
-#editorjs {
-    padding-left: 60px; /* space for + and toolbar */
-}
-
-/* Editor main content width */
+/* Editor width */
 .ce-block__content,
 .ce-toolbar__content {
     max-width: 900px;
 }
 
-/* Move the plus (+) button to the left */
+/* Editor padding */
+#editorjs {
+    padding-left: 50px;
+}
+
+/* Toolbar fixes (VERY IMPORTANT) */
+.ce-toolbar {
+    z-index: 10;
+}
+
 .ce-toolbar__plus {
-    left: -45px !important;
+    left: -30px;
 }
 
-/* Move the inline toolbar properly */
 .ce-toolbar__actions {
-    right: 100%;
-    margin-right: 10px;
+    right: calc(100% + 10px);
 }
 
-/* Prevent toolbar overlapping text */
+/* Prevent overlap */
 .ce-paragraph,
 .ce-header {
     padding-left: 0 !important;
 }
-
 </style>
 
 <form method="POST"
@@ -162,15 +160,31 @@ const editor = new EditorJS({
     tools: {
         header: {
             class: Header,
-            config: { levels: [1,2,3,4,5,6], defaultLevel: 2 }
+            inlineToolbar: true,
+            config: {
+                levels: [1,2,3,4,5,6],
+                defaultLevel: 2
+            }
         },
 
-        list: { class: EditorjsList, inlineToolbar: true },
-        quote: { class: Quote, inlineToolbar: true },
-        table: { class: Table, inlineToolbar: true },
+        list: {
+            class: EditorjsList,
+            inlineToolbar: true
+        },
+
+        quote: {
+            class: Quote,
+            inlineToolbar: true
+        },
+
+        table: {
+            class: Table,
+            inlineToolbar: true
+        },
 
         image: {
             class: ImageTool,
+            inlineToolbar: true,
             config: {
                 captionPlaceholder: 'Enter image ALT text (SEO)',
                 uploader: {
