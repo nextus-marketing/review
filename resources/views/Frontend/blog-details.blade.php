@@ -172,6 +172,9 @@
     .caption{
         display: none !important;
     }
+.image-container {
+    margin-bottom: 30px;
+}
 
 </style>
 
