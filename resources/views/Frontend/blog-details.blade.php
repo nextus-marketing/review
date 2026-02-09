@@ -169,6 +169,9 @@
             padding: 8px 6px;
         }
     }
+    .caption{
+        display: none !important;
+    }
 
 </style>
 
