@@ -244,7 +244,7 @@
                         <img src="{{ asset(Storage::url($blog->photo)) }}"
                              alt="{{ $blog->title }}"
                              class="img-fluid rounded-3 w-100"
-                             style="object-fit: cover;">
+                             style="object-fit: cover; height: 590px;">
                     </figure>
                 </div>
                 <!-- Blog Content -->
