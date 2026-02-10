@@ -176,6 +176,12 @@
     margin-bottom: 30px;
 }
 
+.post-image img {
+    width: 100%;
+    aspect-ratio: 0;
+    object-fit: cover;
+    border-radius: 12px;
+}
 </style>
 
 
@@ -238,7 +244,7 @@
                         <img src="{{ asset(Storage::url($blog->photo)) }}"
                              alt="{{ $blog->title }}"
                              class="img-fluid rounded-3 w-100"
-                             style="object-fit: cover; max-height: 500px;">
+                             style="object-fit: cover;">
                     </figure>
                 </div>
                 <!-- Blog Content -->
