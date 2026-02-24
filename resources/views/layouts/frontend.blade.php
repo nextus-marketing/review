@@ -62,91 +62,91 @@
 <body>
 
 <style>
-/* ===== Top Info Bar ===== */
-.top-info-bar {
-  background-color: #0f2453; /* dark navy */
-  color: #fff;
-  font-size: 12px;
-  padding: 5.5px 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.top-info-bar .container-fluid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
-
-.top-info-bar .info-text {
-  color: #fff;
-  margin: 0;
-  line-height: 1.5;
-  max-width: 90%;
-  word-wrap: break-word;
-}
-
-.top-info-bar .learn-more {
-  color: #0c9fe4;
-  text-decoration: underline;
-  margin-left: 4px;
-  transition: color 0.3s ease;
-  white-space: nowrap;
-}
-
-.top-info-bar .learn-more:hover {
-  color: #fff;
-}
-
-/* ===== Responsive Fixes ===== */
-@media (max-width: 768px) {
+  /* ===== Top Info Bar ===== */
   .top-info-bar {
-    font-size: 13px;
-    padding: 6px 12px;
-  }
-  .top-info-bar .info-text {
-    max-width: 100%;
-    text-align: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .top-info-bar {
+    background-color: #0f2453; /* dark navy */
+    color: #fff;
     font-size: 12px;
-    padding: 6px 10px;
+    padding: 5.5px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
-  .top-info-bar .info-text {
-    display: block;
+
+  .top-info-bar .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-bottom: 4px;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
+
+  .top-info-bar .info-text {
+    color: #fff;
+    margin: 0;
+    line-height: 1.5;
+    max-width: 90%;
+    word-wrap: break-word;
+  }
+
   .top-info-bar .learn-more {
-    display: inline-block;
-    margin-left: 0;
-    margin-top: 2px;
+    color: #0c9fe4;
+    text-decoration: underline;
+    margin-left: 4px;
+    transition: color 0.3s ease;
+    white-space: nowrap;
   }
-}
 
-/* Hide top-info-bar.mobile by default (desktop/tablet) */
-.top-info-bar.mobile {
-  display: none;
-}
+  .top-info-bar .learn-more:hover {
+    color: #fff;
+  }
 
-/* Show only on mobile screens (below 768px) */
-@media (max-width: 767px) {
+  /* ===== Responsive Fixes ===== */
+  @media (max-width: 768px) {
+    .top-info-bar {
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+    .top-info-bar .info-text {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .top-info-bar {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+    .top-info-bar .info-text {
+      display: block;
+      text-align: center;
+      margin-bottom: 4px;
+    }
+    .top-info-bar .learn-more {
+      display: inline-block;
+      margin-left: 0;
+      margin-top: 2px;
+    }
+  }
+
+  /* Hide top-info-bar.mobile by default (desktop/tablet) */
   .top-info-bar.mobile {
-    display: block;
+    display: none;
   }
-}
 
-/* Show on mobile and tablet (below 992px) */
-@media (max-width: 991px) {
-  .top-info-bar.mobile {
-    display: block;
+  /* Show only on mobile screens (below 768px) */
+  @media (max-width: 767px) {
+    .top-info-bar.mobile {
+      display: block;
+    }
   }
-}
+
+  /* Show on mobile and tablet (below 992px) */
+  @media (max-width: 991px) {
+    .top-info-bar.mobile {
+      display: block;
+    }
+  }
 
 </style>
 
@@ -160,15 +160,15 @@
 </div>
 
     <!-- Header Start -->
-<header class="main-header" role="banner">
+  <header class="main-header" role="banner">
     <div class="top-info-bar mobile">
-  <div class="container-fluid">
-    <p class="info-text mb-0">
-      comparehomesecurity.org may receive compensation from some providers listed on this page.
-      <a href="/disclosure" class="learn-more">Learn More</a>
-    </p>
-  </div>
-</div>
+      <div class="container-fluid">
+        <p class="info-text mb-0">
+          comparehomesecurity.org may receive compensation from some providers listed on this page.
+          <a href="/disclosure" class="learn-more">Learn More</a>
+        </p>
+      </div>
+    </div>
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container-fluid">
@@ -196,83 +196,82 @@
     
     <!-- Footer Start -->
     <footer class="main-footer" role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-md-6">
-                <!-- About Footer Start -->
-                <div class="about-footer">
-                    <!-- Footer Logo Start -->
-                    <div class="footer-logo">
-                        <a href="/" title="Home">
-                            <img src="/frontend/my-img/footer-logo-280.webp" alt="Logo"  width="183" height="58">
-                        </a>
-                    </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-8 col-md-6">
+                  <!-- About Footer Start -->
+                  <div class="about-footer">
+                      <!-- Footer Logo Start -->
+                      <div class="footer-logo">
+                          <a href="/" title="Home">
+                              <img src="/frontend/my-img/footer-logo-280.webp" alt="Logo"  width="183" height="58">
+                          </a>
+                      </div>
 
-                    <!-- Footer Logo End -->
+                      <!-- Footer Logo End -->
 
-                    <!-- About Footer Content Start -->
-                      <div class="about-footer-content">
-                        <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
-                            contained on this website is for informational purposes only. Any third party contributor 
-                            to any such profile, article or video has been compensated by Compare Home Security
-                            for such contribution. It is advised that you conduct your own investigation as 
-                            to the accuracy of any information contained herein as such information,
-                            including without limitation any quote, is provided “as is” for informational purposes only.
-                            Further, Compare Home Security shall not be liable for
-                            any informational error or for any action taken in reliance on information contained herein.
-                        </p>
+                      <!-- About Footer Content Start -->
+                        <div class="about-footer-content">
+                          <p>The content, including without limitation any viewpoint or opinion in any profile, article or video,
+                              contained on this website is for informational purposes only. Any third party contributor 
+                              to any such profile, article or video has been compensated by Compare Home Security
+                              for such contribution. It is advised that you conduct your own investigation as 
+                              to the accuracy of any information contained herein as such information,
+                              including without limitation any quote, is provided “as is” for informational purposes only.
+                              Further, Compare Home Security shall not be liable for
+                              any informational error or for any action taken in reliance on information contained herein.
+                          </p>
 
-                        <!-- Social Media Icons -->
-                            <div class="social-icons" style="margin-top: 20px;">
-                                <a href="https://www.facebook.com/comparehomesecurity" target="_blank" aria-label="Facebook" class="circle-icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="https://www.instagram.com/comparehomesecurity/" target="_blank" aria-label="Instagram" class="circle-icon">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/company/compare-home-security/" target="_blank" aria-label="LinkedIn" class="circle-icon">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                                <a href="https://www.youtube.com/@ComapreHomeSecurity" target="_blank" aria-label="YouTube" class="circle-icon">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
-                        <!-- Social Icons End -->
-                    </div>
-                    <!-- About Footer Content End -->
-                </div>
-                <!-- About Footer End -->
-            </div>
+                          <!-- Social Media Icons -->
+                              <div class="social-icons" style="margin-top: 20px;">
+                                  <a href="https://www.facebook.com/comparehomesecurity" target="_blank" aria-label="Facebook" class="circle-icon">
+                                      <i class="fab fa-facebook-f"></i>
+                                  </a>
+                                  <a href="https://www.instagram.com/comparehomesecurity/" target="_blank" aria-label="Instagram" class="circle-icon">
+                                      <i class="fab fa-instagram"></i>
+                                  </a>
+                                  <a href="https://www.linkedin.com/company/compare-home-security/" target="_blank" aria-label="LinkedIn" class="circle-icon">
+                                      <i class="fab fa-linkedin-in"></i>
+                                  </a>
+                                  <a href="https://www.youtube.com/@ComapreHomeSecurity" target="_blank" aria-label="YouTube" class="circle-icon">
+                                      <i class="fab fa-youtube"></i>
+                                  </a>
+                              </div>
+                          <!-- Social Icons End -->
+                      </div>
+                      <!-- About Footer Content End -->
+                  </div>
+                  <!-- About Footer End -->
+              </div>
 
-        <div class="col-xl-4 col-md-6">
-                <!-- Footer Contact Start -->
-                <div class="footer-contact footer-links">
-                    <h3 style="color:#fff;">User Rights & Legal Info</h3>
-                    <ul style="list-style:none; margin:0; padding:0;">
-                      <li><a href="/" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Home</a></li>
-                        <li><a href="/blogs" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Blogs</a></li>
-                        <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Privacy Policy</a></li>
-                        <li><a href="/terms-of-use" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Terms of Use</a></li>
-                        <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
-                        <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer-copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-copyright-box">
-                        <div class="footer-copyright-text">
-                            <p>Copyright © 2026 All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="col-xl-4 col-md-6">
+                  <!-- Footer Contact Start -->
+                  <div class="footer-contact footer-links">
+                      <h3 style="color:#fff;">User Rights & Legal Info</h3>
+                      <ul style="list-style:none; margin:0; padding:0;">
+                        <li><a href="/" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Home</a></li>
+                          <li><a href="/blogs" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Blogs</a></li>
+                          <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Privacy Policy</a></li>
+                          <li><a href="/terms-of-use" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Terms of Use</a></li>
+                          <li><a href="/accessibility" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Accessibility</a></li>
+                          <li><a href="/contact" style="color:#fff; text-decoration:none;" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'">Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
           </div>
+      </div>
+        <div class="footer-copyright">
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="footer-copyright-box">
+                          <div class="footer-copyright-text">
+                              <p>Copyright © 2026 All Rights Reserved.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
         </div>
     </footer>
 
@@ -307,30 +306,30 @@
       });
     </script>
 
-<!-- Script -->
-<script>
-document.querySelectorAll('.open-modal').forEach(link => {
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const modalId = this.getAttribute('data-modal');
-        document.getElementById(modalId).style.display = 'block';
-    });
-});
+    <!-- Script -->
+    <script>
+        document.querySelectorAll('.open-modal').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const modalId = this.getAttribute('data-modal');
+                document.getElementById(modalId).style.display = 'block';
+            });
+        });
 
-document.querySelectorAll('.close').forEach(btn => {
-    btn.addEventListener('click', function() {
-        this.closest('.modal').style.display = 'none';
-    });
-});
+        document.querySelectorAll('.close').forEach(btn => {
+            btn.addEventListener('click', function() {
+                this.closest('.modal').style.display = 'none';
+            });
+        });
 
-window.addEventListener('click', function(event) {
-    document.querySelectorAll('.modal').forEach(modal => {
-        if(event.target == modal) {
-            modal.style.display = 'none';
-        }
-    });
-});
-</script>
+        window.addEventListener('click', function(event) {
+            document.querySelectorAll('.modal').forEach(modal => {
+                if(event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+    </script>
     <!-- Footer End -->
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>

@@ -176,19 +176,17 @@
     .caption{
         display: none !important;
     }
-.image-container {
-    margin-bottom: 30px;
-}
+    .image-container {
+        margin-bottom: 30px;
+    }
 
-.post-image img {
-    width: 100%;
-    aspect-ratio: 0;
-    object-fit: cover;
-    border-radius: 12px;
-}
+    .post-image img {
+        width: 100%;
+        aspect-ratio: 0;
+        object-fit: cover;
+        border-radius: 12px;
+    }
 </style>
-
-
 
 <!-- Page Header -->
 <div class="page-header">
@@ -378,6 +376,7 @@
         </div>
     </div>
 </div>
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         document
@@ -391,3 +390,4 @@
 
 @endsection
 
+                                            
