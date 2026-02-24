@@ -76,12 +76,16 @@
 
     .post-entry h3 {
     font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 40px;
     }
     .post-entry h6 {
         font-size: 16px;
     }
     .post-entry h2 {
-        font-size: 26px;
+    font-size: 26px;
+    margin-bottom: 25px;
+    margin-top: 35px;
     }
     @media (min-width: 1200px) {
         .h2, h2 {
@@ -249,7 +253,7 @@
                 </div>
                 <!-- Blog Content -->
                 <div class="post-content wow fadeInUp">
-                    <div class="post-entry">
+                    <div class="post-entry"> 
                         @php
                             $description = json_decode($blog->description, true);
                             if (!empty($description['blocks']) && is_array($description['blocks'])) {
