@@ -61,103 +61,103 @@
 </head>
 <body>
 
-<style>
-  /* ===== Top Info Bar ===== */
-  .top-info-bar {
-    background-color: #0f2453; /* dark navy */
-    color: #fff;
-    font-size: 12px;
-    padding: 5.5px 16px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .top-info-bar .container-fluid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    max-width: 100%;
-  }
-
-  .top-info-bar .info-text {
-    color: #fff;
-    margin: 0;
-    line-height: 1.5;
-    max-width: 90%;
-    word-wrap: break-word;
-  }
-
-  .top-info-bar .learn-more {
-    color: #0c9fe4;
-    text-decoration: underline;
-    margin-left: 4px;
-    transition: color 0.3s ease;
-    white-space: nowrap;
-  }
-
-  .top-info-bar .learn-more:hover {
-    color: #fff;
-  }
-
-  /* ===== Responsive Fixes ===== */
-  @media (max-width: 768px) {
+  <style>
+    /* ===== Top Info Bar ===== */
     .top-info-bar {
-      font-size: 13px;
-      padding: 6px 12px;
-    }
-    .top-info-bar .info-text {
-      max-width: 100%;
-      text-align: center;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .top-info-bar {
+      background-color: #0f2453; /* dark navy */
+      color: #fff;
       font-size: 12px;
-      padding: 6px 10px;
+      padding: 5.5px 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-    .top-info-bar .info-text {
-      display: block;
+
+    .top-info-bar .container-fluid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      margin-bottom: 4px;
+      flex-wrap: wrap;
+      max-width: 100%;
     }
+
+    .top-info-bar .info-text {
+      color: #fff;
+      margin: 0;
+      line-height: 1.5;
+      max-width: 90%;
+      word-wrap: break-word;
+    }
+
     .top-info-bar .learn-more {
-      display: inline-block;
-      margin-left: 0;
-      margin-top: 2px;
+      color: #0c9fe4;
+      text-decoration: underline;
+      margin-left: 4px;
+      transition: color 0.3s ease;
+      white-space: nowrap;
     }
-  }
 
-  /* Hide top-info-bar.mobile by default (desktop/tablet) */
-  .top-info-bar.mobile {
-    display: none;
-  }
+    .top-info-bar .learn-more:hover {
+      color: #fff;
+    }
 
-  /* Show only on mobile screens (below 768px) */
-  @media (max-width: 767px) {
+    /* ===== Responsive Fixes ===== */
+    @media (max-width: 768px) {
+      .top-info-bar {
+        font-size: 13px;
+        padding: 6px 12px;
+      }
+      .top-info-bar .info-text {
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .top-info-bar {
+        font-size: 12px;
+        padding: 6px 10px;
+      }
+      .top-info-bar .info-text {
+        display: block;
+        text-align: center;
+        margin-bottom: 4px;
+      }
+      .top-info-bar .learn-more {
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 2px;
+      }
+    }
+
+    /* Hide top-info-bar.mobile by default (desktop/tablet) */
     .top-info-bar.mobile {
-      display: block;
+      display: none;
     }
-  }
 
-  /* Show on mobile and tablet (below 992px) */
-  @media (max-width: 991px) {
-    .top-info-bar.mobile {
-      display: block;
+    /* Show only on mobile screens (below 768px) */
+    @media (max-width: 767px) {
+      .top-info-bar.mobile {
+        display: block;
+      }
     }
-  }
 
-</style>
+    /* Show on mobile and tablet (below 992px) */
+    @media (max-width: 991px) {
+      .top-info-bar.mobile {
+        display: block;
+      }
+    }
 
-<div class="top-info-bar">
-  <div class="container-fluid">
-    <p class="info-text mb-0">
-      comparehomesecurity.org may receive compensation from some providers listed on this page.
-      <a href="/disclosure" class="learn-more">Learn More</a>
-    </p>
+  </style>
+
+  <div class="top-info-bar">
+    <div class="container-fluid">
+      <p class="info-text mb-0">
+        comparehomesecurity.org may receive compensation from some providers listed on this page.
+        <a href="/disclosure" class="learn-more">Learn More</a>
+      </p>
+    </div>
   </div>
-</div>
 
     <!-- Header Start -->
   <header class="main-header" role="banner">
@@ -364,17 +364,17 @@
     <script src="/frontend/js/function.js"></script>
  
    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6980e49fd184b71c39bf64ae/1jgfnq3tq';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+  <script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6980e49fd184b71c39bf64ae/1jgfnq3tq';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 </body>
 </html>
