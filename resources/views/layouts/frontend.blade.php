@@ -244,7 +244,7 @@
                   <!-- About Footer End -->
               </div>
 
-          <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6">
                   <!-- Footer Contact Start -->
                   <div class="footer-contact footer-links">
                       <h3 style="color:#fff;">User Rights & Legal Info</h3>
@@ -258,7 +258,7 @@
                       </ul>
                   </div>
               </div>
-          </div>
+            </div>
       </div>
         <div class="footer-copyright">
             <div class="container">
@@ -331,6 +331,7 @@
         });
     </script>
     <!-- Footer End -->
+
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
     <!-- Circle Progress Js File -->
@@ -365,15 +366,15 @@
  
    <!--Start of Tawk.to Script-->
   <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/6980e49fd184b71c39bf64ae/1jgfnq3tq';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/6980e49fd184b71c39bf64ae/1jgfnq3tq';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
   </script>
   <!--End of Tawk.to Script-->
 </body>
